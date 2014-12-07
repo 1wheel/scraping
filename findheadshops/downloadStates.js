@@ -19,11 +19,12 @@ states.forEach(function(state, i){
       var $ = cheerio.load(html)
       $('tr').each(function(){
         var shop = {}
-        var location = $(this).text().replace(shop.name, '')
+        var name = $('a', this).text()
+        var location = $(this).text().replace(name, '')
         shop.state = location.slice(-2)
         shop.city = location.split(', ')[0]
+        shop.name = name
         shop.link = $('a', this).attr('href')
-        shop.name = $('a', this).text()
         shops.push(shop)
       })
 
