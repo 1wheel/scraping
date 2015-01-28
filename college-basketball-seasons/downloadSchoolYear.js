@@ -17,7 +17,7 @@ d3.range(1999, 2014).forEach(function(year){
 			var url = 'http://www.sports-reference.com' + school.url + year + '.html'
 			request(url, function(error, response, html){
 				console.log(school.name + ' ' + year)
-				fs.writeFile(__dirname + '/raw-html/' + school.url.split('/')[3] + '-' + year,
+				fs.writeFile(__dirname + '/raw-html/' + school.url.split('/')[3] + '-' + year + '.html',
 							html, 
 							function(){})
 				cb()
