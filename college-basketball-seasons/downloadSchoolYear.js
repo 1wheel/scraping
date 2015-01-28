@@ -10,14 +10,14 @@ var _ = require('underscore')
 
 var q = queue(5)
 
-var schools = csv.parse(fs.readFileSync('schools.csv', 'utf8'))
+var schools = csv.parse(fs.readFileSync(__dirname + '/schools.csv', 'utf8'))
 d3.range(1999, 2014).forEach(function(year){
 	schools.forEach(function(school){
 		q.defer(function(cb){
-			var url = 'http://www.sports-reference.com' + school.url + year
+			var url = 'http://www.sports-reference.com' + school.url + year + '.html'
 			request(url, function(error, response, html){
 				console.log(school.name + ' ' + year)
-				fs.writeFile('raw-html/' + school.url.split('/')[3] + '-' + year,
+				fs.writeFile(__dirname + '/raw-html/' + school.url.split('/')[3] + '-' + year,
 							html, 
 							function(){})
 				cb()
