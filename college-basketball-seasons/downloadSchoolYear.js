@@ -1,29 +1,33 @@
 var fs = require('fs')
 var d3 = require('d3')
-var queue = require('queue')
+var dsv = require('dsv');
+var csv = dsv(',');
+
 var request = require('request')
 var cheerio = require('cheerio')
 var queue = require('queue-async')
 var _ = require('underscore')
 
+var q = queue(5)
 
-var script = document.createElement("script");
-script.src = 'http://d3js.org/d3.v3.min.js';
-document.body.appendChild(script);
-
-
-var schools = []
-d3.selectAll('a').each(function(){
-    var sel = d3.select(this)
-    var url = sel.attr('href')
-    if (!~url.indexOf('/cbb/schools/') || ~url.indexOf('.html') || url.length == 13) return
-    schools.push({name: sel.text(), url: sel.attr('href')})
+var schools = csv.parse(fs.readFileSync('schools.csv', 'utf8'))
+d3.range(1999, 2014).forEach(function(year){
+	schools.forEach(function(school){
+		q.defer(function(cb){
+			var url = 'http://www.sports-reference.com' + school.url + year
+			request(url, function(error, response, html){
+				console.log(school.name + ' ' + year)
+				fs.writeFile('raw-html/' + school.url.split('/')[3] + '-' + year,
+							html, 
+							function(){})
+				cb()
+			})
+		})
+	})
 })
 
-copy(d3.csv.format(schools))
 
 
-var shops = []
 
 // states.forEach(function(state, i){
 //   q.defer(function(cb){
