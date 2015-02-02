@@ -7,7 +7,7 @@ var _ = require('underscore')
 var glob = require("glob")
 
 
-var schools = {}
+var schoolYears = []
 var headers = ['Player', 'Class', 'Pos', 'Ht', 'Summary']
 var outFile = __dirname + '/stuff.json'
 
@@ -15,34 +15,47 @@ scrapeSchools()
 
 function scrapeSchools() {
 	glob(__dirname + "/raw-html/*.html", function (er, files) {
-		files.forEach(scrape)
-		fs.writeFileSync(outFile, JSON.stringify(schools, null, 2))
+		files
+			//.filter(function(d, i){ return i < 80 })
+			.forEach(scrape)
+		fs.writeFileSync(outFile, JSON.stringify(schoolYears, null, 2))
 	})
 }
 
-
 function scrape(school) {
 	console.log(school)
-	html = fs.readFileSync(school, 'utf-8')
-	schoolName = _.last(school.split('/'))
-	year = _.last(schoolName.split('-')).replace('.html', '')
-	schoolName = _.initial(schoolName.split('-'))
 
+	var rv = {}
+	
+	var schoolStrs = _.last(school.split('/')).split('-')
+	rv.year = schoolStrs.pop().replace('.html', '')
+	rv.name = schoolStrs.join(' ')
+
+	//if (rv.year != 2002 || rv.name != 'alabama') return
+	var html = fs.readFileSync(school, 'utf-8')
 	var $ = cheerio.load(html)
 
+	rv.seed = null
+	$('p').each(function(){
+		var str = $(this).text()
+		if (!~str.indexOf(' seed in ')){
+			return
+		}else{
+			rv.seed = str.split('#')[1].split(' seed')[0]
+		} 
+	})
+
+	rv.players = []
 	var rows = $('#roster tr')
-	
 	rows.each(function() {
 		var cells = []
 		$('td', this).each(function(d) { cells.push($(this).text()) })
 		if (!cells.length) return
 		cells = _.object(headers, cells)
-		schools[schoolName] = schools[schoolName] || {}
-		schools[schoolName][year] = schools[schoolName][year] || []
-		schools[schoolName][year].push(cells)
-		// console.log(cells)
+		rv.players.push(cells)
 	})
 
+	if (rv.players.length) schoolYears.push(rv)
 }
 
 
