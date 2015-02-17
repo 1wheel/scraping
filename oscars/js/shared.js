@@ -1,8 +1,8 @@
-var idToObjects = {}
 var globalData
 
 function loadData(cb){
   d3.csv('data.csv', function(data){
+    var idToObjects = {}
     globalData = data
     data.forEach(function(d){
       var str = d.year.split('(')[1].split(')')[0]

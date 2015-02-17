@@ -15,10 +15,15 @@ loadData(function(data){
     }, 
     { str:  'Longest Career',
       setx: function(){
-        x.domain([0, d3.max(nominations, f('startToEnd'))])
-        nominations.forEach(function(d){ d.x = x(d.nth) })
+        x.domain([0, d3.max(byName, f('startToEnd'))])
+
+        byName.forEach(function(name){
+          name.values.forEach(function(d){
+            d.x = x(d.nth - name.values[0].nth)
+          })
+        })
       },
-      sortBy: 'startToEnd'
+      sortBy: function(d){ return -d.startToEnd }
     }, 
   ]
 
@@ -29,13 +34,15 @@ loadData(function(data){
       .on('click', function(d){
         d.setx()
 
-        nameGs.transition()
+        nameGs.transition().delay(function(d){ return d.i ? d.i*20 : 0 })
           .selectAll('rect')
             .attr('x', f('x'))
 
-        _.sortBy(byName, d.sortBy).forEach(function(d, i){ d.i = i })
+        _.sortBy(byName, d.sortBy).forEach(function(d, i){
+          d.oldI = d.i
+          d.i = i })
 
-        nameGs.transition()
+        nameGs.transition().delay(function(d){ return d.oldI*10 + 2000 }).duration(650)
             .attr('transform', function(d){ return 'translate(' + [0, d.i*18] + ')' })
             // .translate(function(d, i){ return [0, d.i*18]})
         
@@ -52,14 +59,16 @@ loadData(function(data){
   byName.forEach(function(d){
     var firstWin = 0
     d.values.some(function(d, i){
-      if (d.win){
+      if (d.won){
         firstWin = i
         return true
       }
     })
 
+    d.values = _.sortBy(d.values, f('nth'))
+
     d.start       = d.values[0].nth
-    d.startToEnd  = d.values[0].nth - _.last(d.values).nt
+    d.startToEnd  =  _.last(d.values).nth - d.values[0].nth
     d.noms        = d.values.length
     d.wins        = d.values.filter(f('won')).length
     d.firstWin    = firstWin
@@ -98,5 +107,7 @@ loadData(function(data){
     .append('rect.oscar').classed('won', f('won'))
       .attr('x', function(d, i){ return x(i) })
       .attr({width: 10, height: 10, y: -10})
+
+  rects.append('title').text(f('movie'))
 })
 
