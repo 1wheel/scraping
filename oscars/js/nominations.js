@@ -1,4 +1,5 @@
 loadData(function(data){
+  return
   drawAvgNom(d3.select('body'), _.filter(data, {award: "DIRECTING"}), 'Best Director')
   drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTRESS"}), 'Best Actress')
   drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTOR"}), 'Best Actor')
@@ -36,8 +37,6 @@ function drawAvgNom(sel, nominations, str){
     year.prevWin = _.findWhere(year.values, {won: true}).numPrev
     year.prevNom = d3.mean(year.values, f('numPrev'))
   })
-
-
   var smoothing = 15
   byYear.forEach(function(d, i){
     var smoothYears = byYear.slice(Math.max(0, i - smoothing), i + 1)
