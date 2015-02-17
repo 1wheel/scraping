@@ -12,9 +12,14 @@ function loadData(cb){
 
 
       d.award = d.award.replace(' IN A LEADING ROLE', '')
+      if (d.award == 'DIRECTING'){
+        var tmp = d.movie
+        d.movie = d.name.trim()
+        d.name = tmp.trim()
+      }
 
       d.id = d.award + '-' + d.name
-      
+
       if (!idToObjects[d.id]) idToObjects[d.id] = []
       d.prevNominations = idToObjects[d.id].slice()
       d.numPrev = d.prevNominations.length

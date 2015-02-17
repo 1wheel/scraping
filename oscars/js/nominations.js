@@ -1,13 +1,18 @@
 loadData(function(data){
+  drawAvgNom(d3.select('body'), _.filter(data, {award: "DIRECTING"}), 'Best Director')
+  drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTRESS"}), 'Best Actress')
+  drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTOR"}), 'Best Actor')
+})
 
-  var svg = d3.select("body").append("svg")
+
+function drawAvgNom(sel, nominations, str){
+  sel.append('h5').text(str)
+
+  var svg = sel.append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
-  var nominations = _.filter(data, {award: "ACTOR"})
 
   var x = d3.scale.linear().domain(d3.extent(nominations, f('nth')))    .range([0, width])
   var y = d3.scale.linear().domain(d3.extent(nominations, f('numPrev'))).range([height, 0])
@@ -40,6 +45,15 @@ loadData(function(data){
     d.smoothNom = d3.mean(smoothYears, f('prevNom'))
   })
 
+  var byName = d3.nest().key(f('name')).entries(_.sortBy(nominations, 'nth'))
+      .map(f('values'))
+      .filter(function(d){ return d.length > 4})
+
+  svg.selectAll('all-career')
+      .data(byName).enter()
+    .append('path.all-career')  
+      .attr('d', d3.svg.line().x(f('xPos')).y(f('yPos')))
+
   svg.selectAll('agg-path')
       .data(['prevWin', 'prevNom', 'smoothWin', 'smoothNom']).enter()
     .append('path')
@@ -63,11 +77,4 @@ loadData(function(data){
       })
     .append('title')
       .text(function(d){ return d.name + ' - ' + d.movie + ', ' + d.year })
-
-
-
-
-
-
-
-})
+}
