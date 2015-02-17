@@ -1,9 +1,5 @@
-loadData(function(data){
-  var nominations =  _.filter(data, {award: "ACTRESS"})
-  var sel = d3.select('body')
-  var str = 'Actress'
-
-  sel.append('h3', str)
+function drawByActor(sel, nominations, str){
+  sel.append('h3').text(str)
 
   var buttons = [
     { str:  'From the Beginning',
@@ -19,11 +15,47 @@ loadData(function(data){
 
         byName.forEach(function(name){
           name.values.forEach(function(d){
-            d.x = x(d.nth - name.values[0].nth)
+            d.x = x(d.nth - name.firstNom)
           })
         })
       },
       sortBy: function(d){ return -d.startToEnd }
+    }, 
+    { str:  'Most Without',
+      setx: function(){
+        x.domain([-d3.max(byName, f('firstWin')), d3.max(byName, f('afterWins'))])
+
+        byName.forEach(function(name){
+          _.sortBy(name.values, f('nth')).forEach(function(d, i){
+            d.x = x(i - name.firstWin)
+          })
+        })
+      },
+      sortBy: function(d){ return -d.firstWin }
+    }, 
+    { str:  'Most Nominations',
+      setx: function(){
+        x.domain([0, d3.max(byName, f('noms')) + d3.max(byName, f('firstWin')) - 1])
+
+        byName.forEach(function(name){
+          _.sortBy(name.values, f('nth')).forEach(function(d, i){
+            d.x = x(i)
+          })
+        })
+      },
+      sortBy: function(d){ return -d.noms }
+    }, 
+    { str:  'Most Wins',
+      setx: function(){
+        x.domain([0, d3.max(byName, f('noms')) + d3.max(byName, f('firstWin')) - 1])
+
+        byName.forEach(function(name){
+          _.sortBy(name.values, function(d){ return -d.won }).forEach(function(d, i){
+            d.x = x(i)
+          })
+        })
+      },
+      sortBy: function(d){ return -d.wins*100 - d.noms }
     }, 
   ]
 
@@ -34,7 +66,7 @@ loadData(function(data){
       .on('click', function(d){
         d.setx()
 
-        nameGs.transition().delay(function(d){ return d.i ? d.i*20 : 0 })
+        nameGs.transition().delay(function(d){ return d.i ? d.i*20 : 0 }).duration(500)
           .selectAll('rect')
             .attr('x', f('x'))
 
@@ -42,15 +74,12 @@ loadData(function(data){
           d.oldI = d.i
           d.i = i })
 
-        nameGs.transition().delay(function(d){ return d.oldI*10 + 2000 }).duration(650)
+        nameGs.transition().delay(function(d){ return d.i*20 + 1900 }).duration(650)
             .attr('transform', function(d){ return 'translate(' + [0, d.i*18] + ')' })
             // .translate(function(d, i){ return [0, d.i*18]})
         
         buttonSpans.classed('selected', function(e){ return d == e })
-
       })
-
-
 
 
   var byName = d3.nest().key(f('name')).entries(_.sortBy(nominations, 'nth'))
@@ -68,10 +97,12 @@ loadData(function(data){
     d.values = _.sortBy(d.values, f('nth'))
 
     d.start       = d.values[0].nth
-    d.startToEnd  =  _.last(d.values).nth - d.values[0].nth
+    d.firstNom    = d.values[0].nth
+    d.startToEnd  =  _.last(d.values).nth - d.firstNom
     d.noms        = d.values.length
     d.wins        = d.values.filter(f('won')).length
-    d.firstWin    = firstWin
+    d.firstWin    = d.values[firstWin].won ? firstWin : d.values.length
+    d.afterWins   = d.noms - d.firstWin
   })
 
   byName = _.sortBy(byName, function(d){ return d.values[0].nth - _.last(d.values).nth })
@@ -108,6 +139,6 @@ loadData(function(data){
       .attr('x', function(d, i){ return x(i) })
       .attr({width: 10, height: 10, y: -10})
 
-  rects.append('title').text(f('movie'))
-})
+  rects.append('title').text(function(d){ return d.movie + ' - ' + d.year })
+}
 

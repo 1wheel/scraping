@@ -1,8 +1,11 @@
 loadData(function(data){
-  return
   drawAvgNom(d3.select('body'), _.filter(data, {award: "DIRECTING"}), 'Best Director')
   drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTRESS"}), 'Best Actress')
   drawAvgNom(d3.select('body'), _.filter(data, {award: "ACTOR"}), 'Best Actor')
+
+  drawByActor(d3.select('body'), _.filter(data, {award: "DIRECTING"}), 'Best Director')
+  drawByActor(d3.select('body'), _.filter(data, {award: "ACTRESS"}), 'Best Actress')
+  drawByActor(d3.select('body'), _.filter(data, {award: "ACTOR"}), 'Best Actor')
 })
 
 
