@@ -10,8 +10,11 @@ function loadData(cb){
 
       d.won = d.won == 'true' ? true : false
 
-      d.id = d.award + '-' + d.name
 
+      d.award = d.award.replace(' IN A LEADING ROLE', '')
+
+      d.id = d.award + '-' + d.name
+      
       if (!idToObjects[d.id]) idToObjects[d.id] = []
       d.prevNominations = idToObjects[d.id].slice()
       d.numPrev = d.prevNominations.length

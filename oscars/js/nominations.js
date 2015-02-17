@@ -1,8 +1,4 @@
 loadData(function(data){
-  console.log(data.length)
-  // debugger
-
-
 
   var svg = d3.select("body").append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -15,6 +11,7 @@ loadData(function(data){
 
   var x = d3.scale.linear().domain(d3.extent(nominations, f('nth')))    .range([0, width])
   var y = d3.scale.linear().domain(d3.extent(nominations, f('numPrev'))).range([height, 0])
+  var line = d3.svg.line().x(_.compose(x, f('key'))).y(_.compose(y, f('avgPrev')))
 
   nominations = _.sortBy(nominations, 'won')
 
@@ -28,27 +25,6 @@ loadData(function(data){
 
     year.avgPrev = d3.mean(year.values, f('numPrev'))
   })
-
-
-
-  var career = svg.append('path.career')
-
-  svg.selectAll('circle')
-      .data(nominations).enter()
-    .append('circle.nom').classed('won', f('won'))
-      .attr('r', 8)
-      .attr('cx', f('xPos'))
-      .attr('cy', f('yPos'))
-      .call(tooltip)
-      .on('mouseover', function(d){
-        var allNom = _.sortBy(_.filter(nominations, {name: d.name}), 'nth')
-
-        career.attr('d', d3.svg.line().x(f('xPos')).y(f('yPos'))(allNom))
-      })
-
-
-
-  var line = d3.svg.line().x(_.compose(x, f('key'))).y(_.compose(y, f('avgPrev')))
 
   var byYear = d3.nest().key(f('nth')).entries(nominations)
   byYear.forEach(function(year){
@@ -64,7 +40,6 @@ loadData(function(data){
     d.smoothNom = d3.mean(smoothYears, f('prevNom'))
   })
 
-
   svg.selectAll('agg-path')
       .data(['prevWin', 'prevNom', 'smoothWin', 'smoothNom']).enter()
     .append('path')
@@ -72,5 +47,27 @@ loadData(function(data){
         return line.y(_.compose(y, f(d)))(byYear) })
       .attr('class', f())
       .classed('agg-path', true)
+
+  var career = svg.append('path.career')
+
+  svg.selectAll('circle')
+      .data(nominations).enter()
+    .append('circle.nom').classed('won', f('won'))
+      .attr('r', 4)
+      .attr('cx', f('xPos'))
+      .attr('cy', f('yPos'))
+      .call(tooltip)
+      .on('mouseover', function(d){
+        var allNom = _.sortBy(_.filter(nominations, {name: d.name}), 'nth')
+        career.attr('d', d3.svg.line().x(f('xPos')).y(f('yPos'))(allNom))
+      })
+    .append('title')
+      .text(function(d){ return d.name + ' - ' + d.movie + ', ' + d.year })
+
+
+
+
+
+
 
 })
