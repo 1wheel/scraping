@@ -31,7 +31,7 @@ function drawByActor(sel, nominations, str){
           })
         })
       },
-      sortBy: function(d){ return -d.firstWin }
+      sortBy: function(d){ return -d.firstWin*100 - (d.noms - d.firstWin) }
     }, 
     { str:  'Most Nominations',
       setx: function(){
@@ -107,7 +107,7 @@ function drawByActor(sel, nominations, str){
 
   byName = _.sortBy(byName, function(d){ return d.values[0].nth - _.last(d.values).nth })
   
-  var height = byName.length*25,
+  var height = byName.length*18,
       width  = 500
 
   margin.left = 150
@@ -140,5 +140,8 @@ function drawByActor(sel, nominations, str){
       .attr({width: 10, height: 10, y: -10})
 
   rects.append('title').text(function(d){ return d.movie + ' - ' + d.year })
+
+
+  buttonSpans.on('click')(buttons[2])
 }
 
