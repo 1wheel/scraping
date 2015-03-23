@@ -16,23 +16,31 @@ glob(__dirname + "/standingsRaw/*.html", function (er, files) {
 
 function scrape(path){
 	var year = path.slice(-9, -5)
-	if (+year < 1971) return
-	if (year != '2014') return
 
 	var html = fs.readFileSync(path, 'utf-8')
 	var $ = cheerio.load(html)
 
 	var abvToTeam = {}
-	$('#div_E_standings a').each(function(){
-		abvToTeam[urlToId($(this).attr('href'))] = {conf: 'e'}
-	})
-	$('#div_W_standings a').each(function(){
-		abvToTeam[urlToId($(this).attr('href'))] = {conf: 'w'} 
-	})
+	if (+year < 1971){
+		$('.full_table a').each(function(){
+			abvToTeam[urlToId($(this).attr('href'))] = {}
+		})
+		d3.values(abvToTeam).forEach(function(d, i){
+			d.conf = i < d3.values(abvToTeam).length/2 ? 'e' : 'w'
+		})
+	} else{
+		$('#div_E_standings a').each(function(){
+			abvToTeam[urlToId($(this).attr('href'))] = {conf: 'e'}
+		})
+		$('#div_W_standings a').each(function(){
+			abvToTeam[urlToId($(this).attr('href'))] = {conf: 'w'} 
+		})				
+	}
 	$('.full_table').each(function(i){
 		var team = d3.values(abvToTeam)[i]
 		var str = $(this).text()
 		team.playoffs = !!~str.indexOf('*')
+		if (!~str.indexOf('(')) return 
 		team.seed = str.split('(')[1].split(')')[0]
 	})
 
@@ -48,9 +56,7 @@ function scrape(path){
 		var abv = urlToId($('a', this).attr('href'))
 		var rv = abvToTeam[abv] || {}
 		rv.abv = abv
-
 		rv.year = year
-		console.log(rv)
 
 		var cells = []
 		$('td', this).each(function(d) { cells.push($(this).text()) })
