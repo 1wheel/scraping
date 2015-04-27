@@ -69,6 +69,7 @@ d3.csv('playoff-games.csv', function(data){
         .attr('r', 10)
         .attr('cx', ƒ('key', c.x))
         .attr('cy', ƒ('ties', c.y))
+        .call(d3.attachTooltip)
   })()
 
 })
