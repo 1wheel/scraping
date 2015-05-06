@@ -37,6 +37,8 @@ d3.csv('playoff-games.csv', function(data){
 
   byYear = d3.nest().key(ƒ('year')).entries(games)
 
+  finalsTeams = []
+
   byYear.forEach(function(year){
     year.key = +year.key
     year.series = d3.nest()
@@ -47,12 +49,20 @@ d3.csv('playoff-games.csv', function(data){
     year.series.forEach(function(d){
       d.higherSeed = d.values[0].home
 
-      if (year.key < 1971) return
+
+      d.winner = d3.nest()
+          .key(ƒ('winner'))
+          .entries(d.values)
+          .sort(d3.descending(ƒ('value', 'length')))[0].key
+
+      if (d.values.length < 2) return
       d.tie = d.values[0].winner == d.values[1].winner
     })
 
     year.firstRound = year.series.slice(0, 8)
     year.ties = d3.sum(year.firstRound, ƒ('tie'))
+
+    year.finals = _.last(year.series)
   })
 
   !(function(){
@@ -70,6 +80,41 @@ d3.csv('playoff-games.csv', function(data){
         .attr('cx', ƒ('key', c.x))
         .attr('cy', ƒ('ties', c.y))
         .call(d3.attachTooltip)
+  })()
+
+
+  !(function(){
+
+    finalsTeams = {}
+    byYear.forEach(function(year){
+      year.finals.key.split(',').forEach(function(str){
+        if (!finalsTeams[str]) finalsTeams[str] = []
+        finalsTeams[str].push({
+          year: year.key,
+          won :       str == year.finals.winner,
+          higherSeed: str == year.finals.higherSeed,
+          team: str
+        })
+      })
+    })
+
+    finalsArray = d3.entries(finalsTeams)
+
+    var c = d3.conventions({parentSel: d3.select('#final-team')})
+
+    c.x.domain([1950, 2015])
+    c.y.domain([0, finalsArray.length])
+  
+    c.drawAxis()
+
+    teams = c.svg.dataAppend(finalsArray, 'g.team')
+        .translate(function(d, i){ return [0, c.y(i)] })
+        
+    teams.dataAppend(ƒ('value'), 'circle')
+        .attr('r', 5)
+        .attr('cx', ƒ('year', c.x))
+        .call(d3.attachTooltip)
+        .style({'fill-opacity': .4, stroke: 'black'})
   })()
 
 })
