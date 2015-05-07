@@ -24,11 +24,35 @@
 //       .text(ƒ())
 // })
 
+var pastToPresentTeam = {
+  BAL: 'WAS',
+  BUF: 'LAC',
+  CAP: 'WAS',
+  CHH: 'NOH',
+  CIN: 'SAC',
+  KCK: 'SAC',
+  KCO: 'SAC',
+  FTW: 'DET',
+  NOK: 'NOH',
+  NOJ: 'UTA',
+  SDC: 'LAC',
+  SDR: 'HOU',
+  SEA: 'OKC', 
+  SFW: 'GSW',
+  SYR: 'PHI',
+  VAN: 'MEM', 
+  WSB: 'WAS', 
+}
+
+
 
 d3.csv('playoff-games.csv', function(data){
   games = data
 
   games.forEach(function(d){
+    if (pastToPresentTeam[d.home]) d.home = pastToPresentTeam[d.home]
+    if (pastToPresentTeam[d.away]) d.away = pastToPresentTeam[d.away]
+
     d.year = +d.year
     d.homePoints = +d.homePoints
     d.awayPoints = +d.awayPoints
@@ -117,10 +141,21 @@ d3.csv('playoff-games.csv', function(data){
   })()
 
 
-  year = 2014 
-  apperenceStreaks = [{teams: [], startYear: 2015, endYear: 2015}]
-  byYear.reverse().forEach(function(year, i){
-    if (!i) return 
+  threeStreaks = byYear.map(function(d, i){
+    if (d.key == 2015) return
+
+    var rv = calcLongestStreak(d.key, 4)
+    rv.start = d.key
+    rv.years = rv.start - rv.key
+    return rv
+  })
+
+})
+
+
+function calcLongestStreak(year, num){
+  var apperenceStreaks = [{teams: [], startYear: year, endYear: year}]
+  byYear.slice().reverse().forEach(function(year, i){
 
     var finals = year.finals
     var winner = finals.winner
@@ -128,22 +163,32 @@ d3.csv('playoff-games.csv', function(data){
 
     apperenceStreaks
       .filter(function(streak){
-        return streak.endYear == year.key + 1 })
+        return streak.endYear - 1 <= year.key })
       .forEach(function(streak){
         if (_.contains(streak.teams, winner) || _.contains(streak.teams, loser)){
-          year.endYear = year.key
-        } else if (streak.teams.length < 4){
+          streak.endYear = year.key
+        } else if (streak.teams.length < num){
           finals.key.split(',').forEach(function(str){
             var newStreak = _.cloneDeep(streak)
             newStreak.endYear = year.key
             newStreak.teams.push(str)
+            newStreak.teams.sort()
+            newStreak.teamStr = newStreak.teams.join(',')
+            if (_.contains(apperenceStreaks.map(ƒ('teamStr')), newStreak.teamStr)) return
             apperenceStreaks.push(newStreak)
           })
         }
       })
-
-
   })
 
 
-})
+
+  return d3.nest().key(ƒ('endYear')).entries(apperenceStreaks)
+      .sort(d3.ascendingKey('key'))[0]
+
+}
+
+
+
+//longest ever
+// _.sortBy(apperenceStreaks.filter(function(d){ return d.endYear == 1950 }), ƒ('teams', 'length'))[2].teams
