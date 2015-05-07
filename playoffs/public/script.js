@@ -33,6 +33,7 @@ d3.csv('playoff-games.csv', function(data){
     d.homePoints = +d.homePoints
     d.awayPoints = +d.awayPoints
     d.winner = d.homePoints > d.awayPoints ? d.home : d.away
+    d.loser  = d.homePoints < d.awayPoints ? d.home : d.away
   })
 
   byYear = d3.nest().key(ƒ('year')).entries(games)
@@ -50,10 +51,8 @@ d3.csv('playoff-games.csv', function(data){
       d.higherSeed = d.values[0].home
 
 
-      d.winner = d3.nest()
-          .key(ƒ('winner'))
-          .entries(d.values)
-          .sort(d3.descending(ƒ('value', 'length')))[0].key
+      d.winner = _.last(d.values).winner
+      d.loser  = _.last(d.values).loser 
 
       if (d.values.length < 2) return
       d.tie = d.values[0].winner == d.values[1].winner
@@ -116,5 +115,35 @@ d3.csv('playoff-games.csv', function(data){
         .call(d3.attachTooltip)
         .style({'fill-opacity': .4, stroke: 'black'})
   })()
+
+
+  year = 2014 
+  apperenceStreaks = [{teams: [], startYear: 2015, endYear: 2015}]
+  byYear.reverse().forEach(function(year, i){
+    if (!i) return 
+
+    var finals = year.finals
+    var winner = finals.winner
+    var loser  = finals.loser 
+
+    apperenceStreaks
+      .filter(function(streak){
+        return streak.endYear == year.key + 1 })
+      .forEach(function(streak){
+        if (_.contains(streak.teams, winner) || _.contains(streak.teams, loser)){
+          year.endYear = year.key
+        } else if (streak.teams.length < 4){
+          finals.key.split(',').forEach(function(str){
+            var newStreak = _.cloneDeep(streak)
+            newStreak.endYear = year.key
+            newStreak.teams.push(str)
+            apperenceStreaks.push(newStreak)
+          })
+        }
+      })
+
+
+  })
+
 
 })
