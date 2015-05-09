@@ -88,6 +88,24 @@ d3.csv('playoff-games.csv', function(data){
     year.finals = _.last(year.series)
   })
 
+
+
+
+  finalsTeams = {}
+  byYear.forEach(function(year){
+    year.finals.key.split(',').forEach(function(str){
+      if (!finalsTeams[str]) finalsTeams[str] = []
+      finalsTeams[str].push({
+        year: year.key,
+        won :       str == year.finals.winner,
+        higherSeed: str == year.finals.higherSeed,
+        team: str
+      })
+    })
+  })
+
+  finalsArray = d3.entries(finalsTeams)
+
   !(function(){
     var fullYears = byYear.filter(function(d){ return d.key > 1974 })
     c = d3.conventions({parentSel: d3.select('#graph')})
@@ -107,22 +125,6 @@ d3.csv('playoff-games.csv', function(data){
 
 
   !(function(){
-
-    finalsTeams = {}
-    byYear.forEach(function(year){
-      year.finals.key.split(',').forEach(function(str){
-        if (!finalsTeams[str]) finalsTeams[str] = []
-        finalsTeams[str].push({
-          year: year.key,
-          won :       str == year.finals.winner,
-          higherSeed: str == year.finals.higherSeed,
-          team: str
-        })
-      })
-    })
-
-    finalsArray = d3.entries(finalsTeams)
-
     var c = d3.conventions({parentSel: d3.select('#final-team')})
 
     c.x.domain([1950, 2015])
@@ -141,14 +143,35 @@ d3.csv('playoff-games.csv', function(data){
   })()
 
 
-  threeStreaks = byYear.map(function(d, i){
-    if (d.key == 2015) return
 
-    var rv = calcLongestStreak(d.key, 4)
-    rv.start = d.key
-    rv.years = rv.start - rv.key
-    return rv
-  })
+  threeStreaks = byYear
+    .map(function(d, i){
+      if (d.key == 2015) return
+
+      var rv = calcLongestStreak(d.key, 4)
+      rv.start = d.key
+      rv.years = rv.start - rv.key
+      return rv
+    })
+    .filter(ƒ())
+
+
+  !(function(){
+    d3.select('body').append('h1').text('Number of previous consective years w/ on of three teams in finals')
+    var c = d3.conventions({parentSel: d3.select('body')})
+
+    c.x.domain([1950, 2014])
+    c.y.domain([0, d3.max(threeStreaks, ƒ('years'))])
+  
+    c.drawAxis()
+
+    c.line.x(ƒ('start', c.x)).y(ƒ('years', c.y))
+
+    c.svg.append('path.line')
+        .attr('d', c.line(threeStreaks))  
+
+  })()
+
 
 })
 
