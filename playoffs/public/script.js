@@ -169,7 +169,7 @@ function calcLongestStreak(year, num){
           streak.endYear = year.key
         } else if (streak.teams.length < num){
           finals.key.split(',').forEach(function(str){
-            var newStreak = _.cloneDeep(streak)
+            var newStreak = JSON.parse(JSON.stringify(streak))
             newStreak.endYear = year.key
             newStreak.teams.push(str)
             newStreak.teams.sort()
