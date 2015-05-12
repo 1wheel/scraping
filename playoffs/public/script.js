@@ -172,12 +172,13 @@ d3.csv('playoff-games.csv', function(data){
 
   })()
 
+  windowSize = 5
   finalsArray.forEach(function(team){
     team.prev10Finals = d3.range(1950, 2014).map(function(year){
       return {
         year: year, 
         num: team.value.filter(function(d){
-          return year - 10 < d.year && d.year <= year
+          return year - windowSize < d.year && d.year <= year
         }).length
       }
     })
@@ -188,7 +189,7 @@ d3.csv('playoff-games.csv', function(data){
     var c = d3.conventions({parentSel: d3.select('body')})
 
     c.x.domain([1950, 2014])
-    c.y.domain([0, 10])
+    c.y.domain([0, windowSize])
   
     c.drawAxis()
 
@@ -196,6 +197,7 @@ d3.csv('playoff-games.csv', function(data){
 
     c.svg.dataAppend(finalsArray, 'path.line')
         .attr('d', ƒ('prev10Finals', c.line))
+        .call(d3.attachTooltip)
 
   })()
 
