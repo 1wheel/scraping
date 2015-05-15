@@ -36,6 +36,9 @@ function scrape(path){
 			abvToTeam[urlToId($(this).attr('href'))] = {conf: 'w'} 
 		})				
 	}
+
+	debugger
+	
 	$('.full_table').each(function(i){
 		var team = d3.values(abvToTeam)[i]
 		var str = $(this).text()
