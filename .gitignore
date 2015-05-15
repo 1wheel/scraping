@@ -30,3 +30,4 @@ node_modules
 **/.DS_Store
 
 college-basketball-seasons/raw-html/
+blackout/bin/raw-html/

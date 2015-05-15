@@ -12,6 +12,8 @@
     "underscore" : "latest",
     "queue-async": "latest",
     "cheerio"    : "latest",
-    "glob"       : "latest"
+    "glob"       : "latest",
+    "forte-f"    : "latest",
+    "lodash"    : "latest"
   }
 }
