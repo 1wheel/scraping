@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+div.tooltip {
+  top: -1000px;
+  position: absolute;
+  padding: 10px;
+  background: rgba(255, 255, 255, .90);
+  border: 1px solid lightgray;
+  pointer-events: none;
+}
+.tooltip-hidden{
+  opacity: 0;
+}
+
+.line{
+  stroke-width: 2px;
+  stroke: black;
+  fill: none;
+}
+.line:hover{
+  stroke-width: 4px;
+}
+
+</style>
+
+<body>
+
+<hi>First Round Ties after game 1</h1>
+<div id='graph'></div>
+
+<hi>Teams that made the finals</h1>
+<div id='final-team'></div>
+
+<div class='tooltip'></div>
+
+
+</body>
+
+<script src='lib.js'></script>
+
+<script src='d3-jetpack.js'></script>
+<script src='d3-starterkit.js'></script>
+
+<script src='script.js'></script>
