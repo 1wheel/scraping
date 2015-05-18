@@ -124,8 +124,9 @@ queue()
 
 
   var rScale = d3.scale.sqrt().domain([0, 100]).range([0, 5])
+  var cScale = d3.scale.linear().domain([0, 1, 30, 50]).range(['green', 'yellow', 'orange', 'red'])
   !(function(){
-    var team = nameToTeam['Miami Marlins']
+    var team = nameToTeam['Washington Nationals']
 
     zips.forEach(function(d){
       d.bannedGames = d3.sum(d.mlbKeys, function(d){ return team.opponents[d] })
@@ -143,10 +144,10 @@ queue()
 
     // Render the active zips.
     context.globalAlpha = 1;
-    context.fillStyle = "#555";
     zips.forEach(function(d) {
-      if (!d.mlb || d.mlb.length < 0) return
-      context.fillRect(d.x, d.y, rScale(d.bannedGames), rScale(d.bannedGames));
+      context.fillStyle = cScale(d.bannedGames);
+      var size = 1// rScale(d.bannedGames)
+      context.fillRect(d.x, d.y, size, size);
     });
   })()
 
