@@ -4,7 +4,6 @@
 
 input,
 canvas {
-  position: absolute;
 }
 
 input {
@@ -63,6 +62,17 @@ var abvToTeam = {
 }
 
 
+var teams = d3.entries(abvToTeam)
+teams.forEach(function(team){
+  team.opponents = {}
+  teams.forEach(function(d){
+    team.opponents[d.key] = 0
+  })
+})
+
+var teamHash = teams.reduce(function(p, v){ p[v.key] = v; return p }, {})
+
+var nameToTeam = teams.reduce(function(p, v){ p[v.value] = v; return p }, {})
 
 var width = 960,
     height = 500;
@@ -75,23 +85,25 @@ queue()
 .defer(d3.json, 'bin/zips.json')
 .defer(d3.csv, '2015.csv')
 .await(function(error, zipcodes, sheduleRes) {
-  zips = zipcodes
+  zips = zipcodes.filter(ƒ('mlb'))
   shedule = sheduleRes
 
   // Compute projected locations of each zipcode.
-  zipcodes.forEach(function(d) {
+  zips.forEach(function(d) {
     var p = projection([+d.lon, +d.lat]);
-    if (p) d.x = Math.round(p[0]), d.y = Math.round(p[1]);
-  });
+    if (p) d.x = Math.round(p[0]), d.y = Math.round(p[1])
+    d.mlbKeys = d.mlb.map(function(d){ return nameToTeam[d].key })
+  })
 
 
-  change();
+  shedule.forEach(function(d){
+    teamHash[d.home].opponents[d.vist]++
+    teamHash[d.vist].opponents[d.home]++
+  })
 
-  function change() {
-    // Select old canvases to remove after fade.
-    var canvas0 = d3.selectAll("canvas");
 
-    var canvas1 = d3.select("body").insert("canvas", "input")
+  !(function(){
+    var canvas1 = d3.select("body").append('canvas')
         .attr("width", width)
         .attr("height", height)
         .style("opacity", 1);
@@ -100,15 +112,45 @@ queue()
     context.fillStyle = "#fff";
     context.fillRect(0, 0, width, height);
 
-    // Render the active zipcodes.
+    // Render the active zips.
     context.globalAlpha = 1;
     context.fillStyle = "#555";
-    zipcodes.forEach(function(d) {
-      if (!d.mlb) return
+    zips.forEach(function(d) {
+      if (!d.mlb || d.mlb.length > 10) return
       context.fillRect(d.x, d.y, d.mlb.length, d.mlb.length);
     });
+    
+  })()
 
-  }
+
+  var rScale = d3.scale.sqrt().domain([0, 100]).range([0, 5])
+  !(function(){
+    var team = nameToTeam['Miami Marlins']
+
+    zips.forEach(function(d){
+      d.bannedGames = d3.sum(d.mlbKeys, function(d){ return team.opponents[d] })
+    })
+
+
+    var canvas1 = d3.select("body").append('canvas')
+        .attr("width", width)
+        .attr("height", height)
+        .style("opacity", 1);
+
+    var context = canvas1.node().getContext("2d");
+    context.fillStyle = "#fff";
+    context.fillRect(0, 0, width, height);
+
+    // Render the active zips.
+    context.globalAlpha = 1;
+    context.fillStyle = "#555";
+    zips.forEach(function(d) {
+      if (!d.mlb || d.mlb.length < 0) return
+      context.fillRect(d.x, d.y, rScale(d.bannedGames), rScale(d.bannedGames));
+    });
+  })()
+
+
 });
 
 </script>
