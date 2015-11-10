@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+input,
+canvas {
+}
+
+input {
+  background: transparent;
+  border: none;
+  margin: 10px 384px;
+  width: 180px;
+  font-size: 18px;
+  padding: 6px;
+  text-align: center;
+}
+
+</style>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://www.bloomberg.com/graphics/assets/js/vendor/queue.v1.min.js?"></script>
+<script src="http://www.bloomberg.com/graphics/assets/js/vendor/lodash.underscore.min.js?"></script>
+
+<script src='http://bl.ocks.org/1wheel/raw/1b6758978dc2d52d3a37/d3-jetpack.js'></script>
+<script src='http://bl.ocks.org/1wheel/raw/1b6758978dc2d52d3a37/d3-starterkit.js'></script>
+
+<script>
+
+
+var abvToTeam = {
+  "ANA": "Los Angeles Angels of Anaheim",
+  "ARI": "Arizona Diamondbacks",
+  "ATL": "Atlanta Braves",
+  "BAL": "Baltimore Orioles",
+  "BOS": "Boston Red Sox",
+  "CHA": "Chicago White Sox",
+  "CHN": "Chicago Cubs",
+  "CIN": "Cincinnati Reds",
+  "CLE": "Cleveland Indians",
+  "COL": "Colorado Rockies",
+  "DET": "Detroit Tigers",
+  "HOU": "Houston Astros",
+  "KCA": "Kansas City Royals",
+  "LAN": "Los Angeles Dodgers",
+  "MIA": "Miami Marlins",
+  "MIL": "Milwaukee Brewers",
+  "MIN": "Minnesota Twins",
+  "NYA": "New York Mets",
+  "NYN": "New York Yankees",
+  "OAK": "Oakland Athletics",
+  "PHI": "Philadelphia Phillies",
+  "PIT": "Pittsburgh Pirates",
+  "SDN": "San Diego Padres",
+  "SEA": "Seattle Mariners",
+  "SFN": "San Francisco Giants",
+  "SLN": "St. Louis Cardinals",
+  "TBA": "Tampa Bay Rays",
+  "TEX": "Texas Rangers",
+  "TOR": "Toronto Blue Jays",
+  "WAS": "Washington Nationals"
+}
+
+
+var teams = d3.entries(abvToTeam)
+teams.forEach(function(team){
+  team.opponents = {}
+  teams.forEach(function(d){
+    team.opponents[d.key] = 0
+  })
+})
+
+var teamHash = teams.reduce(function(p, v){ p[v.key] = v; return p }, {})
+
+var nameToTeam = teams.reduce(function(p, v){ p[v.value] = v; return p }, {})
+
+var width = 960,
+    height = 500;
+
+var projection = d3.geo.albersUsa()
+    .scale(1000)
+    .translate([width / 2, height / 2]);
+
+queue()
+.defer(d3.json, 'bin/zips.json')
+.defer(d3.csv, '2015.csv')
+.await(function(error, zipcodes, sheduleRes) {
+  zips = zipcodes.filter(ƒ('mlb'))
+  shedule = sheduleRes
+
+  // Compute projected locations of each zipcode.
+  zips.forEach(function(d) {
+    var p = projection([+d.lon, +d.lat]);
+    if (p) d.x = Math.round(p[0]), d.y = Math.round(p[1])
+    d.mlbKeys = d.mlb.map(function(d){ return nameToTeam[d].key })
+  })
+
+
+  shedule.forEach(function(d){
+    teamHash[d.home].opponents[d.vist]++
+    teamHash[d.vist].opponents[d.home]++
+  })
+
+
+  !(function(){
+    var canvas1 = d3.select("body").append('canvas')
+        .attr("width", width)
+        .attr("height", height)
+        .style("opacity", 1);
+
+    var context = canvas1.node().getContext("2d");
+    context.fillStyle = "#fff";
+    context.fillRect(0, 0, width, height);
+
+    // Render the active zips.
+    context.globalAlpha = 1;
+    context.fillStyle = "#555";
+    zips.forEach(function(d) {
+      if (!d.mlb || d.mlb.length > 10) return
+      context.fillRect(d.x, d.y, d.mlb.length, d.mlb.length);
+    });
+    
+  })()
+
+
+  var rScale = d3.scale.sqrt().domain([0, 100]).range([0, 5])
+  var cScale = d3.scale.linear().domain([0, 1, 30, 50]).range(['green', 'yellow', 'orange', 'red'])
+  !(function(){
+    var team = nameToTeam['Washington Nationals']
+
+    zips.forEach(function(d){
+      d.bannedGames = d3.sum(d.mlbKeys, function(d){ return team.opponents[d] })
+    })
+
+
+    var canvas1 = d3.select("body").append('canvas')
+        .attr("width", width)
+        .attr("height", height)
+        .style("opacity", 1);
+
+    var context = canvas1.node().getContext("2d");
+    context.fillStyle = "#fff";
+    context.fillRect(0, 0, width, height);
+
+    // Render the active zips.
+    context.globalAlpha = 1;
+    zips.forEach(function(d) {
+      context.fillStyle = cScale(d.bannedGames);
+      var size = 1// rScale(d.bannedGames)
+      context.fillRect(d.x, d.y, size, size);
+    });
+  })()
+
+
+});
+
+</script>
