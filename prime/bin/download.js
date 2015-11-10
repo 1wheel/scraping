@@ -9,13 +9,13 @@ var _ = require('underscore')
 
 var url = 'https://primenow.amazon.com/fulfillment/availability/'
 
-q = queue(1)
+q = queue(10)
 
 var zips  = d3.csv.parse(fs.readFileSync(__dirname + '/../zip-pop.csv', 'utf-8'))
 
 var dlZips = glob.sync(__dirname + '/raw-zips/*').map(function(d){ return d.slice(-10, -5) })
 
-console.log(dlZips)
+// console.log(dlZips)
 // zips = zips.filter(function(d, i){ return i < 0 })
 
 zips
