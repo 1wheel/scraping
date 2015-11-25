@@ -14,6 +14,7 @@
     "cheerio"    : "latest",
     "glob"       : "latest",
     "forte-f"    : "latest",
-    "lodash"    : "latest"
+    "lodash"     : "latest",
+    "nba"        : "latest"
   }
 }
