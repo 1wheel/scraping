@@ -1,10 +1,4 @@
 var fs = require('fs')
-var d3 = require('d3')
-var ƒ = require('forte-f')
-var queue = require('queue-async')
-var glob = require('glob')
-var request = require('request')
-var _ = require('underscore')
 var nba = require('nba')
 
 
