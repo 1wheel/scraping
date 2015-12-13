@@ -33,3 +33,5 @@ college-basketball-seasons/raw-html/
 blackout/bin/raw-html/
 prime/bin/raw-zips/
 nba-node/raw/
+nba-node/play-by-play/
+nba-node/boxscores/
