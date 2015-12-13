@@ -9,21 +9,23 @@ var queue = require('queue-async')
 
 var q = queue(5)
 
-q.await(d => console.log(d))
 
-var downloaded = glob.sync(__dirname + '/play-by-play/*.json')
-		.map(d => _.last(d.split('/')).replace('.json', ''))
+//Download playbyplay
+var downloaded = glob.sync(__dirname + '/play-by-play/*.json').map(pathToID)
 
 d3.range(1, 360)
 		.map(d => '002150' + d3.format('04d')(d))
 		.filter(d => !_.contains(d, downloaded))
-		.forEach(d => q.defer(downloadGame, d))
+		.forEach(d => q.defer(downloadPlayByPlay, d))
 
-function downloadGame(id, cb){
-	console.log(id)
+function downloadPlayByPlay(id, cb){
 	nba.api.playByPlay({gameId: id}, function(err, res){
 		cb()
 		if (!res.playByPlay.length) return
+		downloaded.push(downloaded)
 		fs.writeFile(__dirname + '/play-by-play/' + id + '.json', JSON.stringify(res), function(){})
 	})
 }
+
+
+function pathToID(d){ return _.last(d.split('/')).replace('.json', '') }

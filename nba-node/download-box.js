@@ -9,21 +9,18 @@ var queue = require('queue-async')
 
 var q = queue(5)
 
-q.await(d => console.log(d))
+var downloadedBox = glob.sync(__dirname + '/box/*.json').map(pathToID)
 
-var downloaded = glob.sync(__dirname + '/play-by-play/*.json')
-		.map(d => _.last(d.split('/')).replace('.json', ''))
+glob.sync(__dirname + '/play-by-play/*.json').map(pathToID)
+    // .filter(d => !_.contains(d, downloadedBox))
+    .forEach(d => q.defer(downloadBox, d))
 
-d3.range(1, 360)
-		.map(d => '002150' + d3.format('04d')(d))
-		.filter(d => !_.contains(d, downloaded))
-		.forEach(d => q.defer(downloadGame, d))
-
-function downloadGame(id, cb){
-	console.log(id)
-	nba.api.playByPlay({gameId: id}, function(err, res){
-		cb()
-		if (!res.playByPlay.length) return
-		fs.writeFile(__dirname + '/play-by-play/' + id + '.json', JSON.stringify(res), function(){})
-	})
+function downloadBox(id, cb){
+  console.log(id)
+  nba.api.boxScoreMisc({gameId: id}, function(err, res){
+    cb()
+    fs.writeFile(__dirname + '/box/' + id + '.json', JSON.stringify(res), function(){})
+  })
 }
+
+function pathToID(d){ return _.last(d.split('/')).replace('.json', '') }
