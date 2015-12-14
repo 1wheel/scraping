@@ -22,7 +22,7 @@ var games = glob.sync(__dirname + '/play-by-play/*.json').map(function(fileStr,i
                     + +d.pctimestring.split(':')[0] 
                     + +d.pctimestring.split(':')[1]/60
             }))
-  scores.splice(0, 0, {min: 48, h: 0, a: 0})  
+  scores.splice(0, 0, {min: 48, h: 0, v: 0})  
 
   var minutes = []
   var curMin = 49
@@ -38,7 +38,7 @@ var games = glob.sync(__dirname + '/play-by-play/*.json').map(function(fileStr,i
 
 
   return {
-    minute: minutes, 
+    minutes: minutes, 
     home: box.sqlTeamsMisc[0].teamAbbreviation,
     away: box.sqlTeamsMisc[1].teamAbbreviation,
   }
