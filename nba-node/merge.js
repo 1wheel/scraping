@@ -41,6 +41,7 @@ var games = glob.sync(__dirname + '/play-by-play/*.json').map(function(fileStr,i
     minutes: minutes, 
     home: box.sqlTeamsMisc[0].teamAbbreviation,
     away: box.sqlTeamsMisc[1].teamAbbreviation,
+    date: box.sqlTeamsMisc[0].gameDateEst
   }
 })
 
