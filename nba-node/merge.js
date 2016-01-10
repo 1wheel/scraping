@@ -24,15 +24,19 @@ var games = glob.sync(__dirname + '/play-by-play/*.json').map(function(fileStr,i
             }))
   scores.splice(0, 0, {min: 48, h: 0, v: 0})  
 
-  var minutes = []
-  var curMin = 49
-  scores.forEach(function(d){
-    while (Math.floor(d.min) < curMin){
-      curMin--
-      minutes.push({min: curMin, h: d.h, v: d.v}) 
-    }
-  })
+  var minutes = d3.nest().key(d => Math.floor(d.min)).entries(scores)
+    .map(function(d){
+      var last = _.last(d.values)
+      return {min: +d.key, h: last.h, v: last.v} })
 
+  minutes = _.sortBy(minutes, 'min').reverse()
+  for (var i = 1; i < minutes.length; i++){
+    console.log(i, minutes[i].min)
+    if (minutes[i].min != minutes[i - 1].min - 1){
+      minutes.push({min: minutes[i - 1].min - 1, h: minutes[i - 1].h, v: minutes[i - 1].v})
+      minutes = _.sortBy(minutes, 'min').reverse()  
+    }
+  }
 
   var box = JSON.parse(fs.readFileSync(fileStr.replace('play-by-play', 'box'), 'utf-8'))
 
@@ -41,7 +45,7 @@ var games = glob.sync(__dirname + '/play-by-play/*.json').map(function(fileStr,i
     minutes: minutes, 
     home: box.sqlTeamsMisc[0].teamAbbreviation,
     away: box.sqlTeamsMisc[1].teamAbbreviation,
-    date: box.sqlTeamsMisc[0].gameDateEst
+    date: box.sqlTeamsMisc[0].gameDateEst.split('T')[0].replace('2015-', '').replace('-', '/')
   }
 })
 
