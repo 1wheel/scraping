@@ -18,13 +18,24 @@ console.log(sameDayZips.length)
 zips.forEach(function(d, i){
 	d.sameDay = _.contains(sameDayZips, d.zip)
 
-	var oneDayF = fs.readFileSync(__dirname + '/raw-zips/' + d.zip + '.json', 'utf-8')
+	try {
+		var oneDayF = fs.readFileSync(__dirname + '/raw-zips/' + d.zip + '.json', 'utf-8')
+	} catch (e){
+
+		console.log('bahhhhl', d, d.zip)
+	}
 
 	if (!oneDayF){
 		d.oneHour = false
 		d.twoHour = false
 	} else{
-		oneDayF = JSON.parse(oneDayF)
+		try {
+			oneDayF = JSON.parse(oneDayF)
+		} catch (e){
+			console.log('bahhhhl', d, d.zip)
+		}
+
+		console.log(d.zip)
 		d.oneHour = oneDayF.availability['one-hour'] != 'NOT_AVAILABLE'
 		d.twoHour = oneDayF.availability['two-hour'] != 'NOT_AVAILABLE'
 	}

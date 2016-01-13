@@ -15,8 +15,19 @@ var zips  = d3.csv.parse(fs.readFileSync(__dirname + '/../zip-pop.csv', 'utf-8')
 
 var dlZips = glob.sync(__dirname + '/raw-zips/*').map(function(d){ return d.slice(-10, -5) })
 
-// console.log(dlZips)
-// zips = zips.filter(function(d, i){ return i < 0 })
+var badZips = []
+dlZips = dlZips.filter(function(d){
+	try {
+		JSON.parse(fs.readFileSync(__dirname + '/raw-zips/' + d + '.json'))
+		return true
+	} catch (e){
+		console.log(d)
+		badZips.push(d)
+		return false
+	}
+})
+
+console.log(badZips)
 
 zips
 	// .filter(function(d){ return !d.mlb })
