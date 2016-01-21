@@ -37,4 +37,6 @@ nba-node/play-by-play/
 nba-node/boxscores/
 nba-node/box/
 
+all-nba-games/raw-box
+
 billboard/raw-html

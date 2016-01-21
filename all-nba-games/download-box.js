@@ -9,19 +9,26 @@ var queue = require('queue-async')
 
 var q = queue(5)
 
-var downloaded = glob.sync(__dirname + '/box/*.json').map(pathToID)
+var downloaded = glob.sync(__dirname + '/raw-box/*.json').map(pathToID)
 
-d3.range(1, 2)
-		.map(d => '002960' + d3.format('04d')(d))
-		// .filter(d => !_.contains(d, downloaded))
+console.log(downloaded)
+
+d3.range(1, 1230)
+d3.range(1, 5)
+		.map(d => '002140' + d3.format('04d')(d))
+		.filter(d =>  !_.contains(downloaded, d))
 		.forEach(d => q.defer(downloadBox, d))
 
 
+
 function downloadBox(id, cb){
-  console.log(id)
-  nba.api.boxScoreMisc({gameId: id}, function(err, res){
+  var url = 'http://stats.nba.com/stats/boxscoresummaryv2?GameID='
+  console.log('downloading', url + id)
+
+  request(url + id, function(err, res){
     cb()
-    fs.writeFile(__dirname + '/box/' + id + '.json', JSON.stringify(res), function(){})
+    if (!res || !res.body) return
+    fs.writeFile(__dirname + `/raw-box/${id}.json`, res.body, function(){})
   })
 }
 
