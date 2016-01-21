@@ -30,4 +30,4 @@ function downloadBox(id, cb){
   })
 }
 
-function pathToID(d){ return _.last(d.split('/')).replace('.json', '') }
+function pathToID(d){ return _.last(d.split('/')).replace('.csv', '') }

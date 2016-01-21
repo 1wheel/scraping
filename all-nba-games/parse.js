@@ -13,8 +13,10 @@ var queue = require('queue-async')
 var games = glob.sync(__dirname + '/raw-box/*.json')
   .map(function(fileStr,i){
     var res = JSON.parse(fs.readFileSync(fileStr, 'utf-8')) 
-    if (res.message) return null
+    if (res.Message) return null
+    if (!res.resultSets[5].rowSet[0]) return console.log(res)
 
+    // console.log(i)
     var rs = res.resultSets[5].rowSet
     var rv = {}
     rv.date = rs[0][0].slice(0, 10)
@@ -37,12 +39,15 @@ var games = glob.sync(__dirname + '/raw-box/*.json')
       rv.vW--
     }
 
-    rv.tW = rv.hW + rv.hW
-    rv.tL = rv.hL + rv.hL
+    //first game of the season coded differently
+    if (rv.hL < 0 || rv.vL < 0) rv.hW = rv.hL = rv.vW = rv.vL = 0
+
+    rv.tW = rv.hW + rv.vW
+    rv.tL = rv.hL + rv.vL
     
     return rv
   })
   .filter(d => d)
 
 
-fs.writeFileSync(__dirname + '/games.json', d3.csv.format(games))
+fs.writeFileSync(__dirname + '/games.csv', d3.csv.format(games))
