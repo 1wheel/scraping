@@ -11,7 +11,7 @@ var q = queue(5)
 
 var downloaded = glob.sync(__dirname + '/raw-box/*.json').map(pathToID)
 
-d3.range(1, 1230)
+d3.range(1, 1231)
 		.map(d => '002140' + d3.format('04d')(d))
 		.filter(d =>  !_.contains(downloaded, d))
 		.forEach(d => q.defer(downloadBox, d))

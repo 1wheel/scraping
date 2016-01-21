@@ -25,7 +25,7 @@ function downloadBox(id, cb){
   request(url + id, function(err, res){
     console.log(id, err)
     cb()
-    if (!res || !res.body) return
+    if (!res || !res.body || res.body.length < 50) return
     fs.writeFile(__dirname + `/raw-box/${id}.json`, res.body, function(){})
   })
 }
