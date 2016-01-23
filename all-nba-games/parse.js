@@ -44,6 +44,8 @@ var games = glob.sync(__dirname + '/raw-box/*.json')
 
     rv.tW = rv.hW + rv.vW
     rv.tL = rv.hL + rv.vL
+
+    rv.season = _.last(fileStr.split('/')).slice(2,5)
     
     return rv
   })

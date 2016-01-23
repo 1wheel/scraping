@@ -25,3 +25,7 @@ Print errors
     find -type f -exec grep -q "error has" {} \; -print
 
     find . -type f -size -96c
+
+Update data
+
+    download.js && parse.js && correct.js
