@@ -38,4 +38,6 @@ bySeason.forEach(function(values){
 
 games.forEach(d => delete d.season)
 
+games = _.sortBy(games, 'date')
+
 fs.writeFileSync(__dirname + '/games-corrected.csv', d3.csv.format(games))
