@@ -4,14 +4,12 @@ var ƒ = require('forte-f')
 var queue = require('queue-async')
 var glob = require('glob')
 var request = require('request')
-var _ = require('lodash')
+var _ = require('underscore')
 
 //view-source:http://www.amazon.com/b?node=8729023011 lol
 
-
-
 var zips  = d3.csv.parse(fs.readFileSync(__dirname + '/../zip-pop.csv', 'utf-8'))
-var sameDayZips  = fs.readFileSync(__dirname + '/sameday-zips.txt', 'utf-8').split(',')
+var sameDayZips  = fs.readFileSync(__dirname + '/sameday-update2.txt', 'utf-8').split(',')
 
 console.log(sameDayZips.length)
 
