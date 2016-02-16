@@ -33,7 +33,7 @@ zips.forEach(function(d, i){
 			console.log('bahhhhl', d, d.zip)
 		}
 
-		console.log(d.zip)
+		// console.log(d.zip)
 		d.oneHour = oneDayF.availability['one-hour'] != 'NOT_AVAILABLE'
 		d.twoHour = oneDayF.availability['two-hour'] != 'NOT_AVAILABLE'
 	}
