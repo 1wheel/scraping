@@ -33,10 +33,11 @@ glob.sync(outdir + '*').forEach(function(fileStr, i){
     outData.push({
       date: date,
       link: link,
+      slug: link.split('TRANSCRIPTS/')[1].replace('/','-').replace('/','-').replace('/','-').replace('/','-')
     })
   })
 
 })
 
 
-fs.writeFileSync(__dirname + '/../days.csv', d3.csv.format(outData))
+fs.writeFileSync(__dirname + '/../shows.csv', d3.csv.format(outData))
