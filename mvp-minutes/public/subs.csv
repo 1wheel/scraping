@@ -1,0 +1,933 @@
+gameIndex,qtr,time,isIn,str
+0,2,7:31.0,true,"
+7:31.0
+  43-43 S. Curry enters the game for K. Thompson
+"
+0,3,2:51.0,false,"
+2:51.0
+  70-85 S. Livingston enters the game for S. Curry
+"
+0,4,8:37.0,true,"
+8:37.0
+  79-100 S. Curry enters the game for M. Speights
+"
+0,4,1:40.0,false,"
+1:40.0
+  91-104 B. Rush enters the game for S. Curry
+"
+1,1,1:46.0,false,"
+1:46.0
+L. Barbosa enters the game for S. Curry 23-25  
+"
+1,2,7:43.0,true,"
+7:43.0
+S. Curry enters the game for L. Barbosa 40-33  
+"
+1,3,6:23.0,false,"
+6:23.0
+A. Iguodala enters the game for S. Curry 70-57  
+"
+1,4,8:26.0,true,"
+8:26.0
+S. Curry enters the game for S. Livingston 89-72  
+"
+1,4,4:36.0,false,"
+4:36.0
+J. McAdoo enters the game for S. Curry 101-76  
+"
+2,2,7:30.0,true,"
+7:30.0
+S. Curry enters the game for M. Speights 41-39  
+"
+2,2,2:30.0,false,"
+2:30.0
+M. Speights enters the game for S. Curry 60-59  
+"
+2,4,7:08.0,true,"
+7:08.0
+S. Curry enters the game for L. Barbosa 113-100  
+"
+2,4,0:30.0,false,"
+0:30.0
+B. Rush enters the game for S. Curry 131-118  
+"
+3,2,6:26.0,true,"
+6:26.0
+  28-35 S. Curry enters the game for S. Livingston
+"
+3,3,2:02.0,false,"
+2:02.0
+  44-88 S. Livingston enters the game for S. Curry
+"
+4,1,9:15.0,false,"
+9:15.0
+  6-7 S. Livingston enters the game for S. Curry
+"
+4,2,0:10.0,false,"
+0:10.0
+  56-63 A. Iguodala enters the game for S. Curry
+"
+4,3,2:16.0,false,"
+2:16.0
+  77-77 L. Barbosa enters the game for S. Curry
+"
+4,4,8:19.0,true,"
+8:19.0
+  95-87 S. Curry enters the game for L. Barbosa
+"
+5,2,5:54.0,true,"
+5:54.0
+  27-55 S. Curry enters the game for S. Livingston
+"
+5,4,6:22.0,true,"
+6:22.0
+  91-107 S. Curry enters the game for L. Barbosa
+"
+5,4,1:37.0,false,"
+1:37.0
+  102-119 I. Clark enters the game for S. Curry
+"
+6,2,7:17.0,true,"
+7:17.0
+S. Curry enters the game for S. Livingston 30-19  
+"
+6,4,7:51.0,true,"
+7:51.0
+S. Curry enters the game for L. Barbosa 78-76  
+"
+7,2,7:33.0,true,"
+7:33.0
+  29-31 S. Curry enters the game for S. Livingston
+"
+7,4,5:17.0,true,"
+5:17.0
+  82-98 S. Curry enters the game for L. Barbosa
+"
+8,2,5:50.0,true,"
+5:50.0
+S. Curry enters the game for L. Barbosa 39-26  
+"
+8,4,6:34.0,true,"
+6:34.0
+S. Curry enters the game for L. Barbosa 83-71  
+"
+8,4,1:54.0,false,"
+1:54.0
+I. Clark enters the game for S. Curry 98-78  
+"
+9,2,7:07.0,true,"
+7:07.0
+S. Curry enters the game for A. Iguodala 50-42  
+"
+9,4,6:35.0,true,"
+6:35.0
+S. Curry enters the game for A. Iguodala 109-101  
+"
+10,2,6:15.0,true,"
+6:15.0
+  44-32 S. Curry enters the game for I. Clark
+"
+10,4,8:30.0,true,"
+8:30.0
+  81-76 S. Curry enters the game for I. Clark
+"
+10,4,0:01.0,false,"
+0:01.0
+  97-97 F. Ezeli enters the game for S. Curry
+"
+11,2,7:07.0,true,"
+7:07.0
+  35-37 S. Curry enters the game for L. Barbosa
+"
+11,4,10:42.0,false,"
+10:42.0
+  88-92 I. Clark enters the game for S. Curry
+"
+11,4,7:10.0,true,"
+7:10.0
+  93-95 S. Curry enters the game for L. Barbosa
+"
+12,1,7:45.0,false,"
+7:45.0
+A. Iguodala enters the game for S. Curry 10-18  
+"
+12,4,8:31.0,true,"
+8:31.0
+S. Curry enters the game for A. Iguodala 95-98  
+"
+13,2,5:49.0,true,"
+5:49.0
+  35-39 S. Curry enters the game for I. Clark
+"
+13,4,6:16.0,true,"
+6:16.0
+  85-87 S. Curry enters the game for S. Livingston
+"
+14,1,1:31.0,false,"
+1:31.0
+L. Barbosa enters the game for S. Curry 27-21  
+"
+14,2,6:51.0,true,"
+6:51.0
+S. Curry enters the game for L. Barbosa 42-37  
+"
+14,3,1:43.0,false,"
+1:43.0
+L. Barbosa enters the game for S. Curry 86-74  
+"
+15,2,6:16.0,true,"
+6:16.0
+  25-43 S. Curry enters the game for S. Livingston
+"
+15,3,0:07.0,false,"
+0:07.0
+  55-88 L. Barbosa enters the game for S. Curry
+"
+16,2,6:39.0,true,"
+6:39.0
+S. Curry enters the game for L. Barbosa 55-43  
+"
+17,2,5:48.0,true,"
+5:48.0
+  40-43 S. Curry enters the game for S. Livingston
+"
+17,4,9:23.0,true,"
+9:23.0
+S. Curry enters the game for B. McLemore 73-100  
+"
+18,2,6:40.0,true,"
+6:40.0
+S. Curry enters the game for S. Livingston 36-30  
+"
+18,4,6:36.0,true,"
+6:36.0
+S. Curry enters the game for A. Iguodala 87-90  
+"
+19,2,6:49.0,true,"
+6:49.0
+S. Curry enters the game for J. McAdoo 45-34  
+"
+20,1,0:09.0,false,"
+0:09.0
+I. Clark enters the game for S. Curry 32-21  
+"
+20,2,6:16.0,true,"
+6:16.0
+S. Curry enters the game for S. Livingston 42-39  
+"
+20,2,1:22.0,false,"
+1:22.0
+I. Clark enters the game for S. Curry 53-46  
+"
+20,2,0:25.0,true,"
+0:25.0
+S. Curry enters the game for D. Green 56-48  
+"
+20,4,8:41.0,true,"
+8:41.0
+S. Curry enters the game for L. Barbosa 84-85  
+"
+21,1,2:44.0,false,"
+2:44.0
+S. Livingston enters the game for S. Curry 25-8  
+"
+21,2,7:57.0,true,"
+7:57.0
+S. Curry enters the game for B. Rush 39-25  
+"
+21,4,6:01.0,true,"
+6:01.0
+S. Curry enters the game for A. Iguodala 106-89  
+"
+21,4,3:00.0,false,"
+3:00.0
+B. Rush enters the game for S. Curry 109-92  
+"
+22,2,5:50.0,true,"
+5:50.0
+S. Curry enters the game for I. Clark 62-42  
+"
+22,4,5:49.0,true,"
+5:49.0
+S. Curry enters the game for F. Ezeli 121-105  
+"
+23,1,0:11.0,false,"
+0:11.0
+L. Barbosa enters the game for S. Curry 25-25  
+"
+23,2,7:34.0,true,"
+7:34.0
+S. Curry enters the game for L. Barbosa 39-35  
+"
+23,3,3:21.0,false,"
+3:21.0
+S. Livingston enters the game for S. Curry 76-65  
+"
+23,4,8:53.0,true,"
+8:53.0
+S. Curry enters the game for M. Speights 83-86  
+"
+24,1,0:08.0,false,"
+0:08.0
+L. Barbosa enters the game for S. Curry 27-30  
+"
+24,2,5:27.0,true,"
+5:27.0
+S. Curry enters the game for L. Barbosa 35-42  
+"
+24,4,6:57.0,true,"
+6:57.0
+S. Curry enters the game for J. Thompson 79-91  
+"
+24,4,1:02.0,false,"
+1:02.0
+L. Barbosa enters the game for S. Curry 93-105  
+"
+25,1,1:27.0,false,"
+1:27.0
+  26-22 S. Livingston enters the game for S. Curry
+"
+25,2,7:02.0,true,"
+7:02.0
+  35-34 S. Curry enters the game for B. Rush
+"
+26,2,6:26.0,true,"
+6:26.0
+  49-45 S. Curry enters the game for L. Barbosa
+"
+26,4,8:54.0,true,"
+8:54.0
+  100-89 S. Curry enters the game for A. Iguodala
+"
+27,2,6:36.0,true,"
+6:36.0
+  27-32 S. Curry enters the game for L. Barbosa
+"
+27,3,0:44.0,false,"
+0:44.0
+  56-69 S. Livingston enters the game for S. Curry
+"
+27,4,6:26.0,true,"
+6:26.0
+  71-82 S. Curry enters the game for A. Iguodala
+"
+27,4,2:05.0,false,"
+2:05.0
+  83-98 I. Clark enters the game for S. Curry
+"
+28,2,5:28.0,true,"
+5:28.0
+  35-37 S. Curry enters the game for S. Livingston
+"
+28,4,7:07.0,true,"
+7:07.0
+  67-71 S. Curry enters the game for I. Clark
+"
+29,1,0:51.0,false,"
+0:51.0
+  28-27 I. Clark enters the game for S. Curry
+"
+29,2,7:13.0,true,"
+7:13.0
+  41-30 S. Curry enters the game for A. Iguodala
+"
+29,2,5:10.0,true,"
+5:10.0
+S. Curry enters the game for M. Belinelli 43-39  
+"
+29,3,2:59.0,true,"
+2:59.0
+S. Curry enters the game for R. Rondo 73-84  
+"
+32,1,3:40.0,false,"
+3:40.0
+  7-25 I. Clark enters the game for S. Curry
+"
+32,2,8:19.0,true,"
+8:19.0
+  25-43 S. Curry enters the game for M. Speights
+"
+32,2,2:16.0,false,"
+2:16.0
+  40-54 I. Clark enters the game for S. Curry
+"
+33,1,5:03.0,false,"
+5:03.0
+  17-17 S. Livingston enters the game for S. Curry
+"
+33,2,8:49.0,true,"
+8:49.0
+  34-41 S. Curry enters the game for S. Livingston
+"
+33,3,2:57.0,false,"
+2:57.0
+  73-86 I. Clark enters the game for S. Curry
+"
+33,4,7:02.0,true,"
+7:02.0
+  87-101 S. Curry enters the game for A. Iguodala
+"
+34,1,3:50.0,false,"
+3:50.0
+I. Clark enters the game for S. Curry 28-18  
+"
+34,2,8:44.0,true,"
+8:44.0
+S. Curry enters the game for I. Clark 41-29  
+"
+34,3,2:46.0,false,"
+2:46.0
+I. Clark enters the game for S. Curry 84-55  
+"
+35,1,2:09.0,false,"
+2:09.0
+H. Barnes enters the game for S. Curry 30-13  
+"
+35,2,6:59.0,true,"
+6:59.0
+S. Curry enters the game for I. Clark 49-34  
+"
+36,1,2:50.0,false,"
+2:50.0
+S. Livingston enters the game for S. Curry 19-23  
+"
+36,2,9:47.0,true,"
+9:47.0
+S. Curry enters the game for F. Ezeli 26-30  
+"
+36,2,0:29.0,true,"
+0:29.0
+  57-57 S. Curry enters the game for R. Rondo
+"
+36,3,2:05.0,true,"
+2:05.0
+  87-78 S. Curry enters the game for R. Gay
+"
+36,3,0:00.0,false,"
+0:00.0
+F. Ezeli enters the game for S. Curry 96-84  
+"
+36,4,6:57.0,false,"
+6:57.0
+  106-96 R. Rondo enters the game for S. Curry
+"
+36,4,6:57.0,true,"
+6:57.0
+S. Curry enters the game for I. Clark 106-96  
+"
+37,2,7:16.0,true,"
+7:16.0
+  32-38 S. Curry enters the game for I. Clark
+"
+37,4,6:18.0,true,"
+6:18.0
+  85-95 S. Curry enters the game for A. Iguodala
+"
+38,1,0:15.0,false,"
+0:15.0
+S. Livingston enters the game for S. Curry 24-30  
+"
+38,2,7:37.0,true,"
+7:37.0
+S. Curry enters the game for A. Iguodala 35-39  
+"
+38,4,8:26.0,true,"
+8:26.0
+S. Curry enters the game for A. Iguodala 79-89  
+"
+39,2,5:31.0,true,"
+5:31.0
+  38-39 S. Curry enters the game for S. Livingston
+"
+40,2,7:07.0,true,"
+7:07.0
+S. Curry enters the game for S. Livingston 33-42  
+"
+40,4,8:37.0,true,"
+8:37.0
+S. Curry enters the game for H. Barnes 76-96  
+"
+40,4,2:49.0,false,"
+2:49.0
+I. Clark enters the game for S. Curry 90-109  
+"
+41,2,7:35.0,true,"
+7:35.0
+S. Curry enters the game for H. Barnes 45-31  
+"
+41,2,3:32.0,false,"
+3:32.0
+I. Clark enters the game for S. Curry 59-34  
+"
+42,2,6:07.0,true,"
+6:07.0
+S. Curry enters the game for H. Barnes 47-35  
+"
+42,4,7:31.0,true,"
+7:31.0
+S. Curry enters the game for A. Iguodala 95-79  
+"
+42,4,3:53.0,false,"
+3:53.0
+L. Barbosa enters the game for S. Curry 110-86  
+"
+43,2,6:28.0,true,"
+6:28.0
+  33-41 S. Curry enters the game for H. Barnes
+"
+43,4,7:39.0,true,"
+7:39.0
+  86-95 S. Curry enters the game for L. Barbosa
+"
+43,4,1:18.0,false,"
+1:18.0
+  103-117 B. Rush enters the game for S. Curry
+"
+44,2,5:27.0,true,"
+5:27.0
+  37-47 S. Curry enters the game for B. Rush
+"
+44,3,1:06.0,false,"
+1:06.0
+  65-92 S. Livingston enters the game for S. Curry
+"
+45,1,1:45.0,false,"
+1:45.0
+  16-26 S. Livingston enters the game for S. Curry
+"
+45,2,6:35.0,true,"
+6:35.0
+  32-38 S. Curry enters the game for B. Rush
+"
+45,4,5:43.0,true,"
+5:43.0
+  90-105 S. Curry enters the game for B. Rush
+"
+45,4,2:45.0,false,"
+2:45.0
+  99-119 B. Rush enters the game for S. Curry
+"
+46,2,5:44.0,true,"
+5:44.0
+S. Curry enters the game for I. Clark 54-43  
+"
+46,3,4:25.0,false,"
+4:25.0
+S. Livingston enters the game for S. Curry 84-62  
+"
+46,4,8:53.0,true,"
+8:53.0
+S. Curry enters the game for I. Clark 93-81  
+"
+47,2,7:15.0,true,"
+7:15.0
+S. Curry enters the game for A. Iguodala 32-31  
+"
+47,3,4:06.0,false,"
+4:06.0
+S. Livingston enters the game for S. Curry 71-58  
+"
+47,4,8:54.0,true,"
+8:54.0
+S. Curry enters the game for S. Livingston 89-72  
+"
+47,4,4:04.0,false,"
+4:04.0
+M. Speights enters the game for S. Curry 103-84  
+"
+48,2,5:31.0,true,"
+5:31.0
+S. Curry enters the game for S. Livingston 55-46  
+"
+48,3,0:54.0,false,"
+0:54.0
+S. Livingston enters the game for S. Curry 101-90  
+"
+48,4,7:04.0,true,"
+7:04.0
+S. Curry enters the game for A. Iguodala 114-103  
+"
+49,2,6:43.0,true,"
+6:43.0
+  39-50 S. Curry enters the game for H. Barnes
+"
+49,4,6:59.0,true,"
+6:59.0
+  92-99 S. Curry enters the game for H. Barnes
+"
+50,2,7:01.0,true,"
+7:01.0
+  37-52 S. Curry enters the game for H. Barnes
+"
+50,4,6:40.0,true,"
+6:40.0
+  98-110 S. Curry enters the game for A. Iguodala
+"
+51,2,6:06.0,true,"
+6:06.0
+S. Curry enters the game for A. Iguodala 40-35  
+"
+52,2,5:34.0,true,"
+5:34.0
+S. Curry enters the game for A. Iguodala 43-58  
+"
+52,2,0:50.0,false,"
+0:50.0
+L. Barbosa enters the game for S. Curry 60-65  
+"
+52,3,2:26.0,false,"
+2:26.0
+S. Livingston enters the game for S. Curry 75-97  
+"
+53,1,4:43.0,false,"
+4:43.0
+S. Livingston enters the game for S. Curry 21-10  
+"
+53,4,5:47.0,true,"
+5:47.0
+S. Curry enters the game for H. Barnes 108-92  
+"
+53,4,1:39.0,false,"
+1:39.0
+L. Barbosa enters the game for S. Curry 115-102  
+"
+53,4,0:05.0,true,"
+0:05.0
+S. Curry enters the game for I. Clark 115-112  
+"
+54,2,6:20.0,true,"
+6:20.0
+S. Curry enters the game for A. Iguodala 39-30  
+"
+54,4,5:28.0,true,"
+5:28.0
+S. Curry enters the game for H. Barnes 88-84  
+"
+55,2,5:48.0,true,"
+5:48.0
+S. Curry enters the game for A. Iguodala 35-44  
+"
+55,4,5:47.0,true,"
+5:47.0
+S. Curry enters the game for A. Iguodala 94-96  
+"
+56,2,6:15.0,true,"
+6:15.0
+S. Curry enters the game for H. Barnes 42-41  
+"
+56,4,5:49.0,true,"
+5:49.0
+S. Curry enters the game for A. Iguodala 115-102  
+"
+56,4,2:02.0,false,"
+2:02.0
+I. Clark enters the game for S. Curry 125-110  
+"
+57,2,5:52.0,true,"
+5:52.0
+S. Curry enters the game for H. Barnes 30-40  
+"
+57,3,10:29.0,false,"
+10:29.0
+S. Livingston enters the game for S. Curry 52-57  
+"
+57,3,5:10.0,true,"
+5:10.0
+S. Curry enters the game for S. Livingston 63-70  
+"
+57,4,9:58.0,false,"
+9:58.0
+S. Livingston enters the game for S. Curry 78-86  
+"
+57,4,6:07.0,true,"
+6:07.0
+S. Curry enters the game for A. Iguodala 85-94  
+"
+57,4,0:00.0,false,"
+0:00.0
+S. Livingston enters the game for S. Curry 103-103  
+"
+57,5,0:01.0,false,"
+0:01.0
+S. Livingston enters the game for S. Curry 121-118  
+"
+59,1,1:09.0,false,"
+1:09.0
+  24-27 S. Livingston enters the game for S. Curry
+"
+59,2,7:48.0,true,"
+7:48.0
+  38-42 S. Curry enters the game for A. Iguodala
+"
+59,4,6:32.0,true,"
+6:32.0
+  93-99 S. Curry enters the game for A. Iguodala
+"
+60,2,5:30.0,true,"
+5:30.0
+S. Curry enters the game for H. Barnes 38-43  
+"
+60,4,9:24.0,true,"
+9:24.0
+S. Curry enters the game for A. Varejao 75-91  
+"
+60,4,4:37.0,false,"
+4:37.0
+L. Barbosa enters the game for S. Curry 83-102  
+"
+61,2,5:00.0,true,"
+5:00.0
+  33-42 S. Curry enters the game for I. Clark
+"
+61,4,8:20.0,true,"
+8:20.0
+  92-98 S. Curry enters the game for L. Barbosa
+"
+62,2,4:47.0,true,"
+4:47.0
+  28-36 S. Curry enters the game for H. Barnes
+"
+62,4,6:16.0,true,"
+6:16.0
+  78-99 S. Curry enters the game for H. Barnes
+"
+62,4,3:32.0,false,"
+3:32.0
+  85-106 L. Barbosa enters the game for S. Curry
+"
+63,2,6:15.0,true,"
+6:15.0
+  40-61 S. Curry enters the game for A. Varejao
+"
+63,3,10:01.0,false,"
+10:01.0
+  66-87 I. Clark enters the game for S. Curry
+"
+63,3,7:49.0,true,"
+7:49.0
+  66-93 S. Curry enters the game for I. Clark
+"
+63,3,1:59.0,false,"
+1:59.0
+  83-106 I. Clark enters the game for S. Curry
+"
+63,3,1:58.0,true,"
+1:58.0
+  83-107 S. Curry enters the game for I. Clark
+"
+63,4,5:03.0,true,"
+5:03.0
+  101-118 S. Curry enters the game for S. Livingston
+"
+63,4,3:39.0,false,"
+3:39.0
+  104-123 I. Clark enters the game for S. Curry
+"
+64,2,6:54.0,true,"
+6:54.0
+  35-41 S. Curry enters the game for S. Livingston
+"
+64,3,7:55.0,false,"
+7:55.0
+  66-68 I. Clark enters the game for S. Curry
+"
+65,2,7:18.0,true,"
+7:18.0
+  38-40 S. Curry enters the game for S. Livingston
+"
+66,2,4:37.0,true,"
+4:37.0
+  36-50 S. Curry enters the game for H. Barnes
+"
+66,2,0:16.0,false,"
+0:16.0
+  46-62 I. Clark enters the game for S. Curry
+"
+67,2,12:00.0,false,"
+12:00.0
+M. Speights enters the game for S. Curry 43-36  
+"
+67,2,5:08.0,true,"
+5:08.0
+S. Curry enters the game for I. Clark 62-48  
+"
+67,4,6:17.0,true,"
+6:17.0
+S. Curry enters the game for B. Rush 109-99  
+"
+67,4,1:06.0,false,"
+1:06.0
+J. McAdoo enters the game for S. Curry 128-112  
+"
+68,1,4:22.0,false,"
+4:22.0
+S. Livingston enters the game for S. Curry 11-15  
+"
+68,4,5:58.0,true,"
+5:58.0
+S. Curry enters the game for I. Clark 71-75  
+"
+69,2,5:07.0,true,"
+5:07.0
+S. Curry enters the game for I. Clark 45-47  
+"
+69,3,1:44.0,false,"
+1:44.0
+I. Clark enters the game for S. Curry 81-88  
+"
+69,4,7:27.0,true,"
+7:27.0
+S. Curry enters the game for L. Barbosa 93-95  
+"
+70,2,4:45.0,true,"
+4:45.0
+  41-44 S. Curry enters the game for S. Livingston
+"
+70,4,8:41.0,true,"
+8:41.0
+  77-90 S. Curry enters the game for L. Barbosa
+"
+71,2,5:55.0,true,"
+5:55.0
+  44-49 S. Curry enters the game for H. Barnes
+"
+71,4,5:16.0,true,"
+5:16.0
+  108-114 S. Curry enters the game for L. Barbosa
+"
+72,1,1:08.0,false,"
+1:08.0
+  29-27 I. Clark enters the game for S. Curry
+"
+72,2,6:24.0,true,"
+6:24.0
+  43-53 S. Curry enters the game for L. Barbosa
+"
+72,3,1:35.0,false,"
+1:35.0
+  76-90 I. Clark enters the game for S. Curry
+"
+72,4,7:18.0,true,"
+7:18.0
+  90-104 S. Curry enters the game for L. Barbosa
+"
+72,4,1:47.0,false,"
+1:47.0
+  101-117 M. Speights enters the game for S. Curry
+"
+73,2,5:31.0,true,"
+5:31.0
+  39-37 S. Curry enters the game for H. Barnes
+"
+73,4,6:49.0,true,"
+6:49.0
+  76-90 S. Curry enters the game for S. Livingston
+"
+73,4,2:19.0,false,"
+2:19.0
+  87-100 I. Clark enters the game for S. Curry
+"
+73,4,0:42.0,true,"
+0:42.0
+  93-100 S. Curry enters the game for L. Barbosa
+"
+74,2,5:57.0,true,"
+5:57.0
+S. Curry enters the game for S. Livingston 33-25  
+"
+74,4,7:19.0,true,"
+7:19.0
+S. Curry enters the game for M. Speights 71-79  
+"
+75,2,5:17.0,true,"
+5:17.0
+  28-35 S. Curry enters the game for M. Speights
+"
+75,4,7:20.0,true,"
+7:20.0
+  95-85 S. Curry enters the game for S. Livingston
+"
+76,2,7:20.0,true,"
+7:20.0
+  42-41 S. Curry enters the game for S. Livingston
+"
+76,2,0:22.0,false,"
+0:22.0
+  56-62 L. Barbosa enters the game for S. Curry
+"
+76,3,0:04.0,false,"
+0:04.0
+  87-100 I. Clark enters the game for S. Curry
+"
+76,4,6:48.0,true,"
+6:48.0
+  98-112 S. Curry enters the game for S. Livingston
+"
+76,4,3:07.0,false,"
+3:07.0
+  107-128 J. McAdoo enters the game for S. Curry
+"
+77,1,0:45.0,false,"
+0:45.0
+  18-27 S. Livingston enters the game for S. Curry
+"
+77,2,7:31.0,true,"
+7:31.0
+  30-33 S. Curry enters the game for B. Rush
+"
+77,4,6:49.0,true,"
+6:49.0
+  91-94 S. Curry enters the game for H. Barnes
+"
+78,2,5:43.0,true,"
+5:43.0
+  27-38 S. Curry enters the game for D. Green
+"
+78,4,7:48.0,true,"
+7:48.0
+  83-98 S. Curry enters the game for L. Barbosa
+"
+78,4,1:14.0,false,"
+1:14.0
+  96-112 L. Barbosa enters the game for S. Curry
+"
+79,1,1:13.0,false,"
+1:13.0
+S. Livingston enters the game for S. Curry 28-26  
+"
+79,2,4:52.0,true,"
+4:52.0
+S. Curry enters the game for M. Speights 41-46  
+"
+79,4,6:20.0,true,"
+6:20.0
+S. Curry enters the game for M. Speights 80-90  
+"
+80,1,3:48.0,false,"
+3:48.0
+S. Livingston enters the game for S. Curry 13-13  
+"
+80,2,4:49.0,false,"
+4:49.0
+S. Livingston enters the game for S. Curry 26-29  
+"
+80,2,2:28.0,true,"
+2:28.0
+S. Curry enters the game for S. Livingston 30-31  
+"
+80,2,0:16.0,false,"
+0:16.0
+S. Livingston enters the game for S. Curry 35-35  
+"
+80,4,5:47.0,true,"
+5:47.0
+S. Curry enters the game for S. Livingston 78-73  
+"
+81,1,0:01.0,false,"
+0:01.0
+  23-37 L. Barbosa enters the game for S. Curry
+"
+81,2,5:47.0,true,"
+5:47.0
+  37-53 S. Curry enters the game for S. Livingston
+"

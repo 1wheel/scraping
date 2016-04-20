@@ -8,10 +8,10 @@ var glob = require("glob")
 
 
 var q = queue(1)
+var subs = []
 
 glob.sync(__dirname + "/raw-games/*.html").forEach(scrape)
 
-var subs = []
 
 function scrape(file, gameIndex){
   var html = fs.readFileSync(file, 'utf-8')
@@ -41,4 +41,4 @@ function scrape(file, gameIndex){
   })
 }
 
-fs.writeFileSync(__dirname + '/public/subs.csv' + slug, d3.csv.format(subs))
+fs.writeFileSync(__dirname + '/public/subs.csv', d3.csv.format(subs))
