@@ -45,3 +45,7 @@ billboard/raw-html
 cnn/raw
 cnn/days.csv
 cnn/shows.csv
+
+
+mvp-minutes/raw-games/
+mvp-minutes/raw-sked/
