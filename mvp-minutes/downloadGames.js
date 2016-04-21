@@ -9,42 +9,43 @@ var glob = require("glob")
 
 var q = queue(1)
 
-glob.sync(__dirname + "/raw/*")
-  .forEach(scrape)
-  // .forEach(function(d){ console.log(d) })
-
+glob.sync(__dirname + "/raw/*").forEach(scrape)
 
 function scrape(dir, i) {
-  console.log(dir, i)
-  
-  if (i) return
-
   var html = fs.readFileSync(dir + '/gamelog.html', 'utf-8')
   var $ = cheerio.load(html)
 
+  var gameDir = dir + '/games/'
+  if (!fs.existsSync(gameDir)) fs.mkdirSync(gameDir)
+  var downloadedGames = glob.sync(gameDir + '*.html')
+  
   var count = 0
 
-  $('td a').each(function(){
+  $('#pgl_basic td a').each(function(){
     var str = $(this).text()
 
     if (str.length != 10) return
     count++
 
     var slug = $(this).attr('href').replace('/boxscores/', '')
-    console.log(slug, str, count)
 
     var url = 'http://www.basketball-reference.com/boxscores/pbp/' + slug
 
-    return
-    q.defer(function(cb){
-      console.log(str, count, url)
+    q.defer(function(count, cb){
+      var path = gameDir + slug.replace('.html', '') + '-' + count + '.html'
+      
+      if (_.contains(downloadedGames, path)) return cb()
+            
+      console.log(path)
+      
       request(url, function(error, response, html){
-        fs.writeFileSync(__dirname + '/raw-games/' + slug, html)
+        fs.writeFileSync(path, html)
         setTimeout(cb, 1000)
       })
-    })
+    }, count)
 
   })
 
 }
 
+console.log('initialized queue to downloading gamelogs')
