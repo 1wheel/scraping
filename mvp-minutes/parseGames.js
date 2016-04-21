@@ -37,6 +37,7 @@ function scrape(file, gameIndex){
 
     var str = $(this).text()
 
+    //every quater but the first
     if (~str.indexOf('Back to Top')){
       //if curry had no events for the entire quater, sub 
       if (!inThisQ && isIn){
@@ -73,10 +74,14 @@ function scrape(file, gameIndex){
       }
 
     } else{
+      if (~str.indexOf('Belinelli')) debugger
+      
       //insert sub out at start of quater if curry subs in while marked in
       if (isIn && playerI < entersI){
         subs.push({gameIndex, qtr, time: '12:00', isIn: false, str})
       }
+      
+      
 
       isIn = playerI < entersI
       subs.push({gameIndex, qtr, time, isIn, str})
