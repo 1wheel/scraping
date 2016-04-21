@@ -8,6 +8,12 @@ body{
 	/*margin-left: -105px;*/
 }
 
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
 
 div.tooltip {
   top: -1000px;

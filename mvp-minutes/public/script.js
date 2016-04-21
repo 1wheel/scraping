@@ -6,6 +6,7 @@ d3.csv('subs.csv', function(res){
   subs.forEach(function(d){
     d.min = 12 - +d.time.split(':')[0] - +d.time.split(':')[1]/60 + qtrOffset[d.qtr]
     d.isIn = d.isIn == 'true'
+    d.gameIndex = +d.gameIndex + 1
   })
 
   byGame = d3.nest().key(ƒ('gameIndex')).entries(subs)
@@ -26,7 +27,7 @@ d3.csv('subs.csv', function(res){
   })
 
   !(function(){
-    c = d3.conventions({width: 400})
+    c = d3.conventions({width: 400, height: 100})
 
     c.x.domain([0, 48])
     c.y.domain([81, 0])
@@ -39,13 +40,52 @@ d3.csv('subs.csv', function(res){
         .call(d3.attachTooltip)
   })//()
 
+  !(function(){
+    d3.select('body').append('h1').text('small multiple prototype')
+    c = d3.conventions({width: 82*4, height: 100})
+
+    c.x.domain([0, 82])
+    c.y.domain([48, 0])
+
+    c.xAxis.orient('top').tickValues([20, 41, 61, 82])
+    c.yAxis.tickValues([0, 12, 24, 36, 48])
+    c.drawAxis()
+    c.svg.select('.x').translate([0, 0])
+    
+    var gameSel = c.svg.dataAppend(byGame, 'g.game')
+        .translate(function(d){ return [c.x(d.key), 0] })
+        .style('opacity', function(d){
+          return d.correctOrder ? 1 : 1
+        })
+    
+    gameSel.append('path')
+        .attr('d', ['M0,', c.y(0), 'V', c.y(48)].join(' '))
+        .style('stroke', '#ccc')
+        .style('stroke-width', 2)
+
+    gameSel.dataAppend(ƒ('playBlocks'), 'path')
+        .attr('d', function(d){
+          return ['M0,', c.y(d.start.min), 'V', c.y(d.end.min)].join(' ') })
+        .style('stroke', '#333')
+        .style('stroke-width', 2)
+
+    // gameSel.dataAppend(ƒ('values'), 'circle')
+    //     .attr('cx', ƒ('min', c.x))
+    //     // .attr('cy', ƒ('gameIndex', c.y))
+    //     .attr('fill', function(d){ return d.isIn ? 'steelblue' : 'red'})
+    //     .attr('r', function(d){ return d.time == '12:00' || d.time == '00:00' ? 1 : 3 })
+    //     .call(d3.attachTooltip)
+  })()
+
 
   !(function(){
-    d3.select('body').append('h1').text('playing blocks')
+    d3.select('body').append('h1').text('debug playing blocks')
     c = d3.conventions({width: 400})
 
     c.x.domain([0, 48])
     c.y.domain([81, 0])
+    
+    c.drawAxis()
 
     var gameSel = c.svg.dataAppend(byGame, 'g.game')
         .translate(function(d){ return [0, c.y(d.key)] })
@@ -68,6 +108,8 @@ d3.csv('subs.csv', function(res){
     d3.select('body').append('h1')
         .text('bad order: ' +  d3.sum(byGame, function(d){ return !d.correctOrder }))
   })()
+
+
 
 
 })
