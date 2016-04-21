@@ -41,8 +41,8 @@ function scrape(file, gameIndex){
     if (~str.indexOf('Back to Top')){
       //if curry had no events for the entire quater, sub out
       if (!inThisQ && isIn){
-        // subs.push({gameIndex, qtr, time: '00:00', isIn: false, str})
-        // isIn = false
+        subs.push({gameIndex, qtr, time: '00:00', isIn: false, str})
+        isIn = false
       }
       
 
