@@ -1,10 +1,10 @@
-var qtrOffset = [0, 0, 12, 24, 36, 48, 53, 58, 63]
+var qtrOffset = [0, 12, 24, 36, 48, 53, 58, 63]
 
 d3.csv('subs.csv', function(res){
   subs = res
 
   subs.forEach(function(d){
-    d.min = 12 - +d.time.split(':')[0] - +d.time.split(':')[1]/60 + qtrOffset[d.qtr]
+    d.min = -+d.time.split(':')[0] - +d.time.split(':')[1]/60 + qtrOffset[d.qtr]
     d.isIn = d.isIn == 'true'
     d.gameIndex = +d.gameIndex + 1
   })
@@ -25,7 +25,14 @@ d3.csv('subs.csv', function(res){
     
     game.correctOrder = game.playBlocks.every(ƒ('correctOrder'))
   })
-
+  
+  //insert games that were sat
+  playedGames = {}
+  byGame.forEach(function(d){ playedGames[d.key] = true })
+  d3.range(1, 83).forEach(function(d){
+    if (!playedGames[d]) byGame.push({key: d, values: [], playBlocks: []}) 
+  })
+  
   !(function(){
     c = d3.conventions({width: 400, height: 100})
 
@@ -42,12 +49,12 @@ d3.csv('subs.csv', function(res){
 
   !(function(){
     d3.select('body').append('h1').text('small multiple prototype')
-    c = d3.conventions({width: 82*4, height: 100})
+    c = d3.conventions({width: 82*3.5, height: 100})
 
     c.x.domain([0, 82])
     c.y.domain([48, 0])
 
-    c.xAxis.orient('top').tickValues([20, 41, 61, 82])
+    c.xAxis.orient('top').tickValues([41, 82])
     c.yAxis.tickValues([0, 12, 24, 36, 48])
     c.drawAxis()
     c.svg.select('.x').translate([0, 0])
@@ -60,10 +67,10 @@ d3.csv('subs.csv', function(res){
     
     gameSel.append('path')
         .attr('d', ['M0,', c.y(0), 'V', c.y(48)].join(' '))
-        .style('stroke', '#ccc')
+        .style('stroke', '#ddd')
         .style('stroke-width', 2)
 
-    gameSel.dataAppend(ƒ('playBlocks'), 'path')
+    gameSel.dataAppend(ƒ('playBlocks'), 'path.block')
         .attr('d', function(d){
           return ['M0,', c.y(d.start.min), 'V', c.y(d.end.min)].join(' ') })
         .style('stroke', '#333')
