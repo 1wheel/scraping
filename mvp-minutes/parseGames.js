@@ -39,9 +39,9 @@ function scrape(file, gameIndex){
 
     //every quater but the first
     if (~str.indexOf('Back to Top')){
-      //if curry had no events for the entire quater, sub 
+      //if curry had no events for the entire quater, sub out
       if (!inThisQ && isIn){
-        subs.push({gameIndex, qtr, time: '00:00', isIn: false, str})
+        // subs.push({gameIndex, qtr, time: '00:00', isIn: false, str})
         // isIn = false
       }
       
@@ -74,13 +74,11 @@ function scrape(file, gameIndex){
       }
 
     } else{
-      if (~str.indexOf('Belinelli')) debugger
-      
       //insert sub out at start of quater if curry subs in while marked in
       if (isIn && playerI < entersI){
         subs.push({gameIndex, qtr, time: '12:00', isIn: false, str})
       }
-      
+  
       
 
       isIn = playerI < entersI
@@ -95,3 +93,4 @@ function scrape(file, gameIndex){
 }
 
 fs.writeFileSync(__dirname + '/public/subs.csv', d3.csv.format(subs))
+console.log('wrote out subs.csv')

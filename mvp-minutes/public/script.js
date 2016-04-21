@@ -50,7 +50,7 @@ d3.csv('subs.csv', function(res){
     var gameSel = c.svg.dataAppend(byGame, 'g.game')
         .translate(function(d){ return [0, c.y(d.key)] })
         .style('opacity', function(d){
-          return d.correctOrder ? .3 : 1
+          return d.correctOrder ? 1 : 1
         })
 
     gameSel.dataAppend(ƒ('playBlocks'), 'path')

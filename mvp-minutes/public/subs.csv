@@ -136,9 +136,6 @@ B. Rush enters the game for S. Curry 131-118  
 5:54.0
   27-55 S. Curry enters the game for S. Livingston
 "
-5,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 5,4,12:00,false,"
 6:22.0
   91-107 S. Curry enters the game for L. Barbosa
@@ -163,9 +160,6 @@ S. Curry enters the game for S. Livingston 30-19  
 7:17.0
 S. Curry enters the game for S. Livingston 30-19  
 "
-6,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 6,4,12:00,false,"
 7:51.0
 S. Curry enters the game for L. Barbosa 78-76  
@@ -187,9 +181,6 @@ Turnover by R. Jackson (bad pass; steal by S. Curry) 2-0  
 7:33.0
   29-31 S. Curry enters the game for S. Livingston
 "
-7,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 7,4,12:00,false,"
 5:17.0
   82-98 S. Curry enters the game for L. Barbosa
@@ -210,9 +201,6 @@ S. Curry enters the game for L. Barbosa 39-26  
 8,2,5:50.0,true,"
 5:50.0
 S. Curry enters the game for L. Barbosa 39-26  
-"
-8,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 8,4,12:00,false,"
 6:34.0
@@ -238,9 +226,6 @@ S. Curry enters the game for A. Iguodala 50-42  
 7:07.0
 S. Curry enters the game for A. Iguodala 50-42  
 "
-9,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 9,4,12:00,false,"
 6:35.0
 S. Curry enters the game for A. Iguodala 109-101  
@@ -261,9 +246,6 @@ S. Curry enters the game for A. Iguodala 109-101  
 10,2,6:15.0,true,"
 6:15.0
   44-32 S. Curry enters the game for I. Clark
-"
-10,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 10,4,12:00,false,"
 8:30.0
@@ -294,9 +276,6 @@ S. Curry enters the game for A. Iguodala 109-101  
 7:07.0
   35-37 S. Curry enters the game for L. Barbosa
 "
-11,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 11,4,10:42.0,false,"
 10:42.0
   88-92 I. Clark enters the game for S. Curry
@@ -318,9 +297,6 @@ A. Iguodala enters the game for S. Curry 10-18  
 11:09.0
   25-45 Personal foul by A. Rivers (drawn by S. Curry)
 "
-12,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 12,4,12:00,false,"
 8:31.0
 S. Curry enters the game for A. Iguodala 95-98  
@@ -341,9 +317,6 @@ S. Curry enters the game for A. Iguodala 95-98  
 13,2,5:49.0,true,"
 5:49.0
   35-39 S. Curry enters the game for I. Clark
-"
-13,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 13,4,12:00,false,"
 6:16.0
@@ -398,9 +371,6 @@ S. Curry enters the game for L. Barbosa 55-43  
 6:39.0
 S. Curry enters the game for L. Barbosa 55-43  
 "
-16,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 16,4,00:00,false,game end
 17,1,12:00,true,"
 11:14.0
@@ -414,9 +384,6 @@ S. Curry enters the game for L. Barbosa 55-43  
 5:48.0
   40-43 S. Curry enters the game for S. Livingston
 "
-17,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 17,4,00:00,false,game end
 18,1,12:00,true,"
 11:12.0
@@ -429,9 +396,6 @@ S. Curry enters the game for S. Livingston 36-30  
 18,2,6:40.0,true,"
 6:40.0
 S. Curry enters the game for S. Livingston 36-30  
-"
-18,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 18,4,12:00,false,"
 6:36.0
@@ -454,9 +418,6 @@ S. Curry enters the game for J. McAdoo 45-34  
 6:49.0
 S. Curry enters the game for J. McAdoo 45-34  
 "
-19,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 19,4,00:00,false,game end
 20,1,12:00,true,"
 10:18.0
@@ -478,9 +439,6 @@ I. Clark enters the game for S. Curry 53-46  
 0:25.0
 S. Curry enters the game for D. Green 56-48  
 "
-20,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 20,4,12:00,false,"
 8:41.0
 S. Curry enters the game for L. Barbosa 84-85  
@@ -501,9 +459,6 @@ S. Livingston enters the game for S. Curry 25-8  
 21,2,7:57.0,true,"
 7:57.0
 S. Curry enters the game for B. Rush 39-25  
-"
-21,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 21,4,12:00,false,"
 6:01.0
@@ -528,9 +483,6 @@ S. Curry enters the game for I. Clark 62-42  
 22,2,5:50.0,true,"
 5:50.0
 S. Curry enters the game for I. Clark 62-42  
-"
-22,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 22,4,12:00,false,"
 5:49.0
@@ -561,9 +513,6 @@ S. Livingston enters the game for S. Curry 76-65  
 8:53.0
 S. Curry enters the game for M. Speights 83-86  
 "
-23,5,00:00,false,"
-2nd Overtime (Back to Top)
-"
 23,6,00:00,false,game end
 24,1,12:00,true,"
 11:14.0
@@ -576,9 +525,6 @@ L. Barbosa enters the game for S. Curry 27-30  
 24,2,5:27.0,true,"
 5:27.0
 S. Curry enters the game for L. Barbosa 35-42  
-"
-24,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 24,4,12:00,false,"
 6:57.0
@@ -604,9 +550,6 @@ L. Barbosa enters the game for S. Curry 93-105  
 7:02.0
   35-34 S. Curry enters the game for B. Rush
 "
-25,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 25,4,00:00,false,game end
 26,1,12:00,true,"
 12:00.0
@@ -619,9 +562,6 @@ Jump ball: A. Bogut vs. G. Monroe (S. Curry gains possession)
 26,2,6:26.0,true,"
 6:26.0
   49-45 S. Curry enters the game for L. Barbosa
-"
-26,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 26,4,12:00,false,"
 8:54.0
@@ -668,9 +608,6 @@ Jump ball: A. Bogut vs. G. Monroe (S. Curry gains possession)
 5:28.0
   35-37 S. Curry enters the game for S. Livingston
 "
-28,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 28,4,12:00,false,"
 7:07.0
   67-71 S. Curry enters the game for I. Clark
@@ -691,9 +628,6 @@ Personal foul by R. Rondo (drawn by S. Curry) 0-0  
 29,2,7:13.0,true,"
 7:13.0
   41-30 S. Curry enters the game for A. Iguodala
-"
-29,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 29,4,00:00,false,game end
 32,1,12:00,true,"
@@ -761,9 +695,6 @@ H. Barnes enters the game for S. Curry 30-13  
 6:59.0
 S. Curry enters the game for I. Clark 49-34  
 "
-35,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 35,4,00:00,false,game end
 36,1,12:00,true,"
 11:45.0
@@ -798,9 +729,6 @@ S. Curry enters the game for I. Clark 106-96  
 7:16.0
   32-38 S. Curry enters the game for I. Clark
 "
-37,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 37,4,12:00,false,"
 6:18.0
   85-95 S. Curry enters the game for A. Iguodala
@@ -821,9 +749,6 @@ S. Livingston enters the game for S. Curry 24-30  
 38,2,7:37.0,true,"
 7:37.0
 S. Curry enters the game for A. Iguodala 35-39  
-"
-38,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 38,4,12:00,false,"
 8:26.0
@@ -846,9 +771,6 @@ S. Curry enters the game for A. Iguodala 79-89  
 5:31.0
   38-39 S. Curry enters the game for S. Livingston
 "
-39,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 39,4,00:00,false,game end
 40,1,12:00,true,"
 11:43.0
@@ -861,9 +783,6 @@ S. Curry enters the game for S. Livingston 33-42  
 40,2,7:07.0,true,"
 7:07.0
 S. Curry enters the game for S. Livingston 33-42  
-"
-40,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 40,4,12:00,false,"
 8:37.0
@@ -910,9 +829,6 @@ S. Curry enters the game for H. Barnes 47-35  
 6:07.0
 S. Curry enters the game for H. Barnes 47-35  
 "
-42,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 42,4,12:00,false,"
 7:31.0
 S. Curry enters the game for A. Iguodala 95-79  
@@ -936,9 +852,6 @@ L. Barbosa enters the game for S. Curry 110-86  
 43,2,6:28.0,true,"
 6:28.0
   33-41 S. Curry enters the game for H. Barnes
-"
-43,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 43,4,12:00,false,"
 7:39.0
@@ -979,9 +892,6 @@ Jump ball: A. Bogut vs. S. Mejri (S. Curry gains possession)
 45,2,6:35.0,true,"
 6:35.0
   32-38 S. Curry enters the game for B. Rush
-"
-45,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 45,4,12:00,false,"
 5:43.0
@@ -1073,9 +983,6 @@ S. Curry enters the game for A. Iguodala 114-103  
 6:43.0
   39-50 S. Curry enters the game for H. Barnes
 "
-49,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 49,4,12:00,false,"
 6:59.0
   92-99 S. Curry enters the game for H. Barnes
@@ -1097,9 +1004,6 @@ Jump ball: A. Bogut vs. D. Howard (S. Curry gains possession)
 7:01.0
   37-52 S. Curry enters the game for H. Barnes
 "
-50,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 50,4,12:00,false,"
 6:40.0
   98-110 S. Curry enters the game for A. Iguodala
@@ -1120,9 +1024,6 @@ S. Curry enters the game for A. Iguodala 40-35  
 51,2,6:06.0,true,"
 6:06.0
 S. Curry enters the game for A. Iguodala 40-35  
-"
-51,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 51,4,00:00,false,game end
 52,1,12:00,true,"
@@ -1161,9 +1062,6 @@ S. Livingston enters the game for S. Curry 21-10  
 11:49.0
   33-20 Personal foul by P. Prigioni (drawn by S. Curry)
 "
-53,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 53,4,12:00,false,"
 5:47.0
 S. Curry enters the game for H. Barnes 108-92  
@@ -1193,9 +1091,6 @@ S. Curry enters the game for A. Iguodala 39-30  
 6:20.0
 S. Curry enters the game for A. Iguodala 39-30  
 "
-54,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 54,4,12:00,false,"
 5:28.0
 S. Curry enters the game for H. Barnes 88-84  
@@ -1217,9 +1112,6 @@ S. Curry enters the game for A. Iguodala 35-44  
 5:48.0
 S. Curry enters the game for A. Iguodala 35-44  
 "
-55,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 55,4,12:00,false,"
 5:47.0
 S. Curry enters the game for A. Iguodala 94-96  
@@ -1240,9 +1132,6 @@ S. Curry enters the game for H. Barnes 42-41  
 56,2,6:15.0,true,"
 6:15.0
 S. Curry enters the game for H. Barnes 42-41  
-"
-56,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 56,4,12:00,false,"
 5:49.0
@@ -1308,9 +1197,6 @@ S. Livingston enters the game for S. Curry 121-118  
 7:48.0
   38-42 S. Curry enters the game for A. Iguodala
 "
-59,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 59,4,12:00,false,"
 6:32.0
   93-99 S. Curry enters the game for A. Iguodala
@@ -1331,9 +1217,6 @@ S. Curry enters the game for H. Barnes 38-43  
 60,2,5:30.0,true,"
 5:30.0
 S. Curry enters the game for H. Barnes 38-43  
-"
-60,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 60,4,12:00,false,"
 9:24.0
@@ -1359,9 +1242,6 @@ Jump ball: A. Bogut vs. J. Smith (S. Curry gains possession)
 5:00.0
   33-42 S. Curry enters the game for I. Clark
 "
-61,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 61,4,12:00,false,"
 8:20.0
   92-98 S. Curry enters the game for L. Barbosa
@@ -1382,9 +1262,6 @@ Turnover by C. Johnson (lost ball; steal by S. Curry) 2-0  
 62,2,4:47.0,true,"
 4:47.0
   28-36 S. Curry enters the game for H. Barnes
-"
-62,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 62,4,12:00,false,"
 6:16.0
@@ -1471,9 +1348,6 @@ Jump ball: A. Bogut vs. A. Davis (S. Curry gains possession)
 7:18.0
   38-40 S. Curry enters the game for S. Livingston
 "
-65,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 65,4,00:00,false,game end
 66,1,12:00,true,"
 11:10.0
@@ -1508,9 +1382,6 @@ M. Speights enters the game for S. Curry 43-36  
 5:08.0
 S. Curry enters the game for I. Clark 62-48  
 "
-67,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 67,4,12:00,false,"
 6:17.0
 S. Curry enters the game for B. Rush 109-99  
@@ -1534,9 +1405,6 @@ S. Livingston enters the game for S. Curry 11-15  
 68,2,12:00,true,"
 10:02.0
 S. Curry misses 3-pt shot from 24 ft (block by D. Green) 22-23  
-"
-68,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 68,4,12:00,false,"
 5:58.0
@@ -1580,9 +1448,6 @@ Turnover by P. Pierce (lost ball; steal by S. Curry) 6-3  
 4:45.0
   41-44 S. Curry enters the game for S. Livingston
 "
-70,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 70,4,12:00,false,"
 8:41.0
   77-90 S. Curry enters the game for L. Barbosa
@@ -1603,9 +1468,6 @@ Jump ball: A. Bogut vs. S. Mejri (S. Curry gains possession)
 71,2,5:55.0,true,"
 5:55.0
   44-49 S. Curry enters the game for H. Barnes
-"
-71,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 71,4,12:00,false,"
 5:16.0
@@ -1652,9 +1514,6 @@ Jump ball: A. Bogut vs. S. Mejri (S. Curry gains possession)
 5:31.0
   39-37 S. Curry enters the game for H. Barnes
 "
-73,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 73,4,12:00,false,"
 6:49.0
   76-90 S. Curry enters the game for S. Livingston
@@ -1684,9 +1543,6 @@ S. Curry enters the game for S. Livingston 33-25  
 5:57.0
 S. Curry enters the game for S. Livingston 33-25  
 "
-74,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 74,4,12:00,false,"
 7:19.0
 S. Curry enters the game for M. Speights 71-79  
@@ -1707,9 +1563,6 @@ Jump ball: A. Bogut vs. A. Johnson (S. Curry gains possession)
 75,2,5:17.0,true,"
 5:17.0
   28-35 S. Curry enters the game for M. Speights
-"
-75,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 75,4,12:00,false,"
 7:20.0
@@ -1764,9 +1617,6 @@ Turnover by C. McCollum (lost ball; steal by S. Curry) 56-65  
 7:31.0
   30-33 S. Curry enters the game for B. Rush
 "
-77,3,00:00,false,"
-4th Quarter (Back to Top)
-"
 77,4,12:00,false,"
 6:49.0
   91-94 S. Curry enters the game for H. Barnes
@@ -1787,9 +1637,6 @@ Turnover by C. McCollum (lost ball; steal by S. Curry) 56-65  
 78,2,5:43.0,true,"
 5:43.0
   27-38 S. Curry enters the game for D. Green
-"
-78,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 78,4,12:00,false,"
 7:48.0
@@ -1814,9 +1661,6 @@ S. Livingston enters the game for S. Curry 28-26  
 79,2,4:52.0,true,"
 4:52.0
 S. Curry enters the game for M. Speights 41-46  
-"
-79,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 79,4,12:00,false,"
 6:20.0
@@ -1875,8 +1719,5 @@ S. Curry enters the game for S. Livingston 78-73  
 81,2,5:47.0,true,"
 5:47.0
   37-53 S. Curry enters the game for S. Livingston
-"
-81,3,00:00,false,"
-4th Quarter (Back to Top)
 "
 81,4,00:00,false,game end
