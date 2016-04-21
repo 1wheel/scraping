@@ -11,7 +11,7 @@ body{
 .axis line,
 .axis path {
   fill: none;
-  stroke: #ccc;
+  stroke: #F5F5F5;
   shape-rendering: crispEdges;
 }
 

@@ -44,7 +44,6 @@ function scrape(file, gameIndex){
         subs.push({gameIndex, qtr, time: '00:00', isIn: false, str})
         isIn = false
       }
-      
 
       qtr++
       inLastQ = isIn
@@ -63,7 +62,7 @@ function scrape(file, gameIndex){
     
     var time = $(this).text().split('\n')[1]
     
-
+    
     //is this a sub log item?
     if (!~entersI){
       //insert a sub in at start of quater if curry made a play while marked out
@@ -78,8 +77,6 @@ function scrape(file, gameIndex){
       if (isIn && playerI < entersI){
         subs.push({gameIndex, qtr, time: '12:00', isIn: false, str})
       }
-  
-      
 
       isIn = playerI < entersI
       subs.push({gameIndex, qtr, time, isIn, str})

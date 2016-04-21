@@ -49,16 +49,11 @@ d3.csv('subs.csv', function(res){
 
   !(function(){
     d3.select('body').append('h1').text('small multiple prototype')
-    c = d3.conventions({width: 82*3.5, height: 100})
+    c = d3.conventions({width: 82*3.5, height: 140})
 
-    c.x.domain([0, 82])
+    c.x.domain([0, 83])
     c.y.domain([48, 0])
 
-    c.xAxis.orient('top').tickValues([41, 82])
-    c.yAxis.tickValues([0, 12, 24, 36, 48])
-    c.drawAxis()
-    c.svg.select('.x').translate([0, 0])
-    
     var gameSel = c.svg.dataAppend(byGame, 'g.game')
         .translate(function(d){ return [c.x(d.key), 0] })
         .style('opacity', function(d){
@@ -67,21 +62,27 @@ d3.csv('subs.csv', function(res){
     
     gameSel.append('path')
         .attr('d', ['M0,', c.y(0), 'V', c.y(48)].join(' '))
-        .style('stroke', '#ddd')
+        .style('stroke', 'red')
+        .style('stroke-width', 2)
+        .style('opacity', .15)
+        
+    gameSel.filter(ƒ('values', 'length')).append('path')
+        .attr('d', ['M0,', c.y(42), 'V', c.y(48)].join(' '))
+        .style('stroke', 'red')
         .style('stroke-width', 2)
 
     gameSel.dataAppend(ƒ('playBlocks'), 'path.block')
         .attr('d', function(d){
           return ['M0,', c.y(d.start.min), 'V', c.y(d.end.min)].join(' ') })
-        .style('stroke', '#333')
+        .style('stroke', '#666')
         .style('stroke-width', 2)
 
-    // gameSel.dataAppend(ƒ('values'), 'circle')
-    //     .attr('cx', ƒ('min', c.x))
-    //     // .attr('cy', ƒ('gameIndex', c.y))
-    //     .attr('fill', function(d){ return d.isIn ? 'steelblue' : 'red'})
-    //     .attr('r', function(d){ return d.time == '12:00' || d.time == '00:00' ? 1 : 3 })
-    //     .call(d3.attachTooltip)
+    c.xAxis.orient('top').tickValues([41, 82])
+    c.yAxis.tickValues([12, 24, 36, 48]).tickSize(c.width)
+    c.drawAxis()
+    c.svg.select('.x').translate([0, 0])
+    c.svg.select('.y').translate([c.width, 0])
+    
   })()
 
 
