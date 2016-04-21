@@ -37,7 +37,6 @@ function scrape(file, gameIndex){
 
     var str = $(this).text()
 
-    var blah = 'asdf'
     if (~str.indexOf('Back to Top')){
       //if curry had no events for the entire quater, sub 
       if (!inThisQ && isIn){
@@ -56,10 +55,13 @@ function scrape(file, gameIndex){
 
     var isCurryLink = false
     $(this).find('a').each(function(){
-      isCurryLink = isCurryLink || !~$(this).attr('href').indexOf('curryst01') })
+      isCurryLink = isCurryLink || ~$(this).attr('href').indexOf('curryst01') })
+    
+    // if (~playerI && !isCurryLink) debugger 
     if (!~playerI || !isCurryLink) return
     
     var time = $(this).text().split('\n')[1]
+    
 
     //is this a sub log item?
     if (!~entersI){

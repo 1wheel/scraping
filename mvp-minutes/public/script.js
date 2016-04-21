@@ -21,6 +21,8 @@ d3.csv('subs.csv', function(res){
     game.playBlocks.forEach(function(d){
       d.correctOrder = d.start.isIn && !d.end.isIn
     })
+    
+    game.correctOrder = game.playBlocks.every(ƒ('correctOrder'))
   })
 
   !(function(){
@@ -33,9 +35,9 @@ d3.csv('subs.csv', function(res){
         .attr('cx', ƒ('min', c.x))
         .attr('cy', ƒ('gameIndex', c.y))
         .attr('fill', function(d){ return d.isIn ? 'steelblue' : 'red'})
-        .attr('r', function(d){ return d.time == '12:00' || d.time == '00:00' ? 1 : 3 })    
+        .attr('r', function(d){ return d.time == '12:00' || d.time == '00:00' ? 1 : 3 })
         .call(d3.attachTooltip)
-  })()
+  })//()
 
 
   !(function(){
@@ -48,7 +50,7 @@ d3.csv('subs.csv', function(res){
     var gameSel = c.svg.dataAppend(byGame, 'g.game')
         .translate(function(d){ return [0, c.y(d.key)] })
         .style('opacity', function(d){
-          return d.playBlocks.every(ƒ('correctOrder')) ? .3 : 1
+          return d.correctOrder ? .3 : 1
         })
 
     gameSel.dataAppend(ƒ('playBlocks'), 'path')
@@ -62,6 +64,9 @@ d3.csv('subs.csv', function(res){
         .attr('fill', function(d){ return d.isIn ? 'steelblue' : 'red'})
         .attr('r', function(d){ return d.time == '12:00' || d.time == '00:00' ? 1 : 3 })
         .call(d3.attachTooltip)
+        
+    d3.select('body').append('h1')
+        .text('bad order: ' +  d3.sum(byGame, function(d){ return !d.correctOrder }))
   })()
 
 
