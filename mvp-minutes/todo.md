@@ -1,0 +1,6 @@
+-[ ] De dupe 'S. Curry'
+-[ ] run off of season/player/team spreadsheet
+-[ ] rotate 
+-[ ] try sm
+-[ ] validate against mp
+-[ ] check ot display
