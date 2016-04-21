@@ -1,6 +1,82 @@
 var qtrOffset = [0, 12, 24, 36, 48, 53, 58, 63]
 
+d3.json('players.json', function(res){
+  players = res
+
+  players.forEach(function(player){
+    player.subs.forEach(function(d){
+      d.min = -+d.time.split(':')[0] - +d.time.split(':')[1]/60 + qtrOffset[d.qtr]
+      d.isIn = d.isIn == 'true'
+      d.gameIndex = +d.gameIndex + 1
+    })
+
+    player.byGame = d3.nest().key(ƒ('gameIndex')).entries(player.subs)
+
+    player.byGame.forEach(function(game){
+      game.playBlocks = []
+      isPlaying = true
+
+      game.values.forEach(function(d, i){
+        if (i % 2) game.playBlocks.push({start: game.values[i - 1], end: d})
+      })
+
+      game.playBlocks.forEach(function(d){
+        d.correctOrder = d.start.isIn && !d.end.isIn
+      })
+      
+      game.correctOrder = game.playBlocks.every(ƒ('correctOrder'))
+    })
+
+    var playedGames = {}
+    player.byGame.forEach(function(d){ playedGames[d.key] = true })
+    d3.range(1, 83).forEach(function(d){
+      if (!playedGames[d]) player.byGame.push({key: d, values: [], playBlocks: []}) 
+    })
+
+
+    d3.select('body').append('span').text(player.year + ' - ' + player.fullName)
+    c = d3.conventions({width: 82*3.5, height: 140})
+    c.svg.datum(player)
+
+    c.x.domain([0, 83])
+    c.y.domain([48, 0])
+
+    var gameSel = c.svg.dataAppend(player.byGame, 'g.game')
+        .translate(function(d){ return [c.x(d.key), 0] })
+        .style('opacity', function(d){
+          return d.correctOrder ? 1 : 1
+        })
+    
+    gameSel.append('path')
+        .attr('d', ['M0,', c.y(0), 'V', c.y(48)].join(' '))
+        .style('stroke', 'red')
+        .style('stroke-width', 2)
+        .style('opacity', .15)
+        
+    gameSel.filter(ƒ('values', 'length')).append('path')
+        .attr('d', ['M0,', c.y(42), 'V', c.y(48)].join(' '))
+        .style('stroke', 'red')
+        .style('stroke-width', 2)
+
+    gameSel.dataAppend(ƒ('playBlocks'), 'path.block')
+        .attr('d', function(d){
+          return ['M0,', c.y(d.start.min), 'V', c.y(d.end.min)].join(' ') })
+        .style('stroke', '#666')
+        .style('stroke-width', 2)
+
+    c.xAxis.orient('top').tickValues([41, 82])
+    c.yAxis.tickValues([12, 24, 36, 48]).tickSize(c.width)
+    c.drawAxis()
+    c.svg.select('.x').translate([0, 0])
+    c.svg.select('.y').translate([c.width, 0])
+
+
+  })
+})
+
+
 d3.csv('subs.csv', function(res){
+  return;
   subs = res
 
   subs.forEach(function(d){

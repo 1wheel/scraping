@@ -8,14 +8,24 @@ var glob = require("glob")
 
 var q = queue(1)
 var subs = []
-var blocks = []
 
-glob.sync(__dirname + "/raw-games/*.html").forEach(scrape)
-d3.nest()
+var players = d3.csv.parse(fs.readFileSync(__dirname + '/players.csv', 'utf-8'))
 
-function scrape(file, gameIndex){
-  // if (gameIndex) return
+players.forEach(function(player){
+  if (!player.slug) return
+  var playerDir = __dirname + '/raw/' + player.year + '-' + player.slug
+  
+  player.subs = []
+  glob.sync(playerDir + '/games/*.html').forEach(function(d, i){
+    parseLog(d, i, player.subs, player.fullName[0] + '. ' + _.last(player.fullName.split(' ')), player.slug)
+  })
+  console.log(player.slug, player.year, player.subs.length)
+})
 
+fs.writeFileSync(__dirname + '/public/players.json', JSON.stringify(players))
+console.log('wrote out players.json')
+
+function parseLog(file, gameIndex, subs, abvName, slugName){
   var html = fs.readFileSync(file, 'utf-8')
 
   var isPlayoff = ~html.indexOf('Game 1')
@@ -50,12 +60,12 @@ function scrape(file, gameIndex){
       inThisQ = false
     }
 
-    var playerI = str.indexOf('S. Curry')
+    var playerI = str.indexOf(abvName)
     var entersI = str.indexOf('enters the game')
 
     var isCurryLink = false
     $(this).find('a').each(function(){
-      isCurryLink = isCurryLink || ~$(this).attr('href').indexOf('curryst01') })
+      isCurryLink = isCurryLink || ~$(this).attr('href').indexOf(slugName) })
     
     // if (~playerI && !isCurryLink) debugger 
     if (!~playerI || !isCurryLink) return
@@ -88,6 +98,3 @@ function scrape(file, gameIndex){
   //insert sub out if curry in at game end 
   if (isIn) subs.push({gameIndex, qtr, time: '00:00', isIn: false, str: 'game end'})
 }
-
-fs.writeFileSync(__dirname + '/public/subs.csv', d3.csv.format(subs))
-console.log('wrote out subs.csv')
