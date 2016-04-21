@@ -9,13 +9,17 @@ var glob = require("glob")
 
 var q = queue(1)
 
-glob.sync(__dirname + "/raw-sked/*.html").forEach(scrape)
+glob.sync(__dirname + "/raw/*")
+  .forEach(scrape)
+  // .forEach(function(d){ console.log(d) })
 
 
-function scrape(file) {
-  console.log(file)
+function scrape(dir, i) {
+  console.log(dir, i)
+  
+  if (i) return
 
-  var html = fs.readFileSync(file, 'utf-8')
+  var html = fs.readFileSync(dir + '/gamelog.html', 'utf-8')
   var $ = cheerio.load(html)
 
   var count = 0
@@ -23,13 +27,15 @@ function scrape(file) {
   $('td a').each(function(){
     var str = $(this).text()
 
-    if ('Box Score' != str || count > 81) return
+    if (str.length != 10) return
     count++
 
     var slug = $(this).attr('href').replace('/boxscores/', '')
+    console.log(slug, str, count)
 
     var url = 'http://www.basketball-reference.com/boxscores/pbp/' + slug
 
+    return
     q.defer(function(cb){
       console.log(str, count, url)
       request(url, function(error, response, html){

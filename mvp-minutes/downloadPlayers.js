@@ -14,7 +14,7 @@ players.forEach(function(player){
   if (!player.slug) return
   
   //http://www.basketball-reference.com/players/c/curryst01/gamelog/2016/
-  var url = 'http://www.basketball-reference.com/players/' + player.slug[0] + '/' + player.slug + '/gamelog/2016'
+  var url = 'http://www.basketball-reference.com/players/' + player.slug[0] + '/' + player.slug + '/gamelog/' + player.year
 
   q.defer(function(cb){
     request(url, function(error, response, html){
