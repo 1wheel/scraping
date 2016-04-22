@@ -38,12 +38,12 @@ d3.json('players.json', function(res){
       var lastMin  = Math.floor(d.end.min)
       d3.range(firstMin, lastMin).forEach(function(min){
         player.minutesPlayed[min]++
-        player.minutesPlayed[lastMin] += d.end.min - lastMin
-        player.minutesPlayed[Math.floor(d.start.min)] += firstMin - d.start.min
+        // player.minutesPlayed[lastMin] += d.end.min - lastMin
+        // player.minutesPlayed[Math.floor(d.start.min)] += firstMin - d.start.min
       })
     })
 
-    player.minutesPlayed = player.minutesPlayed.slice(0, 47)
+    player.minutesPlayed = player.minutesPlayed.slice(0, 48)
 
 
     var playedGames = {}
@@ -104,22 +104,34 @@ d3.json('players.json', function(res){
 
       c = d3.conventions({width: 82*2.5, height: 70, parentSel: sel})
       sel.append('h3').text(player.year + ' - ' + player.fullName)
-          .style({'text-align': 'center', 'margin-top': '-15px'})
+          .style({'text-align': 'center', 'margin-top': '0px'})
       c.svg.datum(player)
 
       c.x.domain([0, 48])
       c.y.domain([0, 1])
 
+      c.xAxis.tickValues([12, 24, 36, 48])
       c.yAxis.ticks(3).tickFormat(d3.format('%'))
       c.drawAxis()
 
+      c.svg.append('rect')
+          .style('fill', 'red')
+          .attr({width: c.x(47), height: c.height})
+
+      c.svg.append('rect')
+          .style('fill', 'pink')
+          .attr({width: c.x(43), height: c.height})
+          
+
       var area = d3.svg.area()
           .x(function(d, i){ return c.x(i) })
-          .y0(function(d){ return d/player.gamesPlayed })
+          .y0(function(d){ return c.y(d/player.gamesPlayed) })
           .y1(c.height)
+          .interpolate('step')
 
       c.svg.append('path')
           .attr('d', area(player.minutesPlayed))
+          .style('fill', '#666')
 
 
 

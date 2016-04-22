@@ -19,6 +19,10 @@ svg{
   shape-rendering: crispEdges;
 }
 
+.axis text{
+  opacity: .3;
+}
+
 div.tooltip {
   top: -1000px;
   position: absolute;
