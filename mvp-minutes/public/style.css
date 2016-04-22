@@ -1,11 +1,15 @@
 body{
-	margin: 0px auto;
-	padding-top: 100px;
+	margin: 10px auto;
+	/*padding-top: 100px;*/
 	font: 12px monospace;
 	font-weight: bold;
 	background: #F5F5F5;
-	width: 980px;
+	max-width: 1380px;
 	/*margin-left: -105px;*/
+}
+
+svg{
+  overflow: visible;
 }
 
 .axis line,
