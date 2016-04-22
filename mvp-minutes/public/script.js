@@ -1,10 +1,11 @@
 var qtrOffset = [0, 12, 24, 36, 48, 53, 58, 63]
 
 d3.json('players.json', function(res){
-  players = res
+  players = res.filter(ƒ('subs'))
 
   players.forEach(function(player){
-    if (!player.subs) return
+
+    player.lastName = player.fullName.split(' ')[1]
 
     player.subs.forEach(function(d){
       d.min = -+d.time.split(':')[0] - +d.time.split(':')[1]/60 + qtrOffset[d.qtr]
@@ -45,14 +46,16 @@ d3.json('players.json', function(res){
 
     player.minutesPlayed = player.minutesPlayed.slice(0, 48)
 
+    minuteChunks = d3.range(0, 48, 6)
+    player.minuteChunks = minuteChunks.map(function(min){
+      return d3.sum(player.minutesPlayed.slice(min, min + 6))/player.gamesPlayed/6      
+    })
 
     var playedGames = {}
     player.byGame.forEach(function(d){ playedGames[d.key] = true })
     d3.range(1, 83).forEach(function(d){
       if (!playedGames[d]) player.byGame.push({key: d, values: [], playBlocks: []}) 
     })
-
-
 
 
     //sm
@@ -132,12 +135,45 @@ d3.json('players.json', function(res){
       c.svg.append('path')
           .attr('d', area(player.minutesPlayed))
           .style('fill', '#666')
-
-
-
     })()
+  })
+
+
+  d3.select('#min-chunks').dataAppend(minuteChunks, 'div').each(function(minute, minuteIndex){
+    var sel = d3.select(this)
+    sel.append('h3').text(minute + ' - ' + (minute + 6) + ' minutes')
+      .style({'text-align': 'center', 'margin-top': '20px'})
+
+    var c = d3.conventions({
+      parentSel: sel, width: 100, height: 140, 
+      margin: {top: 0, left: 80, right: 10, bottom: 10}
+    })
+
+    c.x.domain([0, 1])
+    c.y.domain([players.length, 0])
+
+    c.xAxis.tickFormat(d3.format('%')).ticks(3).tickSize(c.height)
+    c.drawAxis()
+    c.svg.select('.y').remove()
+    c.svg.select('.x').translate([0, -5])
+      .selectAll('line').style({stroke: '#ccc', 'stroke-width': 1})
+    c.svg.select('.domain').remove()
+
+    var playerSel = c.svg.dataAppend(players, 'g.player.axis')
+        .translate(function(d, i){ return [-0, c.y(i)] })
+
+
+    playerSel.append('text')
+        .text(ƒ('lastName'))
+        .attr({x: -10, 'text-anchor': 'end', dy: '.33em'})
+
+    playerSel.append('path')
+        .attr('d', function(d){ return 'M0,0H' + c.x(1 - d.minuteChunks[minuteIndex]) })
+        .style('stroke', minute == 42 ? 'red' : 'pink')
+        .attr('stroke-width', 4)
 
   })
+  .style('display', 'inline-block')
 })
 
 
