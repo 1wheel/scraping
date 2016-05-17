@@ -1,0 +1,827 @@
+year,league,round,seriesLink,winner,loser
+2016,NBA,Eastern Conf First Round,/playoffs/2016-nba-eastern-conference-first-round-pistons-vs-cavaliers.html,CLE,DET
+2016,NBA,Eastern Conf First Round,/playoffs/2016-nba-eastern-conference-first-round-pacers-vs-raptors.html,TOR,IND
+2016,NBA,Eastern Conf First Round,/playoffs/2016-nba-eastern-conference-first-round-hornets-vs-heat.html,MIA,CHO
+2016,NBA,Eastern Conf First Round,/playoffs/2016-nba-eastern-conference-first-round-celtics-vs-hawks.html,ATL,BOS
+2016,NBA,Western Conf First Round,/playoffs/2016-nba-western-conference-first-round-rockets-vs-warriors.html,GSW,HOU
+2016,NBA,Western Conf First Round,/playoffs/2016-nba-western-conference-first-round-grizzlies-vs-spurs.html,SAS,MEM
+2016,NBA,Western Conf First Round,/playoffs/2016-nba-western-conference-first-round-mavericks-vs-thunder.html,OKC,DAL
+2016,NBA,Western Conf First Round,/playoffs/2016-nba-western-conference-first-round-trail-blazers-vs-clippers.html,POR,LAC
+2016,NBA,Eastern Conf Semifinals,/playoffs/2016-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html,CLE,ATL
+2016,NBA,Eastern Conf Semifinals,/playoffs/2016-nba-eastern-conference-semifinals-heat-vs-raptors.html,TOR,MIA
+2016,NBA,Western Conf Semifinals,/playoffs/2016-nba-western-conference-semifinals-trail-blazers-vs-warriors.html,GSW,POR
+2016,NBA,Western Conf Semifinals,/playoffs/2016-nba-western-conference-semifinals-thunder-vs-spurs.html,OKC,SAS
+2015,NBA,Eastern Conf First Round,/playoffs/2015-nba-eastern-conference-first-round-nets-vs-hawks.html,ATL,BRK
+2015,NBA,Eastern Conf First Round,/playoffs/2015-nba-eastern-conference-first-round-celtics-vs-cavaliers.html,CLE,BOS
+2015,NBA,Eastern Conf First Round,/playoffs/2015-nba-eastern-conference-first-round-bucks-vs-bulls.html,CHI,MIL
+2015,NBA,Eastern Conf First Round,/playoffs/2015-nba-eastern-conference-first-round-wizards-vs-raptors.html,WAS,TOR
+2015,NBA,Western Conf First Round,/playoffs/2015-nba-western-conference-first-round-pelicans-vs-warriors.html,GSW,NOP
+2015,NBA,Western Conf First Round,/playoffs/2015-nba-western-conference-first-round-mavericks-vs-rockets.html,HOU,DAL
+2015,NBA,Western Conf First Round,/playoffs/2015-nba-western-conference-first-round-spurs-vs-clippers.html,LAC,SAS
+2015,NBA,Western Conf First Round,/playoffs/2015-nba-western-conference-first-round-trail-blazers-vs-grizzlies.html,MEM,POR
+2015,NBA,Eastern Conf Semifinals,/playoffs/2015-nba-eastern-conference-semifinals-bulls-vs-cavaliers.html,CLE,CHI
+2015,NBA,Eastern Conf Semifinals,/playoffs/2015-nba-eastern-conference-semifinals-wizards-vs-hawks.html,ATL,WAS
+2015,NBA,Western Conf Semifinals,/playoffs/2015-nba-western-conference-semifinals-clippers-vs-rockets.html,HOU,LAC
+2015,NBA,Western Conf Semifinals,/playoffs/2015-nba-western-conference-semifinals-grizzlies-vs-warriors.html,GSW,MEM
+2015,NBA,Eastern Conf Finals,/playoffs/2015-nba-eastern-conference-finals-cavaliers-vs-hawks.html,CLE,ATL
+2015,NBA,Western Conf Finals,/playoffs/2015-nba-western-conference-finals-rockets-vs-warriors.html,GSW,HOU
+2015,NBA,Finals,/playoffs/2015-nba-finals-cavaliers-vs-warriors.html,GSW,CLE
+2014,NBA,Eastern Conf First Round,/playoffs/2014-nba-eastern-conference-first-round-hawks-vs-pacers.html,IND,ATL
+2014,NBA,Eastern Conf First Round,/playoffs/2014-nba-eastern-conference-first-round-bobcats-vs-heat.html,MIA,CHA
+2014,NBA,Eastern Conf First Round,/playoffs/2014-nba-eastern-conference-first-round-nets-vs-raptors.html,BRK,TOR
+2014,NBA,Eastern Conf First Round,/playoffs/2014-nba-eastern-conference-first-round-wizards-vs-bulls.html,WAS,CHI
+2014,NBA,Western Conf First Round,/playoffs/2014-nba-western-conference-first-round-mavericks-vs-spurs.html,SAS,DAL
+2014,NBA,Western Conf First Round,/playoffs/2014-nba-western-conference-first-round-grizzlies-vs-thunder.html,OKC,MEM
+2014,NBA,Western Conf First Round,/playoffs/2014-nba-western-conference-first-round-warriors-vs-clippers.html,LAC,GSW
+2014,NBA,Western Conf First Round,/playoffs/2014-nba-western-conference-first-round-trail-blazers-vs-rockets.html,POR,HOU
+2014,NBA,Eastern Conf Semifinals,/playoffs/2014-nba-eastern-conference-semifinals-wizards-vs-pacers.html,IND,WAS
+2014,NBA,Eastern Conf Semifinals,/playoffs/2014-nba-eastern-conference-semifinals-nets-vs-heat.html,MIA,BRK
+2014,NBA,Western Conf Semifinals,/playoffs/2014-nba-western-conference-semifinals-trail-blazers-vs-spurs.html,SAS,POR
+2014,NBA,Western Conf Semifinals,/playoffs/2014-nba-western-conference-semifinals-clippers-vs-thunder.html,OKC,LAC
+2014,NBA,Eastern Conf Finals,/playoffs/2014-nba-eastern-conference-finals-heat-vs-pacers.html,MIA,IND
+2014,NBA,Western Conf Finals,/playoffs/2014-nba-western-conference-finals-thunder-vs-spurs.html,SAS,OKC
+2014,NBA,Finals,/playoffs/2014-nba-finals-heat-vs-spurs.html,SAS,MIA
+2013,NBA,Eastern Conf First Round,/playoffs/2013-nba-eastern-conference-first-round-bucks-vs-heat.html,MIA,MIL
+2013,NBA,Eastern Conf First Round,/playoffs/2013-nba-eastern-conference-first-round-celtics-vs-knicks.html,NYK,BOS
+2013,NBA,Eastern Conf First Round,/playoffs/2013-nba-eastern-conference-first-round-hawks-vs-pacers.html,IND,ATL
+2013,NBA,Eastern Conf First Round,/playoffs/2013-nba-eastern-conference-first-round-bulls-vs-nets.html,CHI,BRK
+2013,NBA,Western Conf First Round,/playoffs/2013-nba-western-conference-first-round-rockets-vs-thunder.html,OKC,HOU
+2013,NBA,Western Conf First Round,/playoffs/2013-nba-western-conference-first-round-lakers-vs-spurs.html,SAS,LAL
+2013,NBA,Western Conf First Round,/playoffs/2013-nba-western-conference-first-round-warriors-vs-nuggets.html,GSW,DEN
+2013,NBA,Western Conf First Round,/playoffs/2013-nba-western-conference-first-round-grizzlies-vs-clippers.html,MEM,LAC
+2013,NBA,Eastern Conf Semifinals,/playoffs/2013-nba-eastern-conference-semifinals-bulls-vs-heat.html,MIA,CHI
+2013,NBA,Eastern Conf Semifinals,/playoffs/2013-nba-eastern-conference-semifinals-pacers-vs-knicks.html,IND,NYK
+2013,NBA,Western Conf Semifinals,/playoffs/2013-nba-western-conference-semifinals-grizzlies-vs-thunder.html,MEM,OKC
+2013,NBA,Western Conf Semifinals,/playoffs/2013-nba-western-conference-semifinals-warriors-vs-spurs.html,SAS,GSW
+2013,NBA,Eastern Conf Finals,/playoffs/2013-nba-eastern-conference-finals-pacers-vs-heat.html,MIA,IND
+2013,NBA,Western Conf Finals,/playoffs/2013-nba-western-conference-finals-grizzlies-vs-spurs.html,SAS,MEM
+2013,NBA,Finals,/playoffs/2013-nba-finals-spurs-vs-heat.html,MIA,SAS
+2012,NBA,Eastern Conf First Round,/playoffs/2012-nba-eastern-conference-first-round-76ers-vs-bulls.html,PHI,CHI
+2012,NBA,Eastern Conf First Round,/playoffs/2012-nba-eastern-conference-first-round-knicks-vs-heat.html,MIA,NYK
+2012,NBA,Eastern Conf First Round,/playoffs/2012-nba-eastern-conference-first-round-magic-vs-pacers.html,IND,ORL
+2012,NBA,Eastern Conf First Round,/playoffs/2012-nba-eastern-conference-first-round-celtics-vs-hawks.html,BOS,ATL
+2012,NBA,Western Conf First Round,/playoffs/2012-nba-western-conference-first-round-jazz-vs-spurs.html,SAS,UTA
+2012,NBA,Western Conf First Round,/playoffs/2012-nba-western-conference-first-round-mavericks-vs-thunder.html,OKC,DAL
+2012,NBA,Western Conf First Round,/playoffs/2012-nba-western-conference-first-round-nuggets-vs-lakers.html,LAL,DEN
+2012,NBA,Western Conf First Round,/playoffs/2012-nba-western-conference-first-round-clippers-vs-grizzlies.html,LAC,MEM
+2012,NBA,Eastern Conf Semifinals,/playoffs/2012-nba-eastern-conference-semifinals-pacers-vs-heat.html,MIA,IND
+2012,NBA,Eastern Conf Semifinals,/playoffs/2012-nba-eastern-conference-semifinals-76ers-vs-celtics.html,BOS,PHI
+2012,NBA,Western Conf Semifinals,/playoffs/2012-nba-western-conference-semifinals-clippers-vs-spurs.html,SAS,LAC
+2012,NBA,Western Conf Semifinals,/playoffs/2012-nba-western-conference-semifinals-lakers-vs-thunder.html,OKC,LAL
+2012,NBA,Western Conf Finals,/playoffs/2012-nba-western-conference-finals-thunder-vs-spurs.html,OKC,SAS
+2012,NBA,Eastern Conf Finals,/playoffs/2012-nba-eastern-conference-finals-celtics-vs-heat.html,MIA,BOS
+2012,NBA,Finals,/playoffs/2012-nba-finals-heat-vs-thunder.html,MIA,OKC
+2011,NBA,Eastern Conf First Round,/playoffs/2011-nba-eastern-conference-first-round-pacers-vs-bulls.html,CHI,IND
+2011,NBA,Eastern Conf First Round,/playoffs/2011-nba-eastern-conference-first-round-76ers-vs-heat.html,MIA,PHI
+2011,NBA,Eastern Conf First Round,/playoffs/2011-nba-eastern-conference-first-round-knicks-vs-celtics.html,BOS,NYK
+2011,NBA,Eastern Conf First Round,/playoffs/2011-nba-eastern-conference-first-round-hawks-vs-magic.html,ATL,ORL
+2011,NBA,Western Conf First Round,/playoffs/2011-nba-western-conference-first-round-grizzlies-vs-spurs.html,MEM,SAS
+2011,NBA,Western Conf First Round,/playoffs/2011-nba-western-conference-first-round-hornets-vs-lakers.html,LAL,NOH
+2011,NBA,Western Conf First Round,/playoffs/2011-nba-western-conference-first-round-trail-blazers-vs-mavericks.html,DAL,POR
+2011,NBA,Western Conf First Round,/playoffs/2011-nba-western-conference-first-round-nuggets-vs-thunder.html,OKC,DEN
+2011,NBA,Eastern Conf Semifinals,/playoffs/2011-nba-eastern-conference-semifinals-hawks-vs-bulls.html,CHI,ATL
+2011,NBA,Eastern Conf Semifinals,/playoffs/2011-nba-eastern-conference-semifinals-celtics-vs-heat.html,MIA,BOS
+2011,NBA,Western Conf Semifinals,/playoffs/2011-nba-western-conference-semifinals-mavericks-vs-lakers.html,DAL,LAL
+2011,NBA,Western Conf Semifinals,/playoffs/2011-nba-western-conference-semifinals-grizzlies-vs-thunder.html,OKC,MEM
+2011,NBA,Eastern Conf Finals,/playoffs/2011-nba-eastern-conference-finals-heat-vs-bulls.html,MIA,CHI
+2011,NBA,Western Conf Finals,/playoffs/2011-nba-western-conference-finals-thunder-vs-mavericks.html,DAL,OKC
+2011,NBA,Finals,/playoffs/2011-nba-finals-mavericks-vs-heat.html,DAL,MIA
+2010,NBA,Eastern Conf First Round,/playoffs/2010-nba-eastern-conference-first-round-bulls-vs-cavaliers.html,CLE,CHI
+2010,NBA,Eastern Conf First Round,/playoffs/2010-nba-eastern-conference-first-round-bobcats-vs-magic.html,ORL,CHA
+2010,NBA,Eastern Conf First Round,/playoffs/2010-nba-eastern-conference-first-round-bucks-vs-hawks.html,ATL,MIL
+2010,NBA,Eastern Conf First Round,/playoffs/2010-nba-eastern-conference-first-round-heat-vs-celtics.html,BOS,MIA
+2010,NBA,Western Conf First Round,/playoffs/2010-nba-western-conference-first-round-thunder-vs-lakers.html,LAL,OKC
+2010,NBA,Western Conf First Round,/playoffs/2010-nba-western-conference-first-round-spurs-vs-mavericks.html,SAS,DAL
+2010,NBA,Western Conf First Round,/playoffs/2010-nba-western-conference-first-round-trail-blazers-vs-suns.html,PHO,POR
+2010,NBA,Western Conf First Round,/playoffs/2010-nba-western-conference-first-round-jazz-vs-nuggets.html,UTA,DEN
+2010,NBA,Eastern Conf Semifinals,/playoffs/2010-nba-eastern-conference-semifinals-celtics-vs-cavaliers.html,BOS,CLE
+2010,NBA,Eastern Conf Semifinals,/playoffs/2010-nba-eastern-conference-semifinals-hawks-vs-magic.html,ORL,ATL
+2010,NBA,Western Conf Semifinals,/playoffs/2010-nba-western-conference-semifinals-jazz-vs-lakers.html,LAL,UTA
+2010,NBA,Western Conf Semifinals,/playoffs/2010-nba-western-conference-semifinals-spurs-vs-suns.html,PHO,SAS
+2010,NBA,Western Conf Finals,/playoffs/2010-nba-western-conference-finals-suns-vs-lakers.html,LAL,PHO
+2010,NBA,Eastern Conf Finals,/playoffs/2010-nba-eastern-conference-finals-celtics-vs-magic.html,BOS,ORL
+2010,NBA,Finals,/playoffs/2010-nba-finals-celtics-vs-lakers.html,LAL,BOS
+2009,NBA,Eastern Conf First Round,/playoffs/2009-nba-eastern-conference-first-round-pistons-vs-cavaliers.html,CLE,DET
+2009,NBA,Eastern Conf First Round,/playoffs/2009-nba-eastern-conference-first-round-bulls-vs-celtics.html,BOS,CHI
+2009,NBA,Eastern Conf First Round,/playoffs/2009-nba-eastern-conference-first-round-76ers-vs-magic.html,ORL,PHI
+2009,NBA,Eastern Conf First Round,/playoffs/2009-nba-eastern-conference-first-round-heat-vs-hawks.html,ATL,MIA
+2009,NBA,Western Conf First Round,/playoffs/2009-nba-western-conference-first-round-jazz-vs-lakers.html,LAL,UTA
+2009,NBA,Western Conf First Round,/playoffs/2009-nba-western-conference-first-round-hornets-vs-nuggets.html,DEN,NOH
+2009,NBA,Western Conf First Round,/playoffs/2009-nba-western-conference-first-round-mavericks-vs-spurs.html,DAL,SAS
+2009,NBA,Western Conf First Round,/playoffs/2009-nba-western-conference-first-round-rockets-vs-trail-blazers.html,HOU,POR
+2009,NBA,Western Conf Semifinals,/playoffs/2009-nba-western-conference-semifinals-rockets-vs-lakers.html,LAL,HOU
+2009,NBA,Western Conf Semifinals,/playoffs/2009-nba-western-conference-semifinals-mavericks-vs-nuggets.html,DEN,DAL
+2009,NBA,Eastern Conf Semifinals,/playoffs/2009-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html,CLE,ATL
+2009,NBA,Eastern Conf Semifinals,/playoffs/2009-nba-eastern-conference-semifinals-magic-vs-celtics.html,ORL,BOS
+2009,NBA,Eastern Conf Finals,/playoffs/2009-nba-eastern-conference-finals-magic-vs-cavaliers.html,ORL,CLE
+2009,NBA,Western Conf Finals,/playoffs/2009-nba-western-conference-finals-nuggets-vs-lakers.html,LAL,DEN
+2009,NBA,Finals,/playoffs/2009-nba-finals-magic-vs-lakers.html,LAL,ORL
+2008,NBA,Eastern Conf First Round,/playoffs/2008-nba-eastern-conference-first-round-hawks-vs-celtics.html,BOS,ATL
+2008,NBA,Eastern Conf First Round,/playoffs/2008-nba-eastern-conference-first-round-76ers-vs-pistons.html,DET,PHI
+2008,NBA,Eastern Conf First Round,/playoffs/2008-nba-eastern-conference-first-round-raptors-vs-magic.html,ORL,TOR
+2008,NBA,Eastern Conf First Round,/playoffs/2008-nba-eastern-conference-first-round-wizards-vs-cavaliers.html,CLE,WAS
+2008,NBA,Western Conf First Round,/playoffs/2008-nba-western-conference-first-round-nuggets-vs-lakers.html,LAL,DEN
+2008,NBA,Western Conf First Round,/playoffs/2008-nba-western-conference-first-round-mavericks-vs-hornets.html,NOH,DAL
+2008,NBA,Western Conf First Round,/playoffs/2008-nba-western-conference-first-round-suns-vs-spurs.html,SAS,PHO
+2008,NBA,Western Conf First Round,/playoffs/2008-nba-western-conference-first-round-jazz-vs-rockets.html,UTA,HOU
+2008,NBA,Eastern Conf Semifinals,/playoffs/2008-nba-eastern-conference-semifinals-cavaliers-vs-celtics.html,BOS,CLE
+2008,NBA,Eastern Conf Semifinals,/playoffs/2008-nba-eastern-conference-semifinals-magic-vs-pistons.html,DET,ORL
+2008,NBA,Western Conf Semifinals,/playoffs/2008-nba-western-conference-semifinals-jazz-vs-lakers.html,LAL,UTA
+2008,NBA,Western Conf Semifinals,/playoffs/2008-nba-western-conference-semifinals-spurs-vs-hornets.html,SAS,NOH
+2008,NBA,Eastern Conf Finals,/playoffs/2008-nba-eastern-conference-finals-pistons-vs-celtics.html,BOS,DET
+2008,NBA,Western Conf Finals,/playoffs/2008-nba-western-conference-finals-spurs-vs-lakers.html,LAL,SAS
+2008,NBA,Finals,/playoffs/2008-nba-finals-lakers-vs-celtics.html,BOS,LAL
+2007,NBA,Eastern Conf First Round,/playoffs/2007-nba-eastern-conference-first-round-heat-vs-bulls.html,CHI,MIA
+2007,NBA,Eastern Conf First Round,/playoffs/2007-nba-eastern-conference-first-round-wizards-vs-cavaliers.html,CLE,WAS
+2007,NBA,Eastern Conf First Round,/playoffs/2007-nba-eastern-conference-first-round-magic-vs-pistons.html,DET,ORL
+2007,NBA,Eastern Conf First Round,/playoffs/2007-nba-eastern-conference-first-round-nets-vs-raptors.html,NJN,TOR
+2007,NBA,Western Conf First Round,/playoffs/2007-nba-western-conference-first-round-warriors-vs-mavericks.html,GSW,DAL
+2007,NBA,Western Conf First Round,/playoffs/2007-nba-western-conference-first-round-lakers-vs-suns.html,PHO,LAL
+2007,NBA,Western Conf First Round,/playoffs/2007-nba-western-conference-first-round-nuggets-vs-spurs.html,SAS,DEN
+2007,NBA,Western Conf First Round,/playoffs/2007-nba-western-conference-first-round-jazz-vs-rockets.html,UTA,HOU
+2007,NBA,Eastern Conf Semifinals,/playoffs/2007-nba-eastern-conference-semifinals-nets-vs-cavaliers.html,CLE,NJN
+2007,NBA,Eastern Conf Semifinals,/playoffs/2007-nba-eastern-conference-semifinals-bulls-vs-pistons.html,DET,CHI
+2007,NBA,Western Conf Semifinals,/playoffs/2007-nba-western-conference-semifinals-spurs-vs-suns.html,SAS,PHO
+2007,NBA,Western Conf Semifinals,/playoffs/2007-nba-western-conference-semifinals-warriors-vs-jazz.html,UTA,GSW
+2007,NBA,Eastern Conf Finals,/playoffs/2007-nba-eastern-conference-finals-cavaliers-vs-pistons.html,CLE,DET
+2007,NBA,Western Conf Finals,/playoffs/2007-nba-western-conference-finals-jazz-vs-spurs.html,SAS,UTA
+2007,NBA,Finals,/playoffs/2007-nba-finals-cavaliers-vs-spurs.html,SAS,CLE
+2006,NBA,Eastern Conf First Round,/playoffs/2006-nba-eastern-conference-first-round-wizards-vs-cavaliers.html,CLE,WAS
+2006,NBA,Eastern Conf First Round,/playoffs/2006-nba-eastern-conference-first-round-bucks-vs-pistons.html,DET,MIL
+2006,NBA,Eastern Conf First Round,/playoffs/2006-nba-eastern-conference-first-round-bulls-vs-heat.html,MIA,CHI
+2006,NBA,Eastern Conf First Round,/playoffs/2006-nba-eastern-conference-first-round-pacers-vs-nets.html,NJN,IND
+2006,NBA,Western Conf First Round,/playoffs/2006-nba-western-conference-first-round-grizzlies-vs-mavericks.html,DAL,MEM
+2006,NBA,Western Conf First Round,/playoffs/2006-nba-western-conference-first-round-nuggets-vs-clippers.html,LAC,DEN
+2006,NBA,Western Conf First Round,/playoffs/2006-nba-western-conference-first-round-lakers-vs-suns.html,PHO,LAL
+2006,NBA,Western Conf First Round,/playoffs/2006-nba-western-conference-first-round-kings-vs-spurs.html,SAS,SAC
+2006,NBA,Eastern Conf Semifinals,/playoffs/2006-nba-eastern-conference-semifinals-cavaliers-vs-pistons.html,DET,CLE
+2006,NBA,Eastern Conf Semifinals,/playoffs/2006-nba-eastern-conference-semifinals-nets-vs-heat.html,MIA,NJN
+2006,NBA,Western Conf Semifinals,/playoffs/2006-nba-western-conference-semifinals-mavericks-vs-spurs.html,DAL,SAS
+2006,NBA,Western Conf Semifinals,/playoffs/2006-nba-western-conference-semifinals-clippers-vs-suns.html,PHO,LAC
+2006,NBA,Eastern Conf Finals,/playoffs/2006-nba-eastern-conference-finals-heat-vs-pistons.html,MIA,DET
+2006,NBA,Western Conf Finals,/playoffs/2006-nba-western-conference-finals-suns-vs-mavericks.html,DAL,PHO
+2006,NBA,Finals,/playoffs/2006-nba-finals-heat-vs-mavericks.html,MIA,DAL
+2005,NBA,Eastern Conf First Round,/playoffs/2005-nba-eastern-conference-first-round-76ers-vs-pistons.html,DET,PHI
+2005,NBA,Eastern Conf First Round,/playoffs/2005-nba-eastern-conference-first-round-pacers-vs-celtics.html,IND,BOS
+2005,NBA,Eastern Conf First Round,/playoffs/2005-nba-eastern-conference-first-round-nets-vs-heat.html,MIA,NJN
+2005,NBA,Eastern Conf First Round,/playoffs/2005-nba-eastern-conference-first-round-wizards-vs-bulls.html,WAS,CHI
+2005,NBA,Western Conf First Round,/playoffs/2005-nba-western-conference-first-round-rockets-vs-mavericks.html,DAL,HOU
+2005,NBA,Western Conf First Round,/playoffs/2005-nba-western-conference-first-round-grizzlies-vs-suns.html,PHO,MEM
+2005,NBA,Western Conf First Round,/playoffs/2005-nba-western-conference-first-round-nuggets-vs-spurs.html,SAS,DEN
+2005,NBA,Western Conf First Round,/playoffs/2005-nba-western-conference-first-round-kings-vs-supersonics.html,SEA,SAC
+2005,NBA,Eastern Conf Semifinals,/playoffs/2005-nba-eastern-conference-semifinals-pacers-vs-pistons.html,DET,IND
+2005,NBA,Eastern Conf Semifinals,/playoffs/2005-nba-eastern-conference-semifinals-wizards-vs-heat.html,MIA,WAS
+2005,NBA,Western Conf Semifinals,/playoffs/2005-nba-western-conference-semifinals-mavericks-vs-suns.html,PHO,DAL
+2005,NBA,Western Conf Semifinals,/playoffs/2005-nba-western-conference-semifinals-supersonics-vs-spurs.html,SAS,SEA
+2005,NBA,Eastern Conf Finals,/playoffs/2005-nba-eastern-conference-finals-pistons-vs-heat.html,DET,MIA
+2005,NBA,Western Conf Finals,/playoffs/2005-nba-western-conference-finals-spurs-vs-suns.html,SAS,PHO
+2005,NBA,Finals,/playoffs/2005-nba-finals-pistons-vs-spurs.html,SAS,DET
+2004,NBA,Eastern Conf First Round,/playoffs/2004-nba-eastern-conference-first-round-bucks-vs-pistons.html,DET,MIL
+2004,NBA,Eastern Conf First Round,/playoffs/2004-nba-eastern-conference-first-round-celtics-vs-pacers.html,IND,BOS
+2004,NBA,Eastern Conf First Round,/playoffs/2004-nba-eastern-conference-first-round-hornets-vs-heat.html,MIA,NOH
+2004,NBA,Eastern Conf First Round,/playoffs/2004-nba-eastern-conference-first-round-knicks-vs-nets.html,NJN,NYK
+2004,NBA,Western Conf First Round,/playoffs/2004-nba-western-conference-first-round-rockets-vs-lakers.html,LAL,HOU
+2004,NBA,Western Conf First Round,/playoffs/2004-nba-western-conference-first-round-nuggets-vs-timberwolves.html,MIN,DEN
+2004,NBA,Western Conf First Round,/playoffs/2004-nba-western-conference-first-round-mavericks-vs-kings.html,SAC,DAL
+2004,NBA,Western Conf First Round,/playoffs/2004-nba-western-conference-first-round-grizzlies-vs-spurs.html,SAS,MEM
+2004,NBA,Eastern Conf Semifinals,/playoffs/2004-nba-eastern-conference-semifinals-nets-vs-pistons.html,DET,NJN
+2004,NBA,Eastern Conf Semifinals,/playoffs/2004-nba-eastern-conference-semifinals-heat-vs-pacers.html,IND,MIA
+2004,NBA,Western Conf Semifinals,/playoffs/2004-nba-western-conference-semifinals-lakers-vs-spurs.html,LAL,SAS
+2004,NBA,Western Conf Semifinals,/playoffs/2004-nba-western-conference-semifinals-kings-vs-timberwolves.html,MIN,SAC
+2004,NBA,Eastern Conf Finals,/playoffs/2004-nba-eastern-conference-finals-pistons-vs-pacers.html,DET,IND
+2004,NBA,Western Conf Finals,/playoffs/2004-nba-western-conference-finals-lakers-vs-timberwolves.html,LAL,MIN
+2004,NBA,Finals,/playoffs/2004-nba-finals-pistons-vs-lakers.html,DET,LAL
+2003,NBA,Eastern Conf First Round,/playoffs/2003-nba-eastern-conference-first-round-celtics-vs-pacers.html,BOS,IND
+2003,NBA,Eastern Conf First Round,/playoffs/2003-nba-eastern-conference-first-round-magic-vs-pistons.html,DET,ORL
+2003,NBA,Eastern Conf First Round,/playoffs/2003-nba-eastern-conference-first-round-bucks-vs-nets.html,NJN,MIL
+2003,NBA,Eastern Conf First Round,/playoffs/2003-nba-eastern-conference-first-round-hornets-vs-76ers.html,PHI,NOH
+2003,NBA,Western Conf First Round,/playoffs/2003-nba-western-conference-first-round-trail-blazers-vs-mavericks.html,DAL,POR
+2003,NBA,Western Conf First Round,/playoffs/2003-nba-western-conference-first-round-lakers-vs-timberwolves.html,LAL,MIN
+2003,NBA,Western Conf First Round,/playoffs/2003-nba-western-conference-first-round-jazz-vs-kings.html,SAC,UTA
+2003,NBA,Western Conf First Round,/playoffs/2003-nba-western-conference-first-round-suns-vs-spurs.html,SAS,PHO
+2003,NBA,Eastern Conf Semifinals,/playoffs/2003-nba-eastern-conference-semifinals-76ers-vs-pistons.html,DET,PHI
+2003,NBA,Eastern Conf Semifinals,/playoffs/2003-nba-eastern-conference-semifinals-celtics-vs-nets.html,NJN,BOS
+2003,NBA,Western Conf Semifinals,/playoffs/2003-nba-western-conference-semifinals-kings-vs-mavericks.html,DAL,SAC
+2003,NBA,Western Conf Semifinals,/playoffs/2003-nba-western-conference-semifinals-lakers-vs-spurs.html,SAS,LAL
+2003,NBA,Eastern Conf Finals,/playoffs/2003-nba-eastern-conference-finals-nets-vs-pistons.html,NJN,DET
+2003,NBA,Western Conf Finals,/playoffs/2003-nba-western-conference-finals-mavericks-vs-spurs.html,SAS,DAL
+2003,NBA,Finals,/playoffs/2003-nba-finals-nets-vs-spurs.html,SAS,NJN
+2002,NBA,Eastern Conf First Round,/playoffs/2002-nba-eastern-conference-first-round-76ers-vs-celtics.html,BOS,PHI
+2002,NBA,Eastern Conf First Round,/playoffs/2002-nba-eastern-conference-first-round-magic-vs-hornets.html,CHH,ORL
+2002,NBA,Eastern Conf First Round,/playoffs/2002-nba-eastern-conference-first-round-raptors-vs-pistons.html,DET,TOR
+2002,NBA,Eastern Conf First Round,/playoffs/2002-nba-eastern-conference-first-round-pacers-vs-nets.html,NJN,IND
+2002,NBA,Western Conf First Round,/playoffs/2002-nba-western-conference-first-round-timberwolves-vs-mavericks.html,DAL,MIN
+2002,NBA,Western Conf First Round,/playoffs/2002-nba-western-conference-first-round-trail-blazers-vs-lakers.html,LAL,POR
+2002,NBA,Western Conf First Round,/playoffs/2002-nba-western-conference-first-round-jazz-vs-kings.html,SAC,UTA
+2002,NBA,Western Conf First Round,/playoffs/2002-nba-western-conference-first-round-supersonics-vs-spurs.html,SAS,SEA
+2002,NBA,Eastern Conf Semifinals,/playoffs/2002-nba-eastern-conference-semifinals-celtics-vs-pistons.html,BOS,DET
+2002,NBA,Eastern Conf Semifinals,/playoffs/2002-nba-eastern-conference-semifinals-hornets-vs-nets.html,NJN,CHH
+2002,NBA,Western Conf Semifinals,/playoffs/2002-nba-western-conference-semifinals-spurs-vs-lakers.html,LAL,SAS
+2002,NBA,Western Conf Semifinals,/playoffs/2002-nba-western-conference-semifinals-mavericks-vs-kings.html,SAC,DAL
+2002,NBA,Eastern Conf Finals,/playoffs/2002-nba-eastern-conference-finals-celtics-vs-nets.html,NJN,BOS
+2002,NBA,Western Conf Finals,/playoffs/2002-nba-western-conference-finals-lakers-vs-kings.html,LAL,SAC
+2002,NBA,Finals,/playoffs/2002-nba-finals-nets-vs-lakers.html,LAL,NJN
+2001,NBA,Eastern Conf First Round,/playoffs/2001-nba-eastern-conference-first-round-hornets-vs-heat.html,CHH,MIA
+2001,NBA,Eastern Conf First Round,/playoffs/2001-nba-eastern-conference-first-round-magic-vs-bucks.html,MIL,ORL
+2001,NBA,Eastern Conf First Round,/playoffs/2001-nba-eastern-conference-first-round-pacers-vs-76ers.html,PHI,IND
+2001,NBA,Eastern Conf First Round,/playoffs/2001-nba-eastern-conference-first-round-raptors-vs-knicks.html,TOR,NYK
+2001,NBA,Western Conf First Round,/playoffs/2001-nba-western-conference-first-round-mavericks-vs-jazz.html,DAL,UTA
+2001,NBA,Western Conf First Round,/playoffs/2001-nba-western-conference-first-round-trail-blazers-vs-lakers.html,LAL,POR
+2001,NBA,Western Conf First Round,/playoffs/2001-nba-western-conference-first-round-suns-vs-kings.html,SAC,PHO
+2001,NBA,Western Conf First Round,/playoffs/2001-nba-western-conference-first-round-timberwolves-vs-spurs.html,SAS,MIN
+2001,NBA,Eastern Conf Semifinals,/playoffs/2001-nba-eastern-conference-semifinals-hornets-vs-bucks.html,MIL,CHH
+2001,NBA,Eastern Conf Semifinals,/playoffs/2001-nba-eastern-conference-semifinals-raptors-vs-76ers.html,PHI,TOR
+2001,NBA,Western Conf Semifinals,/playoffs/2001-nba-western-conference-semifinals-kings-vs-lakers.html,LAL,SAC
+2001,NBA,Western Conf Semifinals,/playoffs/2001-nba-western-conference-semifinals-mavericks-vs-spurs.html,SAS,DAL
+2001,NBA,Eastern Conf Finals,/playoffs/2001-nba-eastern-conference-finals-bucks-vs-76ers.html,PHI,MIL
+2001,NBA,Western Conf Finals,/playoffs/2001-nba-western-conference-finals-lakers-vs-spurs.html,LAL,SAS
+2001,NBA,Finals,/playoffs/2001-nba-finals-76ers-vs-lakers.html,LAL,PHI
+2000,NBA,Eastern Conf First Round,/playoffs/2000-nba-eastern-conference-first-round-bucks-vs-pacers.html,IND,MIL
+2000,NBA,Eastern Conf First Round,/playoffs/2000-nba-eastern-conference-first-round-pistons-vs-heat.html,MIA,DET
+2000,NBA,Eastern Conf First Round,/playoffs/2000-nba-eastern-conference-first-round-raptors-vs-knicks.html,NYK,TOR
+2000,NBA,Eastern Conf First Round,/playoffs/2000-nba-eastern-conference-first-round-76ers-vs-hornets.html,PHI,CHH
+2000,NBA,Western Conf First Round,/playoffs/2000-nba-western-conference-first-round-kings-vs-lakers.html,LAL,SAC
+2000,NBA,Western Conf First Round,/playoffs/2000-nba-western-conference-first-round-suns-vs-spurs.html,PHO,SAS
+2000,NBA,Western Conf First Round,/playoffs/2000-nba-western-conference-first-round-timberwolves-vs-trail-blazers.html,POR,MIN
+2000,NBA,Western Conf First Round,/playoffs/2000-nba-western-conference-first-round-supersonics-vs-jazz.html,UTA,SEA
+2000,NBA,Eastern Conf Semifinals,/playoffs/2000-nba-eastern-conference-semifinals-76ers-vs-pacers.html,IND,PHI
+2000,NBA,Eastern Conf Semifinals,/playoffs/2000-nba-eastern-conference-semifinals-knicks-vs-heat.html,NYK,MIA
+2000,NBA,Western Conf Semifinals,/playoffs/2000-nba-western-conference-semifinals-suns-vs-lakers.html,LAL,PHO
+2000,NBA,Western Conf Semifinals,/playoffs/2000-nba-western-conference-semifinals-jazz-vs-trail-blazers.html,POR,UTA
+2000,NBA,Eastern Conf Finals,/playoffs/2000-nba-eastern-conference-finals-knicks-vs-pacers.html,IND,NYK
+2000,NBA,Western Conf Finals,/playoffs/2000-nba-western-conference-finals-trail-blazers-vs-lakers.html,LAL,POR
+2000,NBA,Finals,/playoffs/2000-nba-finals-pacers-vs-lakers.html,LAL,IND
+1999,NBA,Eastern Conf First Round,/playoffs/1999-nba-eastern-conference-first-round-pistons-vs-hawks.html,ATL,DET
+1999,NBA,Eastern Conf First Round,/playoffs/1999-nba-eastern-conference-first-round-bucks-vs-pacers.html,IND,MIL
+1999,NBA,Eastern Conf First Round,/playoffs/1999-nba-eastern-conference-first-round-knicks-vs-heat.html,NYK,MIA
+1999,NBA,Eastern Conf First Round,/playoffs/1999-nba-eastern-conference-first-round-76ers-vs-magic.html,PHI,ORL
+1999,NBA,Western Conf First Round,/playoffs/1999-nba-western-conference-first-round-rockets-vs-lakers.html,LAL,HOU
+1999,NBA,Western Conf First Round,/playoffs/1999-nba-western-conference-first-round-suns-vs-trail-blazers.html,POR,PHO
+1999,NBA,Western Conf First Round,/playoffs/1999-nba-western-conference-first-round-timberwolves-vs-spurs.html,SAS,MIN
+1999,NBA,Western Conf First Round,/playoffs/1999-nba-western-conference-first-round-kings-vs-jazz.html,UTA,SAC
+1999,NBA,Eastern Conf Semifinals,/playoffs/1999-nba-eastern-conference-semifinals-76ers-vs-pacers.html,IND,PHI
+1999,NBA,Eastern Conf Semifinals,/playoffs/1999-nba-eastern-conference-semifinals-knicks-vs-hawks.html,NYK,ATL
+1999,NBA,Western Conf Semifinals,/playoffs/1999-nba-western-conference-semifinals-trail-blazers-vs-jazz.html,POR,UTA
+1999,NBA,Western Conf Semifinals,/playoffs/1999-nba-western-conference-semifinals-lakers-vs-spurs.html,SAS,LAL
+1999,NBA,Eastern Conf Finals,/playoffs/1999-nba-eastern-conference-finals-knicks-vs-pacers.html,NYK,IND
+1999,NBA,Western Conf Finals,/playoffs/1999-nba-western-conference-finals-trail-blazers-vs-spurs.html,SAS,POR
+1999,NBA,Finals,/playoffs/1999-nba-finals-knicks-vs-spurs.html,SAS,NYK
+1998,NBA,Eastern Conf First Round,/playoffs/1998-nba-eastern-conference-first-round-hawks-vs-hornets.html,CHH,ATL
+1998,NBA,Eastern Conf First Round,/playoffs/1998-nba-eastern-conference-first-round-nets-vs-bulls.html,CHI,NJN
+1998,NBA,Eastern Conf First Round,/playoffs/1998-nba-eastern-conference-first-round-cavaliers-vs-pacers.html,IND,CLE
+1998,NBA,Eastern Conf First Round,/playoffs/1998-nba-eastern-conference-first-round-knicks-vs-heat.html,NYK,MIA
+1998,NBA,Western Conf First Round,/playoffs/1998-nba-western-conference-first-round-trail-blazers-vs-lakers.html,LAL,POR
+1998,NBA,Western Conf First Round,/playoffs/1998-nba-western-conference-first-round-spurs-vs-suns.html,SAS,PHO
+1998,NBA,Western Conf First Round,/playoffs/1998-nba-western-conference-first-round-timberwolves-vs-supersonics.html,SEA,MIN
+1998,NBA,Western Conf First Round,/playoffs/1998-nba-western-conference-first-round-rockets-vs-jazz.html,UTA,HOU
+1998,NBA,Eastern Conf Semifinals,/playoffs/1998-nba-eastern-conference-semifinals-hornets-vs-bulls.html,CHI,CHH
+1998,NBA,Eastern Conf Semifinals,/playoffs/1998-nba-eastern-conference-semifinals-knicks-vs-pacers.html,IND,NYK
+1998,NBA,Western Conf Semifinals,/playoffs/1998-nba-western-conference-semifinals-lakers-vs-supersonics.html,LAL,SEA
+1998,NBA,Western Conf Semifinals,/playoffs/1998-nba-western-conference-semifinals-spurs-vs-jazz.html,UTA,SAS
+1998,NBA,Eastern Conf Finals,/playoffs/1998-nba-eastern-conference-finals-pacers-vs-bulls.html,CHI,IND
+1998,NBA,Western Conf Finals,/playoffs/1998-nba-western-conference-finals-lakers-vs-jazz.html,UTA,LAL
+1998,NBA,Finals,/playoffs/1998-nba-finals-bulls-vs-jazz.html,CHI,UTA
+1997,NBA,Eastern Conf First Round,/playoffs/1997-nba-eastern-conference-first-round-pistons-vs-hawks.html,ATL,DET
+1997,NBA,Eastern Conf First Round,/playoffs/1997-nba-eastern-conference-first-round-bullets-vs-bulls.html,CHI,WSB
+1997,NBA,Eastern Conf First Round,/playoffs/1997-nba-eastern-conference-first-round-magic-vs-heat.html,MIA,ORL
+1997,NBA,Eastern Conf First Round,/playoffs/1997-nba-eastern-conference-first-round-hornets-vs-knicks.html,NYK,CHH
+1997,NBA,Western Conf First Round,/playoffs/1997-nba-western-conference-first-round-timberwolves-vs-rockets.html,HOU,MIN
+1997,NBA,Western Conf First Round,/playoffs/1997-nba-western-conference-first-round-trail-blazers-vs-lakers.html,LAL,POR
+1997,NBA,Western Conf First Round,/playoffs/1997-nba-western-conference-first-round-suns-vs-supersonics.html,SEA,PHO
+1997,NBA,Western Conf First Round,/playoffs/1997-nba-western-conference-first-round-clippers-vs-jazz.html,UTA,LAC
+1997,NBA,Eastern Conf Semifinals,/playoffs/1997-nba-eastern-conference-semifinals-hawks-vs-bulls.html,CHI,ATL
+1997,NBA,Eastern Conf Semifinals,/playoffs/1997-nba-eastern-conference-semifinals-knicks-vs-heat.html,MIA,NYK
+1997,NBA,Western Conf Semifinals,/playoffs/1997-nba-western-conference-semifinals-supersonics-vs-rockets.html,HOU,SEA
+1997,NBA,Western Conf Semifinals,/playoffs/1997-nba-western-conference-semifinals-lakers-vs-jazz.html,UTA,LAL
+1997,NBA,Eastern Conf Finals,/playoffs/1997-nba-eastern-conference-finals-heat-vs-bulls.html,CHI,MIA
+1997,NBA,Western Conf Finals,/playoffs/1997-nba-western-conference-finals-rockets-vs-jazz.html,UTA,HOU
+1997,NBA,Finals,/playoffs/1997-nba-finals-jazz-vs-bulls.html,CHI,UTA
+1996,NBA,Eastern Conf First Round,/playoffs/1996-nba-eastern-conference-first-round-hawks-vs-pacers.html,ATL,IND
+1996,NBA,Eastern Conf First Round,/playoffs/1996-nba-eastern-conference-first-round-heat-vs-bulls.html,CHI,MIA
+1996,NBA,Eastern Conf First Round,/playoffs/1996-nba-eastern-conference-first-round-knicks-vs-cavaliers.html,NYK,CLE
+1996,NBA,Eastern Conf First Round,/playoffs/1996-nba-eastern-conference-first-round-pistons-vs-magic.html,ORL,DET
+1996,NBA,Western Conf First Round,/playoffs/1996-nba-western-conference-first-round-rockets-vs-lakers.html,HOU,LAL
+1996,NBA,Western Conf First Round,/playoffs/1996-nba-western-conference-first-round-suns-vs-spurs.html,SAS,PHO
+1996,NBA,Western Conf First Round,/playoffs/1996-nba-western-conference-first-round-kings-vs-supersonics.html,SEA,SAC
+1996,NBA,Western Conf First Round,/playoffs/1996-nba-western-conference-first-round-trail-blazers-vs-jazz.html,UTA,POR
+1996,NBA,Eastern Conf Semifinals,/playoffs/1996-nba-eastern-conference-semifinals-knicks-vs-bulls.html,CHI,NYK
+1996,NBA,Eastern Conf Semifinals,/playoffs/1996-nba-eastern-conference-semifinals-hawks-vs-magic.html,ORL,ATL
+1996,NBA,Western Conf Semifinals,/playoffs/1996-nba-western-conference-semifinals-rockets-vs-supersonics.html,SEA,HOU
+1996,NBA,Western Conf Semifinals,/playoffs/1996-nba-western-conference-semifinals-jazz-vs-spurs.html,UTA,SAS
+1996,NBA,Eastern Conf Finals,/playoffs/1996-nba-eastern-conference-finals-magic-vs-bulls.html,CHI,ORL
+1996,NBA,Western Conf Finals,/playoffs/1996-nba-western-conference-finals-jazz-vs-supersonics.html,SEA,UTA
+1996,NBA,Finals,/playoffs/1996-nba-finals-supersonics-vs-bulls.html,CHI,SEA
+1995,NBA,Eastern Conf First Round,/playoffs/1995-nba-eastern-conference-first-round-bulls-vs-hornets.html,CHI,CHH
+1995,NBA,Eastern Conf First Round,/playoffs/1995-nba-eastern-conference-first-round-hawks-vs-pacers.html,IND,ATL
+1995,NBA,Eastern Conf First Round,/playoffs/1995-nba-eastern-conference-first-round-cavaliers-vs-knicks.html,NYK,CLE
+1995,NBA,Eastern Conf First Round,/playoffs/1995-nba-eastern-conference-first-round-celtics-vs-magic.html,ORL,BOS
+1995,NBA,Western Conf First Round,/playoffs/1995-nba-western-conference-first-round-rockets-vs-jazz.html,HOU,UTA
+1995,NBA,Western Conf First Round,/playoffs/1995-nba-western-conference-first-round-lakers-vs-supersonics.html,LAL,SEA
+1995,NBA,Western Conf First Round,/playoffs/1995-nba-western-conference-first-round-trail-blazers-vs-suns.html,PHO,POR
+1995,NBA,Western Conf First Round,/playoffs/1995-nba-western-conference-first-round-nuggets-vs-spurs.html,SAS,DEN
+1995,NBA,Eastern Conf Semifinals,/playoffs/1995-nba-eastern-conference-semifinals-pacers-vs-knicks.html,IND,NYK
+1995,NBA,Eastern Conf Semifinals,/playoffs/1995-nba-eastern-conference-semifinals-bulls-vs-magic.html,ORL,CHI
+1995,NBA,Western Conf Semifinals,/playoffs/1995-nba-western-conference-semifinals-rockets-vs-suns.html,HOU,PHO
+1995,NBA,Western Conf Semifinals,/playoffs/1995-nba-western-conference-semifinals-lakers-vs-spurs.html,SAS,LAL
+1995,NBA,Eastern Conf Finals,/playoffs/1995-nba-eastern-conference-finals-pacers-vs-magic.html,ORL,IND
+1995,NBA,Western Conf Finals,/playoffs/1995-nba-western-conference-finals-rockets-vs-spurs.html,HOU,SAS
+1995,NBA,Finals,/playoffs/1995-nba-finals-rockets-vs-magic.html,HOU,ORL
+1994,NBA,Eastern Conf First Round,/playoffs/1994-nba-eastern-conference-first-round-heat-vs-hawks.html,ATL,MIA
+1994,NBA,Eastern Conf First Round,/playoffs/1994-nba-eastern-conference-first-round-cavaliers-vs-bulls.html,CHI,CLE
+1994,NBA,Eastern Conf First Round,/playoffs/1994-nba-eastern-conference-first-round-pacers-vs-magic.html,IND,ORL
+1994,NBA,Eastern Conf First Round,/playoffs/1994-nba-eastern-conference-first-round-nets-vs-knicks.html,NYK,NJN
+1994,NBA,Western Conf First Round,/playoffs/1994-nba-western-conference-first-round-nuggets-vs-supersonics.html,DEN,SEA
+1994,NBA,Western Conf First Round,/playoffs/1994-nba-western-conference-first-round-trail-blazers-vs-rockets.html,HOU,POR
+1994,NBA,Western Conf First Round,/playoffs/1994-nba-western-conference-first-round-warriors-vs-suns.html,PHO,GSW
+1994,NBA,Western Conf First Round,/playoffs/1994-nba-western-conference-first-round-jazz-vs-spurs.html,UTA,SAS
+1994,NBA,Eastern Conf Semifinals,/playoffs/1994-nba-eastern-conference-semifinals-pacers-vs-hawks.html,IND,ATL
+1994,NBA,Eastern Conf Semifinals,/playoffs/1994-nba-eastern-conference-semifinals-bulls-vs-knicks.html,NYK,CHI
+1994,NBA,Western Conf Semifinals,/playoffs/1994-nba-western-conference-semifinals-suns-vs-rockets.html,HOU,PHO
+1994,NBA,Western Conf Semifinals,/playoffs/1994-nba-western-conference-semifinals-nuggets-vs-jazz.html,UTA,DEN
+1994,NBA,Eastern Conf Finals,/playoffs/1994-nba-eastern-conference-finals-pacers-vs-knicks.html,NYK,IND
+1994,NBA,Western Conf Finals,/playoffs/1994-nba-western-conference-finals-jazz-vs-rockets.html,HOU,UTA
+1994,NBA,Finals,/playoffs/1994-nba-finals-knicks-vs-rockets.html,HOU,NYK
+1993,NBA,Eastern Conf First Round,/playoffs/1993-nba-eastern-conference-first-round-hornets-vs-celtics.html,CHH,BOS
+1993,NBA,Eastern Conf First Round,/playoffs/1993-nba-eastern-conference-first-round-hawks-vs-bulls.html,CHI,ATL
+1993,NBA,Eastern Conf First Round,/playoffs/1993-nba-eastern-conference-first-round-nets-vs-cavaliers.html,CLE,NJN
+1993,NBA,Eastern Conf First Round,/playoffs/1993-nba-eastern-conference-first-round-pacers-vs-knicks.html,NYK,IND
+1993,NBA,Western Conf First Round,/playoffs/1993-nba-western-conference-first-round-clippers-vs-rockets.html,HOU,LAC
+1993,NBA,Western Conf First Round,/playoffs/1993-nba-western-conference-first-round-lakers-vs-suns.html,PHO,LAL
+1993,NBA,Western Conf First Round,/playoffs/1993-nba-western-conference-first-round-spurs-vs-trail-blazers.html,SAS,POR
+1993,NBA,Western Conf First Round,/playoffs/1993-nba-western-conference-first-round-jazz-vs-supersonics.html,SEA,UTA
+1993,NBA,Eastern Conf Semifinals,/playoffs/1993-nba-eastern-conference-semifinals-cavaliers-vs-bulls.html,CHI,CLE
+1993,NBA,Eastern Conf Semifinals,/playoffs/1993-nba-eastern-conference-semifinals-hornets-vs-knicks.html,NYK,CHH
+1993,NBA,Western Conf Semifinals,/playoffs/1993-nba-western-conference-semifinals-spurs-vs-suns.html,PHO,SAS
+1993,NBA,Western Conf Semifinals,/playoffs/1993-nba-western-conference-semifinals-rockets-vs-supersonics.html,SEA,HOU
+1993,NBA,Eastern Conf Finals,/playoffs/1993-nba-eastern-conference-finals-bulls-vs-knicks.html,CHI,NYK
+1993,NBA,Western Conf Finals,/playoffs/1993-nba-western-conference-finals-supersonics-vs-suns.html,PHO,SEA
+1993,NBA,Finals,/playoffs/1993-nba-finals-bulls-vs-suns.html,CHI,PHO
+1992,NBA,Eastern Conf First Round,/playoffs/1992-nba-eastern-conference-first-round-pacers-vs-celtics.html,BOS,IND
+1992,NBA,Eastern Conf First Round,/playoffs/1992-nba-eastern-conference-first-round-heat-vs-bulls.html,CHI,MIA
+1992,NBA,Eastern Conf First Round,/playoffs/1992-nba-eastern-conference-first-round-nets-vs-cavaliers.html,CLE,NJN
+1992,NBA,Eastern Conf First Round,/playoffs/1992-nba-eastern-conference-first-round-pistons-vs-knicks.html,NYK,DET
+1992,NBA,Western Conf First Round,/playoffs/1992-nba-western-conference-first-round-spurs-vs-suns.html,PHO,SAS
+1992,NBA,Western Conf First Round,/playoffs/1992-nba-western-conference-first-round-lakers-vs-trail-blazers.html,POR,LAL
+1992,NBA,Western Conf First Round,/playoffs/1992-nba-western-conference-first-round-supersonics-vs-warriors.html,SEA,GSW
+1992,NBA,Western Conf First Round,/playoffs/1992-nba-western-conference-first-round-clippers-vs-jazz.html,UTA,LAC
+1992,NBA,Eastern Conf Semifinals,/playoffs/1992-nba-eastern-conference-semifinals-knicks-vs-bulls.html,CHI,NYK
+1992,NBA,Eastern Conf Semifinals,/playoffs/1992-nba-eastern-conference-semifinals-celtics-vs-cavaliers.html,CLE,BOS
+1992,NBA,Western Conf Semifinals,/playoffs/1992-nba-western-conference-semifinals-suns-vs-trail-blazers.html,POR,PHO
+1992,NBA,Western Conf Semifinals,/playoffs/1992-nba-western-conference-semifinals-supersonics-vs-jazz.html,UTA,SEA
+1992,NBA,Eastern Conf Finals,/playoffs/1992-nba-eastern-conference-finals-cavaliers-vs-bulls.html,CHI,CLE
+1992,NBA,Western Conf Finals,/playoffs/1992-nba-western-conference-finals-jazz-vs-trail-blazers.html,POR,UTA
+1992,NBA,Finals,/playoffs/1992-nba-finals-trail-blazers-vs-bulls.html,CHI,POR
+1991,NBA,Eastern Conf First Round,/playoffs/1991-nba-eastern-conference-first-round-pacers-vs-celtics.html,BOS,IND
+1991,NBA,Eastern Conf First Round,/playoffs/1991-nba-eastern-conference-first-round-knicks-vs-bulls.html,CHI,NYK
+1991,NBA,Eastern Conf First Round,/playoffs/1991-nba-eastern-conference-first-round-hawks-vs-pistons.html,DET,ATL
+1991,NBA,Eastern Conf First Round,/playoffs/1991-nba-eastern-conference-first-round-76ers-vs-bucks.html,PHI,MIL
+1991,NBA,Western Conf First Round,/playoffs/1991-nba-western-conference-first-round-warriors-vs-spurs.html,GSW,SAS
+1991,NBA,Western Conf First Round,/playoffs/1991-nba-western-conference-first-round-rockets-vs-lakers.html,LAL,HOU
+1991,NBA,Western Conf First Round,/playoffs/1991-nba-western-conference-first-round-supersonics-vs-trail-blazers.html,POR,SEA
+1991,NBA,Western Conf First Round,/playoffs/1991-nba-western-conference-first-round-jazz-vs-suns.html,UTA,PHO
+1991,NBA,Eastern Conf Semifinals,/playoffs/1991-nba-eastern-conference-semifinals-76ers-vs-bulls.html,CHI,PHI
+1991,NBA,Eastern Conf Semifinals,/playoffs/1991-nba-eastern-conference-semifinals-pistons-vs-celtics.html,DET,BOS
+1991,NBA,Western Conf Semifinals,/playoffs/1991-nba-western-conference-semifinals-warriors-vs-lakers.html,LAL,GSW
+1991,NBA,Western Conf Semifinals,/playoffs/1991-nba-western-conference-semifinals-jazz-vs-trail-blazers.html,POR,UTA
+1991,NBA,Eastern Conf Finals,/playoffs/1991-nba-eastern-conference-finals-pistons-vs-bulls.html,CHI,DET
+1991,NBA,Western Conf Finals,/playoffs/1991-nba-western-conference-finals-lakers-vs-trail-blazers.html,LAL,POR
+1991,NBA,Finals,/playoffs/1991-nba-finals-lakers-vs-bulls.html,CHI,LAL
+1990,NBA,Eastern Conf First Round,/playoffs/1990-nba-eastern-conference-first-round-bucks-vs-bulls.html,CHI,MIL
+1990,NBA,Eastern Conf First Round,/playoffs/1990-nba-eastern-conference-first-round-pacers-vs-pistons.html,DET,IND
+1990,NBA,Eastern Conf First Round,/playoffs/1990-nba-eastern-conference-first-round-knicks-vs-celtics.html,NYK,BOS
+1990,NBA,Eastern Conf First Round,/playoffs/1990-nba-eastern-conference-first-round-cavaliers-vs-76ers.html,PHI,CLE
+1990,NBA,Western Conf First Round,/playoffs/1990-nba-western-conference-first-round-rockets-vs-lakers.html,LAL,HOU
+1990,NBA,Western Conf First Round,/playoffs/1990-nba-western-conference-first-round-suns-vs-jazz.html,PHO,UTA
+1990,NBA,Western Conf First Round,/playoffs/1990-nba-western-conference-first-round-mavericks-vs-trail-blazers.html,POR,DAL
+1990,NBA,Western Conf First Round,/playoffs/1990-nba-western-conference-first-round-nuggets-vs-spurs.html,SAS,DEN
+1990,NBA,Eastern Conf Semifinals,/playoffs/1990-nba-eastern-conference-semifinals-76ers-vs-bulls.html,CHI,PHI
+1990,NBA,Eastern Conf Semifinals,/playoffs/1990-nba-eastern-conference-semifinals-knicks-vs-pistons.html,DET,NYK
+1990,NBA,Western Conf Semifinals,/playoffs/1990-nba-western-conference-semifinals-suns-vs-lakers.html,PHO,LAL
+1990,NBA,Western Conf Semifinals,/playoffs/1990-nba-western-conference-semifinals-spurs-vs-trail-blazers.html,POR,SAS
+1990,NBA,Eastern Conf Finals,/playoffs/1990-nba-eastern-conference-finals-bulls-vs-pistons.html,DET,CHI
+1990,NBA,Western Conf Finals,/playoffs/1990-nba-western-conference-finals-suns-vs-trail-blazers.html,POR,PHO
+1990,NBA,Finals,/playoffs/1990-nba-finals-trail-blazers-vs-pistons.html,DET,POR
+1989,NBA,Eastern Conf First Round,/playoffs/1989-nba-eastern-conference-first-round-bulls-vs-cavaliers.html,CHI,CLE
+1989,NBA,Eastern Conf First Round,/playoffs/1989-nba-eastern-conference-first-round-celtics-vs-pistons.html,DET,BOS
+1989,NBA,Eastern Conf First Round,/playoffs/1989-nba-eastern-conference-first-round-bucks-vs-hawks.html,MIL,ATL
+1989,NBA,Eastern Conf First Round,/playoffs/1989-nba-eastern-conference-first-round-76ers-vs-knicks.html,NYK,PHI
+1989,NBA,Western Conf First Round,/playoffs/1989-nba-western-conference-first-round-warriors-vs-jazz.html,GSW,UTA
+1989,NBA,Western Conf First Round,/playoffs/1989-nba-western-conference-first-round-trail-blazers-vs-lakers.html,LAL,POR
+1989,NBA,Western Conf First Round,/playoffs/1989-nba-western-conference-first-round-nuggets-vs-suns.html,PHO,DEN
+1989,NBA,Western Conf First Round,/playoffs/1989-nba-western-conference-first-round-rockets-vs-supersonics.html,SEA,HOU
+1989,NBA,Eastern Conf Semifinals,/playoffs/1989-nba-eastern-conference-semifinals-bulls-vs-knicks.html,CHI,NYK
+1989,NBA,Eastern Conf Semifinals,/playoffs/1989-nba-eastern-conference-semifinals-bucks-vs-pistons.html,DET,MIL
+1989,NBA,Western Conf Semifinals,/playoffs/1989-nba-western-conference-semifinals-supersonics-vs-lakers.html,LAL,SEA
+1989,NBA,Western Conf Semifinals,/playoffs/1989-nba-western-conference-semifinals-warriors-vs-suns.html,PHO,GSW
+1989,NBA,Eastern Conf Finals,/playoffs/1989-nba-eastern-conference-finals-bulls-vs-pistons.html,DET,CHI
+1989,NBA,Western Conf Finals,/playoffs/1989-nba-western-conference-finals-suns-vs-lakers.html,LAL,PHO
+1989,NBA,Finals,/playoffs/1989-nba-finals-lakers-vs-pistons.html,DET,LAL
+1988,NBA,Eastern Conf First Round,/playoffs/1988-nba-eastern-conference-first-round-bucks-vs-hawks.html,ATL,MIL
+1988,NBA,Eastern Conf First Round,/playoffs/1988-nba-eastern-conference-first-round-knicks-vs-celtics.html,BOS,NYK
+1988,NBA,Eastern Conf First Round,/playoffs/1988-nba-eastern-conference-first-round-cavaliers-vs-bulls.html,CHI,CLE
+1988,NBA,Eastern Conf First Round,/playoffs/1988-nba-eastern-conference-first-round-bullets-vs-pistons.html,DET,WSB
+1988,NBA,Western Conf First Round,/playoffs/1988-nba-western-conference-first-round-rockets-vs-mavericks.html,DAL,HOU
+1988,NBA,Western Conf First Round,/playoffs/1988-nba-western-conference-first-round-supersonics-vs-nuggets.html,DEN,SEA
+1988,NBA,Western Conf First Round,/playoffs/1988-nba-western-conference-first-round-spurs-vs-lakers.html,LAL,SAS
+1988,NBA,Western Conf First Round,/playoffs/1988-nba-western-conference-first-round-jazz-vs-trail-blazers.html,UTA,POR
+1988,NBA,Eastern Conf Semifinals,/playoffs/1988-nba-eastern-conference-semifinals-hawks-vs-celtics.html,BOS,ATL
+1988,NBA,Eastern Conf Semifinals,/playoffs/1988-nba-eastern-conference-semifinals-bulls-vs-pistons.html,DET,CHI
+1988,NBA,Western Conf Semifinals,/playoffs/1988-nba-western-conference-semifinals-mavericks-vs-nuggets.html,DAL,DEN
+1988,NBA,Western Conf Semifinals,/playoffs/1988-nba-western-conference-semifinals-jazz-vs-lakers.html,LAL,UTA
+1988,NBA,Eastern Conf Finals,/playoffs/1988-nba-eastern-conference-finals-pistons-vs-celtics.html,DET,BOS
+1988,NBA,Western Conf Finals,/playoffs/1988-nba-western-conference-finals-mavericks-vs-lakers.html,LAL,DAL
+1988,NBA,Finals,/playoffs/1988-nba-finals-pistons-vs-lakers.html,LAL,DET
+1987,NBA,Eastern Conf First Round,/playoffs/1987-nba-eastern-conference-first-round-pacers-vs-hawks.html,ATL,IND
+1987,NBA,Eastern Conf First Round,/playoffs/1987-nba-eastern-conference-first-round-bulls-vs-celtics.html,BOS,CHI
+1987,NBA,Eastern Conf First Round,/playoffs/1987-nba-eastern-conference-first-round-bullets-vs-pistons.html,DET,WSB
+1987,NBA,Eastern Conf First Round,/playoffs/1987-nba-eastern-conference-first-round-76ers-vs-bucks.html,MIL,PHI
+1987,NBA,Western Conf First Round,/playoffs/1987-nba-western-conference-first-round-warriors-vs-jazz.html,GSW,UTA
+1987,NBA,Western Conf First Round,/playoffs/1987-nba-western-conference-first-round-rockets-vs-trail-blazers.html,HOU,POR
+1987,NBA,Western Conf First Round,/playoffs/1987-nba-western-conference-first-round-nuggets-vs-lakers.html,LAL,DEN
+1987,NBA,Western Conf First Round,/playoffs/1987-nba-western-conference-first-round-supersonics-vs-mavericks.html,SEA,DAL
+1987,NBA,Eastern Conf Semifinals,/playoffs/1987-nba-eastern-conference-semifinals-bucks-vs-celtics.html,BOS,MIL
+1987,NBA,Eastern Conf Semifinals,/playoffs/1987-nba-eastern-conference-semifinals-pistons-vs-hawks.html,DET,ATL
+1987,NBA,Western Conf Semifinals,/playoffs/1987-nba-western-conference-semifinals-warriors-vs-lakers.html,LAL,GSW
+1987,NBA,Western Conf Semifinals,/playoffs/1987-nba-western-conference-semifinals-supersonics-vs-rockets.html,SEA,HOU
+1987,NBA,Eastern Conf Finals,/playoffs/1987-nba-eastern-conference-finals-pistons-vs-celtics.html,BOS,DET
+1987,NBA,Western Conf Finals,/playoffs/1987-nba-western-conference-finals-supersonics-vs-lakers.html,LAL,SEA
+1987,NBA,Finals,/playoffs/1987-nba-finals-celtics-vs-lakers.html,LAL,BOS
+1986,NBA,Eastern Conf First Round,/playoffs/1986-nba-eastern-conference-first-round-pistons-vs-hawks.html,ATL,DET
+1986,NBA,Eastern Conf First Round,/playoffs/1986-nba-eastern-conference-first-round-bulls-vs-celtics.html,BOS,CHI
+1986,NBA,Eastern Conf First Round,/playoffs/1986-nba-eastern-conference-first-round-nets-vs-bucks.html,MIL,NJN
+1986,NBA,Eastern Conf First Round,/playoffs/1986-nba-eastern-conference-first-round-bullets-vs-76ers.html,PHI,WSB
+1986,NBA,Western Conf First Round,/playoffs/1986-nba-western-conference-first-round-jazz-vs-mavericks.html,DAL,UTA
+1986,NBA,Western Conf First Round,/playoffs/1986-nba-western-conference-first-round-trail-blazers-vs-nuggets.html,DEN,POR
+1986,NBA,Western Conf First Round,/playoffs/1986-nba-western-conference-first-round-kings-vs-rockets.html,HOU,SAC
+1986,NBA,Western Conf First Round,/playoffs/1986-nba-western-conference-first-round-spurs-vs-lakers.html,LAL,SAS
+1986,NBA,Eastern Conf Semifinals,/playoffs/1986-nba-eastern-conference-semifinals-hawks-vs-celtics.html,BOS,ATL
+1986,NBA,Eastern Conf Semifinals,/playoffs/1986-nba-eastern-conference-semifinals-76ers-vs-bucks.html,MIL,PHI
+1986,NBA,Western Conf Semifinals,/playoffs/1986-nba-western-conference-semifinals-nuggets-vs-rockets.html,HOU,DEN
+1986,NBA,Western Conf Semifinals,/playoffs/1986-nba-western-conference-semifinals-mavericks-vs-lakers.html,LAL,DAL
+1986,NBA,Eastern Conf Finals,/playoffs/1986-nba-eastern-conference-finals-bucks-vs-celtics.html,BOS,MIL
+1986,NBA,Western Conf Finals,/playoffs/1986-nba-western-conference-finals-rockets-vs-lakers.html,HOU,LAL
+1986,NBA,Finals,/playoffs/1986-nba-finals-rockets-vs-celtics.html,BOS,HOU
+1985,NBA,Eastern Conf First Round,/playoffs/1985-nba-eastern-conference-first-round-cavaliers-vs-celtics.html,BOS,CLE
+1985,NBA,Eastern Conf First Round,/playoffs/1985-nba-eastern-conference-first-round-nets-vs-pistons.html,DET,NJN
+1985,NBA,Eastern Conf First Round,/playoffs/1985-nba-eastern-conference-first-round-bulls-vs-bucks.html,MIL,CHI
+1985,NBA,Eastern Conf First Round,/playoffs/1985-nba-eastern-conference-first-round-bullets-vs-76ers.html,PHI,WSB
+1985,NBA,Western Conf First Round,/playoffs/1985-nba-western-conference-first-round-spurs-vs-nuggets.html,DEN,SAS
+1985,NBA,Western Conf First Round,/playoffs/1985-nba-western-conference-first-round-suns-vs-lakers.html,LAL,PHO
+1985,NBA,Western Conf First Round,/playoffs/1985-nba-western-conference-first-round-trail-blazers-vs-mavericks.html,POR,DAL
+1985,NBA,Western Conf First Round,/playoffs/1985-nba-western-conference-first-round-jazz-vs-rockets.html,UTA,HOU
+1985,NBA,Eastern Conf Semifinals,/playoffs/1985-nba-eastern-conference-semifinals-pistons-vs-celtics.html,BOS,DET
+1985,NBA,Eastern Conf Semifinals,/playoffs/1985-nba-eastern-conference-semifinals-76ers-vs-bucks.html,PHI,MIL
+1985,NBA,Western Conf Semifinals,/playoffs/1985-nba-western-conference-semifinals-jazz-vs-nuggets.html,DEN,UTA
+1985,NBA,Western Conf Semifinals,/playoffs/1985-nba-western-conference-semifinals-trail-blazers-vs-lakers.html,LAL,POR
+1985,NBA,Eastern Conf Finals,/playoffs/1985-nba-eastern-conference-finals-76ers-vs-celtics.html,BOS,PHI
+1985,NBA,Western Conf Finals,/playoffs/1985-nba-western-conference-finals-nuggets-vs-lakers.html,LAL,DEN
+1985,NBA,Finals,/playoffs/1985-nba-finals-lakers-vs-celtics.html,LAL,BOS
+1984,NBA,Eastern Conf First Round,/playoffs/1984-nba-eastern-conference-first-round-bullets-vs-celtics.html,BOS,WSB
+1984,NBA,Eastern Conf First Round,/playoffs/1984-nba-eastern-conference-first-round-hawks-vs-bucks.html,MIL,ATL
+1984,NBA,Eastern Conf First Round,/playoffs/1984-nba-eastern-conference-first-round-nets-vs-76ers.html,NJN,PHI
+1984,NBA,Eastern Conf First Round,/playoffs/1984-nba-eastern-conference-first-round-knicks-vs-pistons.html,NYK,DET
+1984,NBA,Western Conf First Round,/playoffs/1984-nba-western-conference-first-round-supersonics-vs-mavericks.html,DAL,SEA
+1984,NBA,Western Conf First Round,/playoffs/1984-nba-western-conference-first-round-kings-vs-lakers.html,LAL,KCK
+1984,NBA,Western Conf First Round,/playoffs/1984-nba-western-conference-first-round-suns-vs-trail-blazers.html,PHO,POR
+1984,NBA,Western Conf First Round,/playoffs/1984-nba-western-conference-first-round-nuggets-vs-jazz.html,UTA,DEN
+1984,NBA,Eastern Conf Semifinals,/playoffs/1984-nba-eastern-conference-semifinals-knicks-vs-celtics.html,BOS,NYK
+1984,NBA,Eastern Conf Semifinals,/playoffs/1984-nba-eastern-conference-semifinals-nets-vs-bucks.html,MIL,NJN
+1984,NBA,Western Conf Semifinals,/playoffs/1984-nba-western-conference-semifinals-mavericks-vs-lakers.html,LAL,DAL
+1984,NBA,Western Conf Semifinals,/playoffs/1984-nba-western-conference-semifinals-suns-vs-jazz.html,PHO,UTA
+1984,NBA,Eastern Conf Finals,/playoffs/1984-nba-eastern-conference-finals-bucks-vs-celtics.html,BOS,MIL
+1984,NBA,Western Conf Finals,/playoffs/1984-nba-western-conference-finals-suns-vs-lakers.html,LAL,PHO
+1984,NBA,Finals,/playoffs/1984-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1983,NBA,Eastern Conf First Round,/playoffs/1983-nba-eastern-conference-first-round-hawks-vs-celtics.html,BOS,ATL
+1983,NBA,Eastern Conf First Round,/playoffs/1983-nba-eastern-conference-first-round-knicks-vs-nets.html,NYK,NJN
+1983,NBA,Western Conf First Round,/playoffs/1983-nba-western-conference-first-round-nuggets-vs-suns.html,DEN,PHO
+1983,NBA,Western Conf First Round,/playoffs/1983-nba-western-conference-first-round-trail-blazers-vs-supersonics.html,POR,SEA
+1983,NBA,Eastern Conf Semifinals,/playoffs/1983-nba-eastern-conference-semifinals-bucks-vs-celtics.html,MIL,BOS
+1983,NBA,Eastern Conf Semifinals,/playoffs/1983-nba-eastern-conference-semifinals-knicks-vs-76ers.html,PHI,NYK
+1983,NBA,Western Conf Semifinals,/playoffs/1983-nba-western-conference-semifinals-trail-blazers-vs-lakers.html,LAL,POR
+1983,NBA,Western Conf Semifinals,/playoffs/1983-nba-western-conference-semifinals-nuggets-vs-spurs.html,SAS,DEN
+1983,NBA,Eastern Conf Finals,/playoffs/1983-nba-eastern-conference-finals-bucks-vs-76ers.html,PHI,MIL
+1983,NBA,Western Conf Finals,/playoffs/1983-nba-western-conference-finals-spurs-vs-lakers.html,LAL,SAS
+1983,NBA,Finals,/playoffs/1983-nba-finals-lakers-vs-76ers.html,PHI,LAL
+1982,NBA,Eastern Conf First Round,/playoffs/1982-nba-eastern-conference-first-round-hawks-vs-76ers.html,PHI,ATL
+1982,NBA,Eastern Conf First Round,/playoffs/1982-nba-eastern-conference-first-round-bullets-vs-nets.html,WSB,NJN
+1982,NBA,Western Conf First Round,/playoffs/1982-nba-western-conference-first-round-suns-vs-nuggets.html,PHO,DEN
+1982,NBA,Western Conf First Round,/playoffs/1982-nba-western-conference-first-round-rockets-vs-supersonics.html,SEA,HOU
+1982,NBA,Eastern Conf Semifinals,/playoffs/1982-nba-eastern-conference-semifinals-bullets-vs-celtics.html,BOS,WSB
+1982,NBA,Eastern Conf Semifinals,/playoffs/1982-nba-eastern-conference-semifinals-bucks-vs-76ers.html,PHI,MIL
+1982,NBA,Western Conf Semifinals,/playoffs/1982-nba-western-conference-semifinals-suns-vs-lakers.html,LAL,PHO
+1982,NBA,Western Conf Semifinals,/playoffs/1982-nba-western-conference-semifinals-spurs-vs-supersonics.html,SAS,SEA
+1982,NBA,Eastern Conf Finals,/playoffs/1982-nba-eastern-conference-finals-76ers-vs-celtics.html,PHI,BOS
+1982,NBA,Western Conf Finals,/playoffs/1982-nba-western-conference-finals-spurs-vs-lakers.html,LAL,SAS
+1982,NBA,Finals,/playoffs/1982-nba-finals-lakers-vs-76ers.html,LAL,PHI
+1981,NBA,Eastern Conf First Round,/playoffs/1981-nba-eastern-conference-first-round-bulls-vs-knicks.html,CHI,NYK
+1981,NBA,Eastern Conf First Round,/playoffs/1981-nba-eastern-conference-first-round-pacers-vs-76ers.html,PHI,IND
+1981,NBA,Western Conf First Round,/playoffs/1981-nba-western-conference-first-round-rockets-vs-lakers.html,HOU,LAL
+1981,NBA,Western Conf First Round,/playoffs/1981-nba-western-conference-first-round-kings-vs-trail-blazers.html,KCK,POR
+1981,NBA,Eastern Conf Semifinals,/playoffs/1981-nba-eastern-conference-semifinals-bulls-vs-celtics.html,BOS,CHI
+1981,NBA,Eastern Conf Semifinals,/playoffs/1981-nba-eastern-conference-semifinals-bucks-vs-76ers.html,PHI,MIL
+1981,NBA,Western Conf Semifinals,/playoffs/1981-nba-western-conference-semifinals-rockets-vs-spurs.html,HOU,SAS
+1981,NBA,Western Conf Semifinals,/playoffs/1981-nba-western-conference-semifinals-kings-vs-suns.html,KCK,PHO
+1981,NBA,Eastern Conf Finals,/playoffs/1981-nba-eastern-conference-finals-76ers-vs-celtics.html,BOS,PHI
+1981,NBA,Western Conf Finals,/playoffs/1981-nba-western-conference-finals-rockets-vs-kings.html,HOU,KCK
+1981,NBA,Finals,/playoffs/1981-nba-finals-rockets-vs-celtics.html,BOS,HOU
+1980,NBA,Eastern Conf First Round,/playoffs/1980-nba-eastern-conference-first-round-spurs-vs-rockets.html,HOU,SAS
+1980,NBA,Eastern Conf First Round,/playoffs/1980-nba-eastern-conference-first-round-bullets-vs-76ers.html,PHI,WSB
+1980,NBA,Western Conf First Round,/playoffs/1980-nba-western-conference-first-round-kings-vs-suns.html,PHO,KCK
+1980,NBA,Western Conf First Round,/playoffs/1980-nba-western-conference-first-round-trail-blazers-vs-supersonics.html,SEA,POR
+1980,NBA,Eastern Conf Semifinals,/playoffs/1980-nba-eastern-conference-semifinals-rockets-vs-celtics.html,BOS,HOU
+1980,NBA,Eastern Conf Semifinals,/playoffs/1980-nba-eastern-conference-semifinals-hawks-vs-76ers.html,PHI,ATL
+1980,NBA,Western Conf Semifinals,/playoffs/1980-nba-western-conference-semifinals-suns-vs-lakers.html,LAL,PHO
+1980,NBA,Western Conf Semifinals,/playoffs/1980-nba-western-conference-semifinals-bucks-vs-supersonics.html,SEA,MIL
+1980,NBA,Eastern Conf Finals,/playoffs/1980-nba-eastern-conference-finals-76ers-vs-celtics.html,PHI,BOS
+1980,NBA,Western Conf Finals,/playoffs/1980-nba-western-conference-finals-supersonics-vs-lakers.html,LAL,SEA
+1980,NBA,Finals,/playoffs/1980-nba-finals-76ers-vs-lakers.html,LAL,PHI
+1979,NBA,Eastern Conf First Round,/playoffs/1979-nba-eastern-conference-first-round-hawks-vs-rockets.html,ATL,HOU
+1979,NBA,Eastern Conf First Round,/playoffs/1979-nba-eastern-conference-first-round-nets-vs-76ers.html,PHI,NJN
+1979,NBA,Western Conf First Round,/playoffs/1979-nba-western-conference-first-round-lakers-vs-nuggets.html,LAL,DEN
+1979,NBA,Western Conf First Round,/playoffs/1979-nba-western-conference-first-round-trail-blazers-vs-suns.html,PHO,POR
+1979,NBA,Eastern Conf Semifinals,/playoffs/1979-nba-eastern-conference-semifinals-76ers-vs-spurs.html,SAS,PHI
+1979,NBA,Eastern Conf Semifinals,/playoffs/1979-nba-eastern-conference-semifinals-hawks-vs-bullets.html,WSB,ATL
+1979,NBA,Western Conf Semifinals,/playoffs/1979-nba-western-conference-semifinals-kings-vs-suns.html,PHO,KCK
+1979,NBA,Western Conf Semifinals,/playoffs/1979-nba-western-conference-semifinals-lakers-vs-supersonics.html,SEA,LAL
+1979,NBA,Eastern Conf Finals,/playoffs/1979-nba-eastern-conference-finals-spurs-vs-bullets.html,WSB,SAS
+1979,NBA,Western Conf Finals,/playoffs/1979-nba-western-conference-finals-suns-vs-supersonics.html,SEA,PHO
+1979,NBA,Finals,/playoffs/1979-nba-finals-supersonics-vs-bullets.html,SEA,WSB
+1978,NBA,Eastern Conf First Round,/playoffs/1978-nba-eastern-conference-first-round-knicks-vs-cavaliers.html,NYK,CLE
+1978,NBA,Eastern Conf First Round,/playoffs/1978-nba-eastern-conference-first-round-hawks-vs-bullets.html,WSB,ATL
+1978,NBA,Western Conf First Round,/playoffs/1978-nba-western-conference-first-round-bucks-vs-suns.html,MIL,PHO
+1978,NBA,Western Conf First Round,/playoffs/1978-nba-western-conference-first-round-lakers-vs-supersonics.html,SEA,LAL
+1978,NBA,Eastern Conf Semifinals,/playoffs/1978-nba-eastern-conference-semifinals-knicks-vs-76ers.html,PHI,NYK
+1978,NBA,Eastern Conf Semifinals,/playoffs/1978-nba-eastern-conference-semifinals-bullets-vs-spurs.html,WSB,SAS
+1978,NBA,Western Conf Semifinals,/playoffs/1978-nba-western-conference-semifinals-bucks-vs-nuggets.html,DEN,MIL
+1978,NBA,Western Conf Semifinals,/playoffs/1978-nba-western-conference-semifinals-supersonics-vs-trail-blazers.html,SEA,POR
+1978,NBA,Eastern Conf Finals,/playoffs/1978-nba-eastern-conference-finals-bullets-vs-76ers.html,WSB,PHI
+1978,NBA,Western Conf Finals,/playoffs/1978-nba-western-conference-finals-supersonics-vs-nuggets.html,SEA,DEN
+1978,NBA,Finals,/playoffs/1978-nba-finals-bullets-vs-supersonics.html,WSB,SEA
+1977,NBA,Eastern Conf First Round,/playoffs/1977-nba-eastern-conference-first-round-spurs-vs-celtics.html,BOS,SAS
+1977,NBA,Eastern Conf First Round,/playoffs/1977-nba-eastern-conference-first-round-cavaliers-vs-bullets.html,WSB,CLE
+1977,NBA,Western Conf First Round,/playoffs/1977-nba-western-conference-first-round-pistons-vs-warriors.html,GSW,DET
+1977,NBA,Western Conf First Round,/playoffs/1977-nba-western-conference-first-round-bulls-vs-trail-blazers.html,POR,CHI
+1977,NBA,Eastern Conf Semifinals,/playoffs/1977-nba-eastern-conference-semifinals-bullets-vs-rockets.html,HOU,WSB
+1977,NBA,Eastern Conf Semifinals,/playoffs/1977-nba-eastern-conference-semifinals-celtics-vs-76ers.html,PHI,BOS
+1977,NBA,Western Conf Semifinals,/playoffs/1977-nba-western-conference-semifinals-warriors-vs-lakers.html,LAL,GSW
+1977,NBA,Western Conf Semifinals,/playoffs/1977-nba-western-conference-semifinals-trail-blazers-vs-nuggets.html,POR,DEN
+1977,NBA,Eastern Conf Finals,/playoffs/1977-nba-eastern-conference-finals-rockets-vs-76ers.html,PHI,HOU
+1977,NBA,Western Conf Finals,/playoffs/1977-nba-western-conference-finals-trail-blazers-vs-lakers.html,POR,LAL
+1977,NBA,Finals,/playoffs/1977-nba-finals-trail-blazers-vs-76ers.html,POR,PHI
+1976,NBA,Eastern Conf First Round,/playoffs/1976-nba-eastern-conference-first-round-braves-vs-76ers.html,BUF,PHI
+1976,NBA,Western Conf First Round,/playoffs/1976-nba-western-conference-first-round-pistons-vs-bucks.html,DET,MIL
+1976,NBA,Eastern Conf Semifinals,/playoffs/1976-nba-eastern-conference-semifinals-braves-vs-celtics.html,BOS,BUF
+1976,NBA,Eastern Conf Semifinals,/playoffs/1976-nba-eastern-conference-semifinals-bullets-vs-cavaliers.html,CLE,WSB
+1976,NBA,Western Conf Semifinals,/playoffs/1976-nba-western-conference-semifinals-pistons-vs-warriors.html,GSW,DET
+1976,NBA,Western Conf Semifinals,/playoffs/1976-nba-western-conference-semifinals-suns-vs-supersonics.html,PHO,SEA
+1976,NBA,Eastern Conf Finals,/playoffs/1976-nba-eastern-conference-finals-cavaliers-vs-celtics.html,BOS,CLE
+1976,NBA,Western Conf Finals,/playoffs/1976-nba-western-conference-finals-suns-vs-warriors.html,PHO,GSW
+1976,NBA,Finals,/playoffs/1976-nba-finals-suns-vs-celtics.html,BOS,PHO
+1976,ABA,First Round,/playoffs/1976-aba-first-round-pacers-vs-colonels.html,KEN,INA
+1976,ABA,Semifinals,/playoffs/1976-aba-semifinals-colonels-vs-nuggets.html,DNA,KEN
+1976,ABA,Semifinals,/playoffs/1976-aba-semifinals-spurs-vs-nets.html,NYA,SAA
+1976,ABA,Finals,/playoffs/1976-aba-finals-nets-vs-nuggets.html,NYA,DNA
+1975,NBA,Eastern Conf First Round,/playoffs/1975-nba-eastern-conference-first-round-knicks-vs-rockets.html,HOU,NYK
+1975,NBA,Western Conf First Round,/playoffs/1975-nba-western-conference-first-round-pistons-vs-supersonics.html,SEA,DET
+1975,NBA,Eastern Conf Semifinals,/playoffs/1975-nba-eastern-conference-semifinals-rockets-vs-celtics.html,BOS,HOU
+1975,NBA,Eastern Conf Semifinals,/playoffs/1975-nba-eastern-conference-semifinals-braves-vs-bullets.html,WSB,BUF
+1975,NBA,Western Conf Semifinals,/playoffs/1975-nba-western-conference-semifinals-kings-vs-bulls.html,CHI,KCO
+1975,NBA,Western Conf Semifinals,/playoffs/1975-nba-western-conference-semifinals-supersonics-vs-warriors.html,GSW,SEA
+1975,NBA,Eastern Conf Finals,/playoffs/1975-nba-eastern-conference-finals-bullets-vs-celtics.html,WSB,BOS
+1975,NBA,Western Conf Finals,/playoffs/1975-nba-western-conference-finals-bulls-vs-warriors.html,GSW,CHI
+1975,NBA,Finals,/playoffs/1975-nba-finals-warriors-vs-bullets.html,GSW,WSB
+1975,ABA,Eastern Div Tiebreak,/playoffs/1975-aba-eastern-division-tiebreaker-nets-vs-colonels.html,KEN,NYA
+1975,ABA,Eastern Div Semifinals,/playoffs/1975-aba-eastern-division-semifinals-sounds-vs-colonels.html,KEN,MMS
+1975,ABA,Eastern Div Semifinals,/playoffs/1975-aba-eastern-division-semifinals-spirits-vs-nets.html,SSL,NYA
+1975,ABA,Western Div Semifinals,/playoffs/1975-aba-western-division-semifinals-stars-vs-nuggets.html,DNA,UTS
+1975,ABA,Western Div Semifinals,/playoffs/1975-aba-western-division-semifinals-pacers-vs-spurs.html,INA,SAA
+1975,ABA,Eastern Div Finals,/playoffs/1975-aba-eastern-division-finals-spirits-vs-colonels.html,KEN,SSL
+1975,ABA,Western Div Finals,/playoffs/1975-aba-western-division-finals-pacers-vs-nuggets.html,INA,DNA
+1975,ABA,Finals,/playoffs/1975-aba-finals-pacers-vs-colonels.html,KEN,INA
+1974,NBA,Eastern Conf Semifinals,/playoffs/1974-nba-eastern-conference-semifinals-braves-vs-celtics.html,BOS,BUF
+1974,NBA,Eastern Conf Semifinals,/playoffs/1974-nba-eastern-conference-semifinals-bullets-vs-knicks.html,NYK,CAP
+1974,NBA,Western Conf Semifinals,/playoffs/1974-nba-western-conference-semifinals-pistons-vs-bulls.html,CHI,DET
+1974,NBA,Western Conf Semifinals,/playoffs/1974-nba-western-conference-semifinals-lakers-vs-bucks.html,MIL,LAL
+1974,NBA,Eastern Conf Finals,/playoffs/1974-nba-eastern-conference-finals-knicks-vs-celtics.html,BOS,NYK
+1974,NBA,Western Conf Finals,/playoffs/1974-nba-western-conference-finals-bulls-vs-bucks.html,MIL,CHI
+1974,NBA,Finals,/playoffs/1974-nba-finals-celtics-vs-bucks.html,BOS,MIL
+1974,ABA,Western Div Tiebreak,/playoffs/1974-aba-western-division-tiebreaker-rockets-vs-conquistadors.html,SDA,DNR
+1974,ABA,Eastern Div Semifinals,/playoffs/1974-aba-eastern-division-semifinals-cougars-vs-colonels.html,KEN,CAR
+1974,ABA,Eastern Div Semifinals,/playoffs/1974-aba-eastern-division-semifinals-squires-vs-nets.html,NYA,VIR
+1974,ABA,Western Div Semifinals,/playoffs/1974-aba-western-division-semifinals-spurs-vs-pacers.html,INA,SAA
+1974,ABA,Western Div Semifinals,/playoffs/1974-aba-western-division-semifinals-conquistadors-vs-stars.html,UTS,SDA
+1974,ABA,Eastern Div Finals,/playoffs/1974-aba-eastern-division-finals-colonels-vs-nets.html,NYA,KEN
+1974,ABA,Western Div Finals,/playoffs/1974-aba-western-division-finals-pacers-vs-stars.html,UTS,INA
+1974,ABA,Finals,/playoffs/1974-aba-finals-stars-vs-nets.html,NYA,UTS
+1973,NBA,Eastern Conf Semifinals,/playoffs/1973-nba-eastern-conference-semifinals-hawks-vs-celtics.html,BOS,ATL
+1973,NBA,Eastern Conf Semifinals,/playoffs/1973-nba-eastern-conference-semifinals-bullets-vs-knicks.html,NYK,BAL
+1973,NBA,Western Conf Semifinals,/playoffs/1973-nba-western-conference-semifinals-warriors-vs-bucks.html,GSW,MIL
+1973,NBA,Western Conf Semifinals,/playoffs/1973-nba-western-conference-semifinals-bulls-vs-lakers.html,LAL,CHI
+1973,NBA,Eastern Conf Finals,/playoffs/1973-nba-eastern-conference-finals-knicks-vs-celtics.html,NYK,BOS
+1973,NBA,Western Conf Finals,/playoffs/1973-nba-western-conference-finals-warriors-vs-lakers.html,LAL,GSW
+1973,NBA,Finals,/playoffs/1973-nba-finals-knicks-vs-lakers.html,NYK,LAL
+1973,ABA,Eastern Div Semifinals,/playoffs/1973-aba-eastern-division-semifinals-nets-vs-cougars.html,CAR,NYA
+1973,ABA,Eastern Div Semifinals,/playoffs/1973-aba-eastern-division-semifinals-squires-vs-colonels.html,KEN,VIR
+1973,ABA,Western Div Semifinals,/playoffs/1973-aba-western-division-semifinals-rockets-vs-pacers.html,INA,DNR
+1973,ABA,Western Div Semifinals,/playoffs/1973-aba-western-division-semifinals-conquistadors-vs-stars.html,UTS,SDA
+1973,ABA,Eastern Div Finals,/playoffs/1973-aba-eastern-division-finals-colonels-vs-cougars.html,KEN,CAR
+1973,ABA,Western Div Finals,/playoffs/1973-aba-western-division-finals-pacers-vs-stars.html,INA,UTS
+1973,ABA,Finals,/playoffs/1973-aba-finals-pacers-vs-colonels.html,INA,KEN
+1972,NBA,Eastern Conf Semifinals,/playoffs/1972-nba-eastern-conference-semifinals-hawks-vs-celtics.html,BOS,ATL
+1972,NBA,Eastern Conf Semifinals,/playoffs/1972-nba-eastern-conference-semifinals-knicks-vs-bullets.html,NYK,BAL
+1972,NBA,Western Conf Semifinals,/playoffs/1972-nba-western-conference-semifinals-bulls-vs-lakers.html,LAL,CHI
+1972,NBA,Western Conf Semifinals,/playoffs/1972-nba-western-conference-semifinals-warriors-vs-bucks.html,MIL,GSW
+1972,NBA,Eastern Conf Finals,/playoffs/1972-nba-eastern-conference-finals-knicks-vs-celtics.html,NYK,BOS
+1972,NBA,Western Conf Finals,/playoffs/1972-nba-western-conference-finals-bucks-vs-lakers.html,LAL,MIL
+1972,NBA,Finals,/playoffs/1972-nba-finals-knicks-vs-lakers.html,LAL,NYK
+1972,ABA,Eastern Div Semifinals,/playoffs/1972-aba-eastern-division-semifinals-nets-vs-colonels.html,NYA,KEN
+1972,ABA,Eastern Div Semifinals,/playoffs/1972-aba-eastern-division-semifinals-floridians-vs-squires.html,VIR,FLO
+1972,ABA,Western Div Semifinals,/playoffs/1972-aba-western-division-semifinals-rockets-vs-pacers.html,INA,DNR
+1972,ABA,Western Div Semifinals,/playoffs/1972-aba-western-division-semifinals-chaparrals-vs-stars.html,UTS,DLC
+1972,ABA,Eastern Div Finals,/playoffs/1972-aba-eastern-division-finals-nets-vs-squires.html,NYA,VIR
+1972,ABA,Western Div Finals,/playoffs/1972-aba-western-division-finals-pacers-vs-stars.html,INA,UTS
+1972,ABA,Finals,/playoffs/1972-aba-finals-nets-vs-pacers.html,INA,NYA
+1971,NBA,Eastern Conf Semifinals,/playoffs/1971-nba-eastern-conference-semifinals-76ers-vs-bullets.html,BAL,PHI
+1971,NBA,Eastern Conf Semifinals,/playoffs/1971-nba-eastern-conference-semifinals-hawks-vs-knicks.html,NYK,ATL
+1971,NBA,Western Conf Semifinals,/playoffs/1971-nba-western-conference-semifinals-bulls-vs-lakers.html,LAL,CHI
+1971,NBA,Western Conf Semifinals,/playoffs/1971-nba-western-conference-semifinals-bucks-vs-warriors.html,MIL,SFW
+1971,NBA,Eastern Conf Finals,/playoffs/1971-nba-eastern-conference-finals-bullets-vs-knicks.html,BAL,NYK
+1971,NBA,Western Conf Finals,/playoffs/1971-nba-western-conference-finals-lakers-vs-bucks.html,MIL,LAL
+1971,NBA,Finals,/playoffs/1971-nba-finals-bullets-vs-bucks.html,MIL,BAL
+1971,ABA,Western Div Tiebreak,/playoffs/1971-aba-western-division-tiebreaker-rockets-vs-chaparrals.html,TEX,DNR
+1971,ABA,Eastern Div Semifinals,/playoffs/1971-aba-eastern-division-semifinals-floridians-vs-colonels.html,KEN,FLO
+1971,ABA,Eastern Div Semifinals,/playoffs/1971-aba-eastern-division-semifinals-nets-vs-squires.html,VIR,NYA
+1971,ABA,Western Div Semifinals,/playoffs/1971-aba-western-division-semifinals-pros-vs-pacers.html,INA,MMP
+1971,ABA,Western Div Semifinals,/playoffs/1971-aba-western-division-semifinals-chaparrals-vs-stars.html,UTS,TEX
+1971,ABA,Eastern Div Finals,/playoffs/1971-aba-eastern-division-finals-colonels-vs-squires.html,KEN,VIR
+1971,ABA,Western Div Finals,/playoffs/1971-aba-western-division-finals-stars-vs-pacers.html,UTS,INA
+1971,ABA,Finals,/playoffs/1971-aba-finals-colonels-vs-stars.html,UTS,KEN
+1970,NBA,Eastern Div Semifinals,/playoffs/1970-nba-eastern-division-semifinals-76ers-vs-bucks.html,MIL,PHI
+1970,NBA,Eastern Div Semifinals,/playoffs/1970-nba-eastern-division-semifinals-bullets-vs-knicks.html,NYK,BAL
+1970,NBA,Western Div Semifinals,/playoffs/1970-nba-western-division-semifinals-bulls-vs-hawks.html,ATL,CHI
+1970,NBA,Western Div Semifinals,/playoffs/1970-nba-western-division-semifinals-suns-vs-lakers.html,LAL,PHO
+1970,NBA,Eastern Div Finals,/playoffs/1970-nba-eastern-division-finals-bucks-vs-knicks.html,NYK,MIL
+1970,NBA,Western Div Finals,/playoffs/1970-nba-western-division-finals-lakers-vs-hawks.html,LAL,ATL
+1970,NBA,Finals,/playoffs/1970-nba-finals-lakers-vs-knicks.html,NYK,LAL
+1970,ABA,Eastern Div Semifinals,/playoffs/1970-aba-eastern-division-semifinals-cougars-vs-pacers.html,INA,CAR
+1970,ABA,Eastern Div Semifinals,/playoffs/1970-aba-eastern-division-semifinals-nets-vs-colonels.html,KEN,NYA
+1970,ABA,Western Div Semifinals,/playoffs/1970-aba-western-division-semifinals-capitols-vs-rockets.html,DNR,WSA
+1970,ABA,Western Div Semifinals,/playoffs/1970-aba-western-division-semifinals-stars-vs-chaparrals.html,LAS,DLC
+1970,ABA,Eastern Div Finals,/playoffs/1970-aba-eastern-division-finals-colonels-vs-pacers.html,INA,KEN
+1970,ABA,Western Div Finals,/playoffs/1970-aba-western-division-finals-stars-vs-rockets.html,LAS,DNR
+1970,ABA,Finals,/playoffs/1970-aba-finals-stars-vs-pacers.html,INA,LAS
+1969,NBA,Eastern Div Semifinals,/playoffs/1969-nba-eastern-division-semifinals-celtics-vs-76ers.html,BOS,PHI
+1969,NBA,Eastern Div Semifinals,/playoffs/1969-nba-eastern-division-semifinals-knicks-vs-bullets.html,NYK,BAL
+1969,NBA,Western Div Semifinals,/playoffs/1969-nba-western-division-semifinals-rockets-vs-hawks.html,ATL,SDR
+1969,NBA,Western Div Semifinals,/playoffs/1969-nba-western-division-semifinals-warriors-vs-lakers.html,LAL,SFW
+1969,NBA,Eastern Div Finals,/playoffs/1969-nba-eastern-division-finals-celtics-vs-knicks.html,BOS,NYK
+1969,NBA,Western Div Finals,/playoffs/1969-nba-western-division-finals-hawks-vs-lakers.html,LAL,ATL
+1969,NBA,Finals,/playoffs/1969-nba-finals-celtics-vs-lakers.html,BOS,LAL
+1969,ABA,Eastern Div Semifinals,/playoffs/1969-aba-eastern-division-semifinals-colonels-vs-pacers.html,INA,KEN
+1969,ABA,Eastern Div Semifinals,/playoffs/1969-aba-eastern-division-semifinals-pipers-vs-floridians.html,MMF,MNP
+1969,ABA,Western Div Semifinals,/playoffs/1969-aba-western-division-semifinals-chaparrals-vs-buccaneers.html,NOB,DLC
+1969,ABA,Western Div Semifinals,/playoffs/1969-aba-western-division-semifinals-rockets-vs-oaks.html,OAK,DNR
+1969,ABA,Eastern Div Finals,/playoffs/1969-aba-eastern-division-finals-floridians-vs-pacers.html,INA,MMF
+1969,ABA,Western Div Finals,/playoffs/1969-aba-western-division-finals-buccaneers-vs-oaks.html,OAK,NOB
+1969,ABA,Finals,/playoffs/1969-aba-finals-pacers-vs-oaks.html,OAK,INA
+1968,NBA,Eastern Div Semifinals,/playoffs/1968-nba-eastern-division-semifinals-pistons-vs-celtics.html,BOS,DET
+1968,NBA,Eastern Div Semifinals,/playoffs/1968-nba-eastern-division-semifinals-knicks-vs-76ers.html,PHI,NYK
+1968,NBA,Western Div Semifinals,/playoffs/1968-nba-western-division-semifinals-bulls-vs-lakers.html,LAL,CHI
+1968,NBA,Western Div Semifinals,/playoffs/1968-nba-western-division-semifinals-warriors-vs-hawks.html,SFW,STL
+1968,NBA,Eastern Div Finals,/playoffs/1968-nba-eastern-division-finals-celtics-vs-76ers.html,BOS,PHI
+1968,NBA,Western Div Finals,/playoffs/1968-nba-western-division-finals-warriors-vs-lakers.html,LAL,SFW
+1968,NBA,Finals,/playoffs/1968-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1968,ABA,Eastern Div Semifinals,/playoffs/1968-aba-eastern-division-semifinals-colonels-vs-muskies.html,MNM,KEN
+1968,ABA,Eastern Div Semifinals,/playoffs/1968-aba-eastern-division-semifinals-pacers-vs-pipers.html,PTP,INA
+1968,ABA,Western Div Semifinals,/playoffs/1968-aba-western-division-semifinals-mavericks-vs-chaparrals.html,DLC,HSM
+1968,ABA,Western Div Semifinals,/playoffs/1968-aba-western-division-semifinals-rockets-vs-buccaneers.html,NOB,DNR
+1968,ABA,Eastern Div Finals,/playoffs/1968-aba-eastern-division-finals-muskies-vs-pipers.html,PTP,MNM
+1968,ABA,Western Div Finals,/playoffs/1968-aba-western-division-finals-chaparrals-vs-buccaneers.html,NOB,DLC
+1968,ABA,Finals,/playoffs/1968-aba-finals-buccaneers-vs-pipers.html,PTP,NOB
+1967,NBA,Eastern Div Semifinals,/playoffs/1967-nba-eastern-division-semifinals-knicks-vs-celtics.html,BOS,NYK
+1967,NBA,Eastern Div Semifinals,/playoffs/1967-nba-eastern-division-semifinals-royals-vs-76ers.html,PHI,CIN
+1967,NBA,Western Div Semifinals,/playoffs/1967-nba-western-division-semifinals-lakers-vs-warriors.html,SFW,LAL
+1967,NBA,Western Div Semifinals,/playoffs/1967-nba-western-division-semifinals-bulls-vs-hawks.html,STL,CHI
+1967,NBA,Eastern Div Finals,/playoffs/1967-nba-eastern-division-finals-celtics-vs-76ers.html,PHI,BOS
+1967,NBA,Western Div Finals,/playoffs/1967-nba-western-division-finals-hawks-vs-warriors.html,SFW,STL
+1967,NBA,Finals,/playoffs/1967-nba-finals-warriors-vs-76ers.html,PHI,SFW
+1966,NBA,Eastern Div Semifinals,/playoffs/1966-nba-eastern-division-semifinals-royals-vs-celtics.html,BOS,CIN
+1966,NBA,Western Div Semifinals,/playoffs/1966-nba-western-division-semifinals-hawks-vs-bullets.html,STL,BAL
+1966,NBA,Eastern Div Finals,/playoffs/1966-nba-eastern-division-finals-celtics-vs-76ers.html,BOS,PHI
+1966,NBA,Western Div Finals,/playoffs/1966-nba-western-division-finals-hawks-vs-lakers.html,LAL,STL
+1966,NBA,Finals,/playoffs/1966-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1965,NBA,Eastern Div Semifinals,/playoffs/1965-nba-eastern-division-semifinals-76ers-vs-royals.html,PHI,CIN
+1965,NBA,Western Div Semifinals,/playoffs/1965-nba-western-division-semifinals-bullets-vs-hawks.html,BAL,STL
+1965,NBA,Eastern Div Finals,/playoffs/1965-nba-eastern-division-finals-76ers-vs-celtics.html,BOS,PHI
+1965,NBA,Western Div Finals,/playoffs/1965-nba-western-division-finals-bullets-vs-lakers.html,LAL,BAL
+1965,NBA,Finals,/playoffs/1965-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1964,NBA,Eastern Div Semifinals,/playoffs/1964-nba-eastern-division-semifinals-76ers-vs-royals.html,CIN,PHI
+1964,NBA,Western Div Semifinals,/playoffs/1964-nba-western-division-semifinals-lakers-vs-hawks.html,STL,LAL
+1964,NBA,Eastern Div Finals,/playoffs/1964-nba-eastern-division-finals-royals-vs-celtics.html,BOS,CIN
+1964,NBA,Western Div Finals,/playoffs/1964-nba-western-division-finals-hawks-vs-warriors.html,SFW,STL
+1964,NBA,Finals,/playoffs/1964-nba-finals-warriors-vs-celtics.html,BOS,SFW
+1963,NBA,Eastern Div Semifinals,/playoffs/1963-nba-eastern-division-semifinals-royals-vs-nationals.html,CIN,SYR
+1963,NBA,Western Div Semifinals,/playoffs/1963-nba-western-division-semifinals-pistons-vs-hawks.html,STL,DET
+1963,NBA,Eastern Div Finals,/playoffs/1963-nba-eastern-division-finals-royals-vs-celtics.html,BOS,CIN
+1963,NBA,Western Div Finals,/playoffs/1963-nba-western-division-finals-hawks-vs-lakers.html,LAL,STL
+1963,NBA,Finals,/playoffs/1963-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1962,NBA,Eastern Div Semifinals,/playoffs/1962-nba-eastern-division-semifinals-nationals-vs-warriors.html,PHW,SYR
+1962,NBA,Western Div Semifinals,/playoffs/1962-nba-western-division-semifinals-royals-vs-pistons.html,DET,CIN
+1962,NBA,Eastern Div Finals,/playoffs/1962-nba-eastern-division-finals-warriors-vs-celtics.html,BOS,PHW
+1962,NBA,Western Div Finals,/playoffs/1962-nba-western-division-finals-pistons-vs-lakers.html,LAL,DET
+1962,NBA,Finals,/playoffs/1962-nba-finals-lakers-vs-celtics.html,BOS,LAL
+1961,NBA,Eastern Div Semifinals,/playoffs/1961-nba-eastern-division-semifinals-nationals-vs-warriors.html,SYR,PHW
+1961,NBA,Western Div Semifinals,/playoffs/1961-nba-western-division-semifinals-pistons-vs-lakers.html,LAL,DET
+1961,NBA,Eastern Div Finals,/playoffs/1961-nba-eastern-division-finals-nationals-vs-celtics.html,BOS,SYR
+1961,NBA,Western Div Finals,/playoffs/1961-nba-western-division-finals-lakers-vs-hawks.html,STL,LAL
+1961,NBA,Finals,/playoffs/1961-nba-finals-hawks-vs-celtics.html,BOS,STL
+1960,NBA,Eastern Div Semifinals,/playoffs/1960-nba-eastern-division-semifinals-nationals-vs-warriors.html,PHW,SYR
+1960,NBA,Western Div Semifinals,/playoffs/1960-nba-western-division-semifinals-lakers-vs-pistons.html,MNL,DET
+1960,NBA,Eastern Div Finals,/playoffs/1960-nba-eastern-division-finals-warriors-vs-celtics.html,BOS,PHW
+1960,NBA,Western Div Finals,/playoffs/1960-nba-western-division-finals-lakers-vs-hawks.html,STL,MNL
+1960,NBA,Finals,/playoffs/1960-nba-finals-hawks-vs-celtics.html,BOS,STL
+1959,NBA,Eastern Div Semifinals,/playoffs/1959-nba-eastern-division-semifinals-nationals-vs-knicks.html,SYR,NYK
+1959,NBA,Western Div Semifinals,/playoffs/1959-nba-western-division-semifinals-pistons-vs-lakers.html,MNL,DET
+1959,NBA,Eastern Div Finals,/playoffs/1959-nba-eastern-division-finals-nationals-vs-celtics.html,BOS,SYR
+1959,NBA,Western Div Finals,/playoffs/1959-nba-western-division-finals-lakers-vs-hawks.html,MNL,STL
+1959,NBA,Finals,/playoffs/1959-nba-finals-lakers-vs-celtics.html,BOS,MNL
+1958,NBA,Eastern Div Semifinals,/playoffs/1958-nba-eastern-division-semifinals-warriors-vs-nationals.html,PHW,SYR
+1958,NBA,Western Div Semifinals,/playoffs/1958-nba-western-division-semifinals-royals-vs-pistons.html,DET,CIN
+1958,NBA,Eastern Div Finals,/playoffs/1958-nba-eastern-division-finals-warriors-vs-celtics.html,BOS,PHW
+1958,NBA,Western Div Finals,/playoffs/1958-nba-western-division-finals-pistons-vs-hawks.html,STL,DET
+1958,NBA,Finals,/playoffs/1958-nba-finals-hawks-vs-celtics.html,STL,BOS
+1957,NBA,Western Div Tiebreak,/playoffs/1957-nba-western-division-tiebreaker-pistons-vs-hawks.html,STL,FTW
+1957,NBA,Western Div Tiebreak,/playoffs/1957-nba-western-division-tiebreaker-lakers-vs-hawks.html,STL,MNL
+1957,NBA,Eastern Div Semifinals,/playoffs/1957-nba-eastern-division-semifinals-nationals-vs-warriors.html,SYR,PHW
+1957,NBA,Western Div Semifinals,/playoffs/1957-nba-western-division-semifinals-pistons-vs-lakers.html,MNL,FTW
+1957,NBA,Eastern Div Finals,/playoffs/1957-nba-eastern-division-finals-nationals-vs-celtics.html,BOS,SYR
+1957,NBA,Western Div Finals,/playoffs/1957-nba-western-division-finals-lakers-vs-hawks.html,STL,MNL
+1957,NBA,Finals,/playoffs/1957-nba-finals-hawks-vs-celtics.html,BOS,STL
+1956,NBA,Eastern Div 3rd Place Tiebreak,/playoffs/1956-nba-eastern-division-third-place-tiebreaker-knicks-vs-nationals.html,SYR,NYK
+1956,NBA,Western Div 2nd Place Tiebreak,/playoffs/1956-nba-western-division-second-place-tiebreaker-lakers-vs-hawks.html,MNL,STL
+1956,NBA,Eastern Div Semifinals,/playoffs/1956-nba-eastern-division-semifinals-nationals-vs-celtics.html,SYR,BOS
+1956,NBA,Western Div Semifinals,/playoffs/1956-nba-western-division-semifinals-lakers-vs-hawks.html,STL,MNL
+1956,NBA,Eastern Div Finals,/playoffs/1956-nba-eastern-division-finals-nationals-vs-warriors.html,PHW,SYR
+1956,NBA,Western Div Finals,/playoffs/1956-nba-western-division-finals-hawks-vs-pistons.html,FTW,STL
+1956,NBA,Finals,/playoffs/1956-nba-finals-pistons-vs-warriors.html,PHW,FTW
+1955,NBA,Eastern Div Semifinals,/playoffs/1955-nba-eastern-division-semifinals-knicks-vs-celtics.html,BOS,NYK
+1955,NBA,Western Div Semifinals,/playoffs/1955-nba-western-division-semifinals-royals-vs-lakers.html,MNL,ROC
+1955,NBA,Eastern Div Finals,/playoffs/1955-nba-eastern-division-finals-celtics-vs-nationals.html,SYR,BOS
+1955,NBA,Western Div Finals,/playoffs/1955-nba-western-division-finals-lakers-vs-pistons.html,FTW,MNL
+1955,NBA,Finals,/playoffs/1955-nba-finals-pistons-vs-nationals.html,SYR,FTW
+1954,NBA,Eastern Div Finals,/playoffs/1954-nba-eastern-division-finals-celtics-vs-nationals.html,SYR,BOS
+1954,NBA,Western Div Finals,/playoffs/1954-nba-western-division-finals-royals-vs-lakers.html,MNL,ROC
+1954,NBA,Finals,/playoffs/1954-nba-finals-nationals-vs-lakers.html,MNL,SYR
+1953,NBA,Eastern Div Semifinals,/playoffs/1953-nba-eastern-division-semifinals-celtics-vs-nationals.html,BOS,SYR
+1953,NBA,Eastern Div Semifinals,/playoffs/1953-nba-eastern-division-semifinals-bullets-vs-knicks.html,NYK,BLB
+1953,NBA,Western Div Semifinals,/playoffs/1953-nba-western-division-semifinals-pistons-vs-royals.html,FTW,ROC
+1953,NBA,Western Div Semifinals,/playoffs/1953-nba-western-division-semifinals-olympians-vs-lakers.html,MNL,INO
+1953,NBA,Eastern Div Finals,/playoffs/1953-nba-eastern-division-finals-celtics-vs-knicks.html,NYK,BOS
+1953,NBA,Western Div Finals,/playoffs/1953-nba-western-division-finals-pistons-vs-lakers.html,MNL,FTW
+1953,NBA,Finals,/playoffs/1953-nba-finals-knicks-vs-lakers.html,MNL,NYK
+1952,NBA,Eastern Div Semifinals,/playoffs/1952-nba-eastern-division-semifinals-knicks-vs-celtics.html,NYK,BOS
+1952,NBA,Eastern Div Semifinals,/playoffs/1952-nba-eastern-division-semifinals-warriors-vs-nationals.html,SYR,PHW
+1952,NBA,Western Div Semifinals,/playoffs/1952-nba-western-division-semifinals-olympians-vs-lakers.html,MNL,INO
+1952,NBA,Western Div Semifinals,/playoffs/1952-nba-western-division-semifinals-pistons-vs-royals.html,ROC,FTW
+1952,NBA,Eastern Div Finals,/playoffs/1952-nba-eastern-division-finals-knicks-vs-nationals.html,NYK,SYR
+1952,NBA,Western Div Finals,/playoffs/1952-nba-western-division-finals-lakers-vs-royals.html,MNL,ROC
+1952,NBA,Finals,/playoffs/1952-nba-finals-knicks-vs-lakers.html,MNL,NYK
+1951,NBA,Eastern Div Semifinals,/playoffs/1951-nba-eastern-division-semifinals-knicks-vs-celtics.html,NYK,BOS
+1951,NBA,Eastern Div Semifinals,/playoffs/1951-nba-eastern-division-semifinals-nationals-vs-warriors.html,SYR,PHW
+1951,NBA,Western Div Semifinals,/playoffs/1951-nba-western-division-semifinals-olympians-vs-lakers.html,MNL,INO
+1951,NBA,Western Div Semifinals,/playoffs/1951-nba-western-division-semifinals-pistons-vs-royals.html,ROC,FTW
+1951,NBA,Eastern Div Finals,/playoffs/1951-nba-eastern-division-finals-nationals-vs-knicks.html,NYK,SYR
+1951,NBA,Western Div Finals,/playoffs/1951-nba-western-division-finals-royals-vs-lakers.html,ROC,MNL
+1951,NBA,Finals,/playoffs/1951-nba-finals-knicks-vs-royals.html,ROC,NYK
+1950,NBA,Central Div 1st Place Tiebreak,/playoffs/1950-nba-central-division-first-place-tiebreaker-lakers-vs-royals.html,MNL,ROC
+1950,NBA,Central Div 3rd Place Tiebreak,/playoffs/1950-nba-central-division-third-place-tiebreaker-stags-vs-pistons.html,FTW,CHS
+1950,NBA,Central Div Semifinals,/playoffs/1950-nba-central-division-semifinals-pistons-vs-royals.html,FTW,ROC
+1950,NBA,Central Div Semifinals,/playoffs/1950-nba-central-division-semifinals-stags-vs-lakers.html,MNL,CHS
+1950,NBA,Eastern Div Semifinals,/playoffs/1950-nba-eastern-division-semifinals-knicks-vs-capitols.html,NYK,WSC
+1950,NBA,Eastern Div Semifinals,/playoffs/1950-nba-eastern-division-semifinals-warriors-vs-nationals.html,SYR,PHW
+1950,NBA,Western Div Semifinals,/playoffs/1950-nba-western-division-semifinals-blackhawks-vs-packers.html,AND,TRI
+1950,NBA,Western Div Semifinals,/playoffs/1950-nba-western-division-semifinals-red-skins-vs-olympians.html,INO,SHE
+1950,NBA,Central Div Finals,/playoffs/1950-nba-central-division-finals-pistons-vs-lakers.html,MNL,FTW
+1950,NBA,Eastern Div Finals,/playoffs/1950-nba-eastern-division-finals-knicks-vs-nationals.html,SYR,NYK
+1950,NBA,Western Div Finals,/playoffs/1950-nba-western-division-finals-packers-vs-olympians.html,AND,INO
+1950,NBA,Semifinals,/playoffs/1950-nba-semifinals-packers-vs-lakers.html,MNL,AND
+1950,NBA,Finals,/playoffs/1950-nba-finals-lakers-vs-nationals.html,MNL,SYR
+1949,BAA,Eastern Div Semifinals,/playoffs/1949-baa-eastern-division-semifinals-knicks-vs-bullets.html,NYK,BLB
+1949,BAA,Eastern Div Semifinals,/playoffs/1949-baa-eastern-division-semifinals-capitols-vs-warriors.html,WSC,PHW
+1949,BAA,Western Div Semifinals,/playoffs/1949-baa-western-division-semifinals-stags-vs-lakers.html,MNL,CHS
+1949,BAA,Western Div Semifinals,/playoffs/1949-baa-western-division-semifinals-bombers-vs-royals.html,ROC,STB
+1949,BAA,Eastern Div Finals,/playoffs/1949-baa-eastern-division-finals-knicks-vs-capitols.html,WSC,NYK
+1949,BAA,Western Div Finals,/playoffs/1949-baa-western-division-finals-lakers-vs-royals.html,MNL,ROC
+1949,BAA,Finals,/playoffs/1949-baa-finals-capitols-vs-lakers.html,MNL,WSC
+1948,BAA,Western Div Tiebreak,/playoffs/1948-baa-western-division-tiebreaker-bullets-vs-stags.html,BLB,CHS
+1948,BAA,Western Div Tiebreak,/playoffs/1948-baa-western-division-tiebreaker-capitols-vs-stags.html,CHS,WSC
+1948,BAA,Quarterfinals,/playoffs/1948-baa-quarterfinals-knicks-vs-bullets.html,BLB,NYK
+1948,BAA,Quarterfinals,/playoffs/1948-baa-quarterfinals-stags-vs-celtics.html,CHS,BOS
+1948,BAA,Semifinals,/playoffs/1948-baa-semifinals-bullets-vs-stags.html,BLB,CHS
+1948,BAA,Semifinals,/playoffs/1948-baa-semifinals-warriors-vs-bombers.html,PHW,STB
+1948,BAA,Finals,/playoffs/1948-baa-finals-bullets-vs-warriors.html,BLB,PHW
+1947,BAA,Quarterfinals,/playoffs/1947-baa-quarterfinals-knicks-vs-rebels.html,NYK,CLR
+1947,BAA,Quarterfinals,/playoffs/1947-baa-quarterfinals-bombers-vs-warriors.html,PHW,STB
+1947,BAA,Semifinals,/playoffs/1947-baa-semifinals-stags-vs-capitols.html,CHS,WSC
+1947,BAA,Semifinals,/playoffs/1947-baa-semifinals-knicks-vs-warriors.html,PHW,NYK
+1947,BAA,Finals,/playoffs/1947-baa-finals-stags-vs-warriors.html,PHW,CHS

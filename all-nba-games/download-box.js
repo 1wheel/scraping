@@ -4,14 +4,15 @@ var d3 = require('d3')
 var queue = require('queue-async')
 var glob = require('glob')
 var request = require('request')
-var _ = require('lodash')
+var _ = require('underscore')
 var queue = require('queue-async')
 
 var q = queue(15)
 
 var downloaded = glob.sync(__dirname + '/raw-box/*.json').map(pathToID)
 
-d3.range(100).filter(d => d < 16 || d > 45).forEach(year =>
+// d3.range(100).filter(d => d < 16 || d > 45).forEach(year =>
+d3.range(100).filter(d => d == 15).forEach(year =>
   d3.range(1, 1230)
   		.map(d => '002' + d3.format('02d')(year) + d3.format('05d')(d))
   		.filter(d =>  !_.contains(downloaded, d))

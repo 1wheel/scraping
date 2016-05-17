@@ -1,0 +1,36 @@
+body{
+	margin: 10px auto;
+	/*padding-top: 100px;*/
+	font: 12px monospace;
+	font-weight: bold;
+	background: #F5F5F5;
+	max-width: 1380px;
+	/*margin-left: -105px;*/
+}
+
+svg{
+  overflow: visible;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #F5F5F5;
+  shape-rendering: crispEdges;
+}
+
+.axis text{
+  opacity: .3;
+}
+
+div.tooltip {
+  top: -1000px;
+  position: absolute;
+  padding: 10px;
+  background: rgba(255, 255, 255, .90);
+  border: 1px solid lightgray;
+  pointer-events: none;
+}
+.tooltip-hidden{
+  opacity: 0;
+}

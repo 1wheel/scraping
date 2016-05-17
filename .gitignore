@@ -50,3 +50,8 @@ cnn/shows.csv
 mvp-minutes/raw-games/
 mvp-minutes/raw-sked/
 mvp-minutes/raw/
+
+
+final-games/raw-box/
+final-games/raw-playoff/
+final-games/raw/
