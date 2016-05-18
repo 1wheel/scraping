@@ -48,7 +48,7 @@ function scrape(game, i){
     var team = $(this).attr('id').split('_')[1]
 
     $(this).find('tbody tr').each(function(){
-      var player = {league, year, round, game: game.boxLink.replace('html', ''), team}
+      var player = {league, year, round, game: gameSlug, team}
 
       $(this).find('td').each(function(i){
         var str = $(this).text()
@@ -61,5 +61,5 @@ function scrape(game, i){
   })
 }
 
-fs.writeFileSync(__dirname + '/players.csv', d3.csv.format(players))
+fs.writeFileSync(__dirname + '/public/players.csv', d3.csv.format(players))
 
