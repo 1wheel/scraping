@@ -76,6 +76,7 @@ d3.csv('players.csv', function(res){
         .attr('cx', ƒ('maxStreak', c.x))
         .attr('cy', ƒ('series', 'length', c.y))
         .call(d3.attachTooltip)
+        .translate(function(){ return [Math.random()*6, Math.random()*6] })
   })()
 
   !(function(){
@@ -89,11 +90,13 @@ d3.csv('players.csv', function(res){
     c.xAxis.tickFormat(function(d){ return d })
     c.drawAxis()
 
-    c.svg.dataAppend(_.sortBy(topPlayers, ƒ('series', 'length')), 'circle')
-        .attr('r', 2)
+    c.svg.dataAppend(topPlayers, 'circle')
+        .attr('r', 3)
+        .style({stroke: 'black', fill: 'none'})
         .attr('cx', ƒ('maxStreakStart', c.x))
         .attr('cy', ƒ('maxStreak', c.y))
         .call(d3.attachTooltip)
+        .translate(function(){ return [Math.random()*6, Math.random()*6] })
   })()
 
   //table(_.sortBy(byPlayer, ƒ('values', 'length')))
