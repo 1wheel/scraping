@@ -24,9 +24,28 @@ d3.csv('players.csv', function(res){
     d.maxStreak = _.max(d.streaks, ƒ('length'))
     d.maxStreakStart = d.maxStreak[0].key
     d.maxStreakPts = d3.mean(_.flatten(d.maxStreak.map(ƒ('values'))), ƒ('pts'))
+    d.maxStreakTeam = d.maxStreak[0].values[0].team
   })
 
-  var topPlayers = byPlayer.filter(function(d){ return d.series.length > 2 })
+  topPlayers = byPlayer.filter(function(d){ return d.series.length > 2 })
+
+
+  //table(_.sortBy(d3.nest().key(ƒ()).entries(topPlayers.map(ƒ('maxStreakTeam'))), ƒ('values', 'length')).reverse())
+  function teamColor(d){
+    var map = {
+      'LAL': 'gold',
+      'BOS': 'green',
+      'CHI': 'darkred',
+      'MIA': 'red',
+      'DET': 'darkblue',
+      'NYK': 'orange'
+    }
+
+    return map[d] || 'lightgrey'
+  }
+
+  //table(_.sortBy(byPlayer, ƒ('values', 'length')))
+
 
 
   d3.select('body').append('h2').text('distribution of # finals series a player played in')
@@ -104,7 +123,7 @@ d3.csv('players.csv', function(res){
     c.x.domain([1950, 2015])
     c.y.domain([1, d3.max(topPlayers, ƒ('maxStreak', 'length'))])
 
-    var r = d3.scaleSqrt().domain([0, 40]).range([.5, 10])
+    var r = d3.scaleLinear().domain([0, 40]).range([.5, 20])
 
     c.xAxis.tickFormat(function(d){ return d })
     c.drawAxis()
@@ -122,11 +141,11 @@ d3.csv('players.csv', function(res){
         .attr('r', ƒ('maxStreakPts', r))
         .call(d3.attachTooltip)
         .translate(function(d){ return [d.x, d.y] })
+        .style('fill', ƒ('maxStreakTeam', teamColor))
 
 
   })()
 
-  //table(_.sortBy(byPlayer, ƒ('values', 'length')))
 })
 
 function add(num){ return function(d){ return d + num }}
