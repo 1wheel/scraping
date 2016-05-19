@@ -5,9 +5,20 @@ d3.csv('players.csv', function(res){
 
   byPlayer = d3.nest().key(ƒ('player')).entries(fPlayers)
 
+  gameToValues = d3.nest().key(ƒ('game')).object(fPlayers)
+
+
   byPlayer.forEach(function(d){
     d.series = d3.nest().key(ƒ('year')).entries(d.values)
-  
+
+    d.firstYear = d.series[0].key
+
+    d.teammates = _.uniq(_.flatten(d.values.map(function(d){
+      return gameToValues[d.game]
+          .filter(function(e){ return e.team == d.team })
+          .map(ƒ('player'))
+    })))
+
     d.streaks = []
     var curStreak = [d.series[0]]
     d.series.forEach(function(year, i){
@@ -22,10 +33,12 @@ d3.csv('players.csv', function(res){
     })
     d.streaks.push(curStreak)
 
+    var player = d.player
     d.streaks.forEach(function(d){
       d.pts = d3.mean(_.flatten(d.map(ƒ('values'))), ƒ('pts'))
       d.team = d[0].values[0].team
       d.start = d[0].key
+      d.player = player
     })
     
     d.maxStreak = _.max(d.streaks, ƒ('length'))
@@ -44,8 +57,9 @@ d3.csv('players.csv', function(res){
       'BOS': 'green',
       'CHI': 'darkred',
       'MIA': 'red',
-      'DET': 'darkblue',
-      'NYK': 'orange'
+      'DET': 'steelblue',
+      'NYK': 'orange',
+      'SAS': 'black',
     }
 
     return map[d] || 'lightgrey'
@@ -131,35 +145,6 @@ d3.csv('players.csv', function(res){
         .styles({stroke: 'black', fill: 'none'})
   })()
 
-  d3.select('body').append('h2').text('# of consecutive finals overtime - sized by avg points scored')
-  !(function(){
-    var c = d3.conventions({width: 900})
-
-    c.x.domain([1950, 2015])
-    c.y.domain([1, d3.max(topPlayers, ƒ('maxStreak', 'length'))])
-
-    var r = d3.scaleLinear().domain([0, 40]).range([.5, 20])
-
-    c.xAxis.tickFormat(function(d){ return d })
-    c.drawAxis()
-
-    var simulation = d3.forceSimulation(topPlayers)
-        .force('x', d3.forceX(ƒ('maxStreakStart', c.x)))//.strength(1))
-        .force('y', d3.forceY(ƒ('maxStreak', 'length', c.y)))
-        .force('collide', d3.forceCollide(ƒ('maxStreakPts', r, add(.5))))
-        .stop()
-
-    for (var i = 0; i < 120; ++i) simulation.tick()
-
-
-    c.svg.dataAppend(topPlayers, 'circle')
-        .attr('r', ƒ('maxStreakPts', r))
-        .call(d3.attachTooltip)
-        .translate(function(d){ return [d.x, d.y] })
-        .style('fill', ƒ('maxStreakTeam', teamColor))
-
-
-  })()
 
   d3.select('body').append('h2').text('# of consecutive finals overtime - sized by avg points scored')
   !(function(){
@@ -190,8 +175,63 @@ d3.csv('players.csv', function(res){
         .call(d3.attachTooltip)
         .translate(function(d){ return [d.x, d.y] })
         .style('fill', ƒ('team', teamColor))
+  })()
+
+  d3.select('body').append('h2').text('# finals v # of teammates')
+  !(function(){
+    var c = d3.conventions({width: 900})
+
+    c.x.domain([1, d3.max(byPlayer, ƒ('series', 'length'))])
+    c.y.domain([0, d3.max(byPlayer, ƒ('teammates', 'length'))])
+
+    var r = d3.scaleLinear().domain([0, 40]).range([.5, 20])
+
+    c.xAxis.tickFormat(function(d){ return d })
+    c.drawAxis()
+
+    var simulation = d3.forceSimulation(topPlayers)
+        .force('x', d3.forceX(ƒ('series', 'length', c.x)))
+        .force('y', d3.forceY(ƒ('teammates', 'length', c.y)))
+        .force('collide', d3.forceCollide(5.5))
+        .stop()
+
+    for (var i = 0; i < 120; ++i) simulation.tick()
 
 
+    c.svg.dataAppend(topPlayers, 'circle')
+        .attr('r', 5)
+        // .attr('r', ƒ('pts', r))
+        .call(d3.attachTooltip)
+        .translate(function(d){ return [d.x, d.y] })
+        .style('fill', ƒ('maxStreakTeam', teamColor))
+  })()
+
+  d3.select('body').append('h2').text('# of teammates overtime, sized by total playoffs')
+  !(function(){
+    var c = d3.conventions({width: 900})
+
+    c.x.domain([1950, 2015])
+    c.y.domain([0, d3.max(byPlayer, ƒ('teammates', 'length'))])
+
+    var r = d3.scaleLinear().domain([1, 12]).range([1, 15])
+
+    c.xAxis.tickFormat(function(d){ return d })
+    c.drawAxis()
+
+    var simulation = d3.forceSimulation(byPlayer)
+        .force('x', d3.forceX(ƒ('firstYear', c.x)))
+        .force('y', d3.forceY(ƒ('teammates', 'length', c.y)))
+        .force('collide', d3.forceCollide(ƒ('series', 'length', r, add(.5))))
+        .stop()
+
+    for (var i = 0; i < 120; ++i) simulation.tick()
+
+    c.svg.dataAppend(byPlayer, 'circle')
+        .attr('r', 5)
+        .attr('r', ƒ('series', 'length', r))
+        .call(d3.attachTooltip)
+        .translate(function(d){ return [d.x, d.y] })
+        .style('fill', ƒ('maxStreakTeam', teamColor))
   })()
 
 

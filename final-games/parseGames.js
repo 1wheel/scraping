@@ -30,6 +30,7 @@ function scrape(game, i){
   var gameSlug = game.boxLink.replace('.html', '')
 
   if (league != 'nba') return
+  // if (gameSlug != '201605110GSW') return
 
   game.players = []
 
@@ -53,10 +54,17 @@ function scrape(game, i){
       $(this).find('td').each(function(i){
         var str = $(this).text()
         if (i == 0) player.player = $(this).find('a').attr('href').split('/')[3].replace('.html', '')
+        if (i == 1){
+          if (str == 'Did Not Play'){
+            player.mp = 0
+          } else if (str.length){
+            player.mp = +str.split(':')[0] + +str.split(':')[1]/60
+          } 
+        }
         if (i == 19) player.pts = str
       })
 
-      players.push(player)
+      if (player.player) players.push(player)
     })
   })
 }
