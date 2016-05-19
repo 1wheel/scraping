@@ -92,11 +92,11 @@ d3.csv('players.csv', function(res){
 
     c.svg.dataAppend(topPlayers, 'circle')
         .attr('r', 3)
-        .style({stroke: 'black', fill: 'none'})
         .attr('cx', ƒ('maxStreakStart', c.x))
         .attr('cy', ƒ('maxStreak', c.y))
         .call(d3.attachTooltip)
         .translate(function(){ return [Math.random()*6, Math.random()*6] })
+        // .style({stroke: 'black', fill: 'none'})
   })()
 
   //table(_.sortBy(byPlayer, ƒ('values', 'length')))

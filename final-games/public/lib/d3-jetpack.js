@@ -24,7 +24,8 @@
         };
 
         d3.selection.prototype.append = 
-        d3.selection.enter.prototype.append = function(name) {
+        // d3.selection.enter.prototype.append = 
+        function(name) {
             var n = d3_parse_attributes(name), s;
             //console.log(name, n);
             name = n.attr ? n.tag : name;
@@ -36,7 +37,8 @@
         };
 
         d3.selection.prototype.insert = 
-        d3.selection.enter.prototype.insert = function(name, before) {
+        // d3.selection.enter.prototype.insert = 
+        function(name, before) {
             var n = d3_parse_attributes(name), s;
             name = n.attr ? n.tag : name;
             name = d3_selection_creator(name);
@@ -64,7 +66,7 @@
         }
 
         function d3_selection_creator(name) {
-            return typeof name === "function" ? name : (name = d3.ns.qualify(name)).local ? function() {
+            return typeof name === "function" ? name : (name = d3.namespace(name)).local ? function() {
                 return this.ownerDocument.createElementNS(name.space, name.local);
             } : function() {
                 return this.ownerDocument.createElementNS(this.namespaceURI, name);

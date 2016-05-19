@@ -14,16 +14,14 @@ d3.conventions = function(c){
     .append("g")
       .attr("transform", "translate(" + c.margin.left + "," + c.margin.top + ")")
 
-  c.color   = c.color   || d3.scale.category10()
-  c.x       = c.x       || d3.scale.linear().range([0, c.width])
-  c.y       = c.y       || d3.scale.linear().range([c.height, 0])
-  c.rScale  = c.rScale  || d3.scale.sqrt().range([5, 20])
-  c.line    = c.line    || d3.svg.line()
+  c.color   = c.color   || d3.scaleCategory10()
+  c.x       = c.x       || d3.scaleLinear().range([0, c.width])
+  c.y       = c.y       || d3.scaleLinear().range([c.height, 0])
+  c.rScale  = c.rScale  || d3.scaleSqrt().range([5, 20])
+  c.line    = c.line    || d3.line()
 
-
-  c.xAxis = c.xAxis || d3.svg.axis().scale(c.x).orient("bottom");
-  c.yAxis = c.yAxis || d3.svg.axis().scale(c.y).orient("left")
-
+  c.xAxis = c.xAxis || d3.axisBottom().scale(c.x)
+  c.yAxis = c.yAxis || d3.axisLeft().scale(c.y)
 
   c.drawAxis = function(){
     c.svg.append("g")
