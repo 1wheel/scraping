@@ -96,7 +96,34 @@ d3.csv('players.csv', function(res){
         .attr('cy', ƒ('maxStreak', c.y))
         .call(d3.attachTooltip)
         .translate(function(){ return [Math.random()*6, Math.random()*6] })
-        // .style({stroke: 'black', fill: 'none'})
+        .styles({stroke: 'black', fill: 'none'})
+  })()
+
+  !(function(){
+    var topPlayers = byPlayer.filter(function(d){ return d.series.length > 2 })
+    var c = d3.conventions({width: 900})
+
+    c.x.domain([1950, 2015])
+    c.y.domain([1, d3.max(topPlayers, ƒ('maxStreak'))])
+
+    c.xAxis.tickFormat(function(d){ return d })
+    c.drawAxis()
+
+    var simulation = d3.forceSimulation(topPlayers)
+        .force("x", d3.forceX(ƒ('maxStreakStart', c.x)))//.strength(1))
+        .force("y", d3.forceY(ƒ('maxStreak', c.y)))
+        .force("collide", d3.forceCollide(4))
+        .stop()
+
+    for (var i = 0; i < 120; ++i) simulation.tick()
+
+
+    c.svg.dataAppend(topPlayers, 'circle')
+        .attr('r', 3)
+        .call(d3.attachTooltip)
+        .translate(function(d){ return [d.x, d.y] })
+
+
   })()
 
   //table(_.sortBy(byPlayer, ƒ('values', 'length')))
