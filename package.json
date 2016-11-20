@@ -8,7 +8,7 @@
     "express"    : "latest",
     "dsv"        : "0.0.3",
     "request"    : "latest",
-    "d3"         : "latest",
+    "d3"         : "3",
     "underscore" : "latest",
     "queue-async": "latest",
     "cheerio"    : "latest",

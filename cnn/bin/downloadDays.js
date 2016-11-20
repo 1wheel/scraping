@@ -14,8 +14,8 @@ var q = queue(5)
 var url = 'http://transcripts.cnn.com/TRANSCRIPTS/'
 
 var dateFmt = d3.time.format('%Y.%m.%d')
-var lastDate  = dateFmt.parse('2016.03.01')
-var firstDate = dateFmt.parse('2000.01.01')
+var lastDate  = dateFmt.parse('2016.08.01')
+var firstDate = dateFmt.parse('2016.01.01')
 var dateStrs = d3.time.days(firstDate, lastDate).map(dateFmt)
 
 var dlDates = glob.sync(outdir + '*').map(function(d){
