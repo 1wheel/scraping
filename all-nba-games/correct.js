@@ -17,7 +17,7 @@ var bySeason = d3.nest()
     .map(d => d.values)
 bySeason.forEach(function(values){
   var teams = {}
-  _.uniq(values.map(d => d.hAbv)).forEach(function(d){
+  _.uniq(values.map(d => d.hAbv).concat(values.map(d => d.vAbv))).forEach(function(d){
     return teams[d] = {wins: 0, losses: 0} })
 
   values.forEach(function(d){

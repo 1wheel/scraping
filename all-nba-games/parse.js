@@ -12,7 +12,12 @@ var queue = require('queue-async')
 
 var games = glob.sync(__dirname + '/raw-box/*.json')
   .map(function(fileStr,i){
-    var res = JSON.parse(fs.readFileSync(fileStr, 'utf-8')) 
+    try{
+      var res = JSON.parse(fs.readFileSync(fileStr, 'utf-8')) 
+    } catch (e){
+      console.log(fileStr)
+      return null;
+    }
     if (res.Message) return null
     if (!res.resultSets[5].rowSet[0]) return console.log(res)
 
