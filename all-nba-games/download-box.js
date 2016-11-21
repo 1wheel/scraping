@@ -10,12 +10,14 @@ var queue = require('queue-async')
 var q = queue(15)
 
 var downloaded = glob.sync(__dirname + '/raw-box/*.json').map(pathToID)
+var isDownloaded = {}
+downloaded.forEach(d => isDownloaded[d] = true)
 
-// d3.range(100).filter(d => d < 16 || d > 45).forEach(year =>
-d3.range(100).filter(d => d == 15).forEach(year =>
+d3.range(0).filter(d => d < 17 || d > 45).forEach(year =>
+// d3.range(100).filter(d => d == 15).forEach(year =>
   d3.range(1, 1230)
   		.map(d => '002' + d3.format('02d')(year) + d3.format('05d')(d))
-  		.filter(d =>  !_.contains(downloaded, d))
+  		.filter(d =>  !isDownloaded[d])
   		.forEach(d => q.defer(downloadBox, d)) 
 )
 
@@ -31,4 +33,4 @@ function downloadBox(id, cb){
   })
 }
 
-function pathToID(d){ return _.last(d.split('/')).replace('.csv', '') }
+function pathToID(d){ return _.last(d.split('/')).replace('.json', '') }
