@@ -3,7 +3,7 @@ var fs = require('fs')
 
 
 var reviews = []
-d3.range(2010, 2016).forEach(function(year){
+d3.range(2010, 2017).forEach(function(year){
   var fileStr = fs.readFileSync(__dirname + '/years/' + year + '.txt', 'utf-8')
   // console.log(fileStr)
 

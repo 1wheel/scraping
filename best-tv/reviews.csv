@@ -391,7 +391,7 @@ year,name,show,network,rank
 2011,St. Petersburg Times Eric Deggans,Luther,BBC America,8
 2011,St. Petersburg Times Eric Deggans,Game of Thrones,HBO,9
 2011,St. Petersburg Times Eric Deggans,The Good Wife,CBS,10
-2011,Time James Poniewozik,...and even moreLouie,FX,1
+2011,Time James Poniewozik,Louie,FX,1
 2011,Time James Poniewozik,Parks and Recreation,NBC,2
 2011,Time James Poniewozik,Breaking Bad,AMC,3
 2011,Time James Poniewozik,Justified,FX,4
@@ -2467,3 +2467,694 @@ year,name,show,network,rank
 2015,TheWrap Mark Peikert,Review,Comedy Central,8
 2015,TheWrap Mark Peikert,The Americans,FX,9
 2015,TheWrap Mark Peikert,Black-ish,ABC,10
+2016,Adweek Jason Lynch,The Americans,FX,1
+2016,Adweek Jason Lynch,O.J.: Made in America,ESPN/ABC,2
+2016,Adweek Jason Lynch,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,Adweek Jason Lynch,Horace and Pete,louisck.net,4
+2016,Adweek Jason Lynch,Veep,HBO,5
+2016,Adweek Jason Lynch,Atlanta,FX,6
+2016,Adweek Jason Lynch,Full Frontal With Samantha Bee,TBS,7
+2016,Adweek Jason Lynch,Rectify,Sundance,8
+2016,Adweek Jason Lynch,BoJack Horseman,Netflix,9
+2016,Adweek Jason Lynch,Better Call Saul,AMC,10
+2016,A.V. Club Staff consensus,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,A.V. Club Staff consensus,Atlanta,FX,2
+2016,A.V. Club Staff consensus,The Americans,FX,3
+2016,A.V. Club Staff consensus,Better Call Saul,AMC,4
+2016,A.V. Club Staff consensus,Crazy Ex-Girlfriend,CW,5
+2016,A.V. Club Staff consensus,Halt and Catch Fire,AMC,6
+2016,A.V. Club Staff consensus,Veep,HBO,7
+2016,A.V. Club Staff consensus,BoJack Horseman,Netflix,8
+2016,A.V. Club Staff consensus,O.J.: Made in America,ESPN/ABC,9
+2016,A.V. Club Staff consensus,The Good Place,NBC,10
+2016,The Boob Tube Dude Ryan McGee,One Mississippi,Amazon,1
+2016,The Boob Tube Dude Ryan McGee,Jane the Virgin,CW,2
+2016,The Boob Tube Dude Ryan McGee,BoJack Horseman,Netflix,3
+2016,The Boob Tube Dude Ryan McGee,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,The Boob Tube Dude Ryan McGee,Veep,HBO,5
+2016,The Boob Tube Dude Ryan McGee,The Americans,FX,6
+2016,The Boob Tube Dude Ryan McGee,Better Things,FX,7
+2016,The Boob Tube Dude Ryan McGee,Catastrophe,Amazon,8
+2016,The Boob Tube Dude Ryan McGee,Rectify,Sundance,9
+2016,The Boob Tube Dude Ryan McGee,Stranger Things,Netflix,10
+2016,Boston Globe Matthew Gilbert,The Americans,FX,1
+2016,Boston Globe Matthew Gilbert,The Night Of,HBO,2
+2016,Boston Globe Matthew Gilbert,The Crown,Netflix,3
+2016,Boston Globe Matthew Gilbert,Black Mirror,Netflix,4
+2016,Boston Globe Matthew Gilbert,Game of Thrones,HBO,5
+2016,Boston Globe Matthew Gilbert,Fleabag,Amazon,6
+2016,Boston Globe Matthew Gilbert,Atlanta,FX,7
+2016,Boston Globe Matthew Gilbert,Westworld,HBO,8
+2016,Boston Globe Matthew Gilbert,Full Frontal With Samantha Bee,TBS,9
+2016,Boston Globe Matthew Gilbert,High Maintenance,HBO,10
+2016,CinemaBlend Laura Hurley,Game of Thrones,HBO,1
+2016,CinemaBlend Laura Hurley,Marvel's Agents of S.H.I.E.L.D.,ABC,2
+2016,CinemaBlend Laura Hurley,Last Week Tonight With John Oliver,HBO,3
+2016,CinemaBlend Laura Hurley,Pitch,Fox,4
+2016,CinemaBlend Laura Hurley,Supergirl,The CW/CBS,5
+2016,CinemaBlend Laura Hurley,Lethal Weapon,Fox,6
+2016,CinemaBlend Laura Hurley,The X-Files,Fox,7
+2016,CinemaBlend Laura Hurley,Brooklyn Nine-Nine,Fox,8
+2016,CinemaBlend Laura Hurley,Atlanta,FX,9
+2016,CinemaBlend Laura Hurley,BoJack Horseman,Netflix,10
+2016,CinemaBlend Jessica Rawden,Westworld,HBO,1
+2016,CinemaBlend Jessica Rawden,Outlander,Starz,2
+2016,CinemaBlend Jessica Rawden,South Park,Comedy Central,3
+2016,CinemaBlend Jessica Rawden,Black Sails,Starz,4
+2016,CinemaBlend Jessica Rawden,Red Oaks,Amazon,5
+2016,CinemaBlend Jessica Rawden,Veep,HBO,6
+2016,CinemaBlend Jessica Rawden,The Night Manager,AMC,7
+2016,CinemaBlend Jessica Rawden,Brooklyn Nine-Nine,Fox,8
+2016,CinemaBlend Jessica Rawden,Atlanta,FX,9
+2016,CinemaBlend Jessica Rawden,Game of Thrones,HBO,10
+2016,CinemaBlend Nick Venable,Crazy Ex-Girlfriend,CW,1
+2016,CinemaBlend Nick Venable,Westworld,HBO,2
+2016,CinemaBlend Nick Venable,Atlanta,FX,3
+2016,CinemaBlend Nick Venable,Veep,HBO,4
+2016,CinemaBlend Nick Venable,Rectify,Sundance,5
+2016,CinemaBlend Nick Venable,Better Call Saul,AMC,6
+2016,CinemaBlend Nick Venable,Black Mirror,Netflix,7
+2016,CinemaBlend Nick Venable,BoJack Horseman,Netflix,8
+2016,CinemaBlend Nick Venable,The Path,Hulu,9
+2016,CinemaBlend Nick Venable,Ash vs. Evil Dead,Starz,10
+2016,Collider Allison Keene,The Americans,FX,1
+2016,Collider Allison Keene,Better Call Saul,AMC,2
+2016,Collider Allison Keene,Atlanta,FX,3
+2016,Collider Allison Keene,Veep,HBO,4
+2016,Collider Allison Keene,The Crown,Netflix,5
+2016,Collider Allison Keene,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,Collider Allison Keene,Rectify,Sundance,7
+2016,Collider Allison Keene,Game of Thrones,HBO,8
+2016,Collider Allison Keene,Fleabag,Amazon,9
+2016,Collider Allison Keene,The Night Manager,AMC,10
+2016,Complex Staff,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Complex Staff,Atlanta,FX,2
+2016,Complex Staff,High Maintenance,HBO,3
+2016,Complex Staff,Insecure,HBO,4
+2016,Complex Staff,Mr. Robot,USA,5
+2016,Complex Staff,The Americans,FX,6
+2016,Complex Staff,Horace and Pete,louisck.net,7
+2016,Complex Staff,Better Call Saul,AMC,8
+2016,Complex Staff,Girls,HBO,9
+2016,Complex Staff,Game of Thrones,HBO,10
+2016,Consequence of Sound Staff,Stranger Things,Netflix,1
+2016,Consequence of Sound Staff,Broad City,Comedy Central,2
+2016,Consequence of Sound Staff,Atlanta,FX,3
+2016,Consequence of Sound Staff,Halt and Catch Fire,AMC,4
+2016,Consequence of Sound Staff,The Night Of,HBO,5
+2016,Consequence of Sound Staff,Real Time With Bill Maher,HBO,6
+2016,Consequence of Sound Staff,The Americans,FX,7
+2016,Consequence of Sound Staff,Veep,HBO,8
+2016,Consequence of Sound Staff,Better Call Saul,AMC,9
+2016,Consequence of Sound Staff,BoJack Horseman,Netflix,10
+2016,The Daily Beast Kevin Fallon,Full Frontal With Samantha Bee,TBS,1
+2016,The Daily Beast Kevin Fallon,O.J.: Made in America,ESPN/ABC,2
+2016,The Daily Beast Kevin Fallon,Atlanta,FX,3
+2016,The Daily Beast Kevin Fallon,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,The Daily Beast Kevin Fallon,Veep,HBO,5
+2016,The Daily Beast Kevin Fallon,Transparent,Amazon,6
+2016,The Daily Beast Kevin Fallon,The Americans,FX,7
+2016,The Daily Beast Kevin Fallon,American Crime,ABC,8
+2016,The Daily Beast Kevin Fallon,Crazy Ex-Girlfriend,CW,9
+2016,The Daily Beast Kevin Fallon,Search Party,TBS,10
+2016,Digital Spy Staff,The Night Manager,AMC,1
+2016,Digital Spy Staff,Game of Thrones,HBO,2
+2016,Digital Spy Staff,The Missing,Starz,3
+2016,Digital Spy Staff,Humans,AMC,4
+2016,Digital Spy Staff,Westworld,HBO,5
+2016,Digital Spy Staff,Stranger Things,Netflix,6
+2016,Digital Spy Staff,Line of Duty [UK]Happy Valley,Netflix,7
+2016,Digital Spy Staff,National Treasure [UK]The Night Of,HBO,8
+2016,Entertainment Weekly Jeff Jensen,O.J.: Made in America,ESPN/ABC,1
+2016,Entertainment Weekly Jeff Jensen,Unbreakable Kimmy Schmidt,Netflix,2
+2016,Entertainment Weekly Jeff Jensen,The Americans,FX,3
+2016,Entertainment Weekly Jeff Jensen,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,Entertainment Weekly Jeff Jensen,Atlanta,FX,5
+2016,Entertainment Weekly Jeff Jensen,Better Things,FX,6
+2016,Entertainment Weekly Jeff Jensen,Rectify,Sundance,7
+2016,Entertainment Weekly Jeff Jensen,The Good Place,NBC,8
+2016,Entertainment Weekly Jeff Jensen,Search Party,TBS,9
+2016,Entertainment Weekly Jeff Jensen,Westworld,HBO,10
+2016,Esquire Staff,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Esquire Staff,Atlanta,FX,2
+2016,Esquire Staff,BoJack Horseman,Netflix,3
+2016,Esquire Staff,Full Frontal With Samantha Bee,TBS,4
+2016,Esquire Staff,Insecure,HBO,5
+2016,Esquire Staff,Lady Dynamite,Netflix,6
+2016,Esquire Staff,The Night Of,HBO,7
+2016,Esquire Staff,Better Call Saul,AMC,8
+2016,Esquire Staff,Veep,HBO,9
+2016,Esquire Staff,High Maintenance,HBO,10
+2016,Film School Rejects Neil Miller,Stranger Things,Netflix,1
+2016,Film School Rejects Neil Miller,Game of Thrones,HBO,2
+2016,Film School Rejects Neil Miller,Black Mirror,Netflix,3
+2016,Film School Rejects Neil Miller,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,Film School Rejects Neil Miller,Fleabag,Amazon,5
+2016,Film School Rejects Neil Miller,Atlanta,FX,6
+2016,Film School Rejects Neil Miller,The Girlfriend Experience,Starz,7
+2016,Film School Rejects Neil Miller,BoJack Horseman,Netflix,8
+2016,Film School Rejects Neil Miller,Crazy Ex-Girlfriend,CW,9
+2016,Film School Rejects Neil Miller,Westworld,HBO,10
+2016,Filmmaker Magazine Dan Schoenbrun,Horace and Pete,louisck.net,1
+2016,Filmmaker Magazine Dan Schoenbrun,Atlanta,FX,2
+2016,Filmmaker Magazine Dan Schoenbrun,Steven Universe,Cartoon,3
+2016,Filmmaker Magazine Dan Schoenbrun,The Girlfriend Experience,Starz,4
+2016,Filmmaker Magazine Dan Schoenbrun,The Americans,FX,5
+2016,Filmmaker Magazine Dan Schoenbrun,Rectify,Sundance,6
+2016,Filmmaker Magazine Dan Schoenbrun,O.J.: Made in America,ESPN/ABC,7
+2016,Filmmaker Magazine Dan Schoenbrun,BoJack Horseman,Netflix,8
+2016,Filmmaker Magazine Dan Schoenbrun,Search Party,TBS,9
+2016,Filmmaker Magazine Dan Schoenbrun,Channel Zero: Candle Cove,Syfy,10
+2016,Flavorwire Lara Zarum,Rectify,Sundance,1
+2016,Flavorwire Lara Zarum,O.J.: Made in America,ESPN/ABC,2
+2016,Flavorwire Lara Zarum,Insecure,HBO,3
+2016,Flavorwire Lara Zarum,The Americans,FX,4
+2016,Flavorwire Lara Zarum,Atlanta,FX,5
+2016,Flavorwire Lara Zarum,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,Flavorwire Lara Zarum,Orange Is the New Black,Netflix,7
+2016,Flavorwire Lara Zarum,Crazy Ex-Girlfriend,CW,8
+2016,Flavorwire Lara Zarum,Fleabag,Amazon,9
+2016,Flavorwire Lara Zarum,Difficult People,Hulu,10
+2016,Harper's Bazaar Emma Dibdin,Fleabag,Amazon,1
+2016,Harper's Bazaar Emma Dibdin,You're the Worst,FXX,2
+2016,Harper's Bazaar Emma Dibdin,Atlanta,FX,3
+2016,Harper's Bazaar Emma Dibdin,The Crown,Netflix,4
+2016,Harper's Bazaar Emma Dibdin,Westworld,HBO,5
+2016,Harper's Bazaar Emma Dibdin,Black Mirror,Netflix,6
+2016,Harper's Bazaar Emma Dibdin,The People v. O.J. Simpson: American Crime Story,FX,7
+2016,Harper's Bazaar Emma Dibdin,London Spy,BBC America,8
+2016,Harper's Bazaar Emma Dibdin,Girls,HBO,9
+2016,Harper's Bazaar Emma Dibdin,Better Call Saul,AMC,10
+2016,Hidden Remote Reed Gaudens,Game of Thrones,HBO,1
+2016,Hidden Remote Reed Gaudens,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,Hidden Remote Reed Gaudens,Mr. Robot,USA,3
+2016,Hidden Remote Reed Gaudens,Marvel's Daredevil,Netflix,4
+2016,Hidden Remote Reed Gaudens,This Is Us,NBC,5
+2016,Hidden Remote Reed Gaudens,Stranger Things,Netflix,6
+2016,Hidden Remote Reed Gaudens,Marvel's Luke Cage,Netflix,7
+2016,Hidden Remote Reed Gaudens,Better Call Saul,AMC,8
+2016,Hidden Remote Reed Gaudens,Grey's Anatomy,ABC,9
+2016,Hidden Remote Reed Gaudens,Atlanta,FX,10
+2016,The Hollywood Reporter Daniel Fienberg,O.J.: Made in America,ESPN/ABC,1
+2016,The Hollywood Reporter Daniel Fienberg,Rectify,Sundance,2
+2016,The Hollywood Reporter Daniel Fienberg,Atlanta,FX,3
+2016,The Hollywood Reporter Daniel Fienberg,BoJack Horseman,Netflix,4
+2016,The Hollywood Reporter Daniel Fienberg,Full Frontal With Samantha Bee,TBS,5
+2016,The Hollywood Reporter Daniel Fienberg,The Americans,FX,6
+2016,The Hollywood Reporter Daniel Fienberg,Happy Valley,Netflix,7
+2016,The Hollywood Reporter Daniel Fienberg,Veep,HBO,8
+2016,The Hollywood Reporter Daniel Fienberg,Halt and Catch Fire,AMC,9
+2016,The Hollywood Reporter Daniel Fienberg,Horace and Pete,louisck.net,10
+2016,The Hollywood Reporter Tim Goodman,The Americans,FX,1
+2016,The Hollywood Reporter Tim Goodman,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,The Hollywood Reporter Tim Goodman,Atlanta,FX,3
+2016,The Hollywood Reporter Tim Goodman,Happy Valley,Netflix,4
+2016,The Hollywood Reporter Tim Goodman,Soundbreaking,PBS,5
+2016,The Hollywood Reporter Tim Goodman,The A Word,Sundance,6
+2016,The Hollywood Reporter Tim Goodman,Rectify,Sundance,7
+2016,The Hollywood Reporter Tim Goodman,Black Mirror,Netflix,8
+2016,The Hollywood Reporter Tim Goodman,Game of Thrones,HBO,9
+2016,The Hollywood Reporter Tim Goodman,Veep,HBO,10
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",BoJack Horseman,Netflix,1
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Veep,HBO,2
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",The Americans,FX,3
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Better Call Saul,AMC,4
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",You're the Worst,FXX,5
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",The People v. O.J. Simpson: American Crime Story,FX,6
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Atlanta,FX,7
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Rectify,Sundance,8
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Catastrophe,Amazon,9
+2016,"Indiewire Ben Travers, Hanh Nguyen, Liz Shannon Miller (consensus)",Mr. Robot,USA,10
+2016,Las Vegas Weekly Josh Bell,The Americans,FX,1
+2016,Las Vegas Weekly Josh Bell,Crazy Ex-Girlfriend,CW,2
+2016,Las Vegas Weekly Josh Bell,You're the Worst,FXX,3
+2016,Las Vegas Weekly Josh Bell,The Good Place,NBC,4
+2016,Las Vegas Weekly Josh Bell,Fleabag,Amazon,5
+2016,Las Vegas Weekly Josh Bell,Search Party,TBS,6
+2016,Las Vegas Weekly Josh Bell,Orange Is the New Black,Netflix,7
+2016,Las Vegas Weekly Josh Bell,Atlanta,FX,8
+2016,Las Vegas Weekly Josh Bell,Galavant,ABC,9
+2016,Las Vegas Weekly Josh Bell,Marvel's Agent Carter,ABC,10
+2016,Lincoln Journal Star Jeff Korbelik,O.J.: Made in America,ESPN/ABC,1
+2016,Lincoln Journal Star Jeff Korbelik,Stranger Things,Netflix,2
+2016,Lincoln Journal Star Jeff Korbelik,This Is Us,NBC,3
+2016,Lincoln Journal Star Jeff Korbelik,Game of Thrones,HBO,4
+2016,Lincoln Journal Star Jeff Korbelik,The Good Place,NBC,5
+2016,Lincoln Journal Star Jeff Korbelik,The Americans,FX,6
+2016,Lincoln Journal Star Jeff Korbelik,The Night Of,HBO,7
+2016,Lincoln Journal Star Jeff Korbelik,Saturday Night Live,NBC,8
+2016,Lincoln Journal Star Jeff Korbelik,The People v. O.J. Simpson: American Crime Story,FX,9
+2016,Lincoln Journal Star Jeff Korbelik,Westworld,HBO,10
+2016,Maclean's Jaime Weinman,Note: List includes new shows only.,,1
+2016,Minneapolis Star Tribune Neal Justin,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Minneapolis Star Tribune Neal Justin,Master of None,Netflix,2
+2016,Minneapolis Star Tribune Neal Justin,The Crown,Netflix,3
+2016,Minneapolis Star Tribune Neal Justin,The 2016 PBS Fall Arts Festival,PBS,4
+2016,Minneapolis Star Tribune Neal Justin,Atlanta,FX,5
+2016,Minneapolis Star Tribune Neal Justin,The Night Of,HBO,6
+2016,Minneapolis Star Tribune Neal Justin,Gilmore Girls: A Year in the Life,Netflix,7
+2016,Minneapolis Star Tribune Neal Justin,Life in Pieces,CBS,8
+2016,Minneapolis Star Tribune Neal Justin,The Nightly Show With Larry Wilmore,Comedy Central,9
+2016,Minneapolis Star Tribune Neal Justin,One Mississippi,Amazon,10
+2016,MTV Inkoo Kang,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,MTV Inkoo Kang,Atlanta,FX,2
+2016,MTV Inkoo Kang,The Americans,FX,3
+2016,MTV Inkoo Kang,Halt and Catch Fire,AMC,4
+2016,MTV Inkoo Kang,BoJack Horseman,Netflix,5
+2016,MTV Inkoo Kang,You're the Worst,FXX,6
+2016,MTV Inkoo Kang,Full Frontal With Samantha Bee,TBS,7
+2016,MTV Inkoo Kang,Last Week Tonight With John Oliver,HBO,8
+2016,MTV Inkoo Kang,Jane the Virgin,CW,9
+2016,MTV Inkoo Kang,Unbreakable Kimmy Schmidt,Netflix,10
+2016,Nerdist Staff,Westworld,HBO,1
+2016,Nerdist Staff,Stranger Things,Netflix,2
+2016,Nerdist Staff,Crazy Ex-Girlfriend,CW,3
+2016,Nerdist Staff,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,Nerdist Staff,Steven Universe,Cartoon,5
+2016,Nerdist Staff,Game of Thrones,HBO,6
+2016,Nerdist Staff,The Americans,FX,7
+2016,Nerdist Staff,Preacher,AMC,8
+2016,Nerdist Staff,Atlanta,FX,9
+2016,Nerdist Staff,BoJack Horseman,Netflix,10
+2016,Newsday Verne Gay,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Newsday Verne Gay,Game of Thrones,HBO,2
+2016,Newsday Verne Gay,The Americans,FX,3
+2016,Newsday Verne Gay,This Is Us,NBC,4
+2016,Newsday Verne Gay,The Night Manager,AMC,5
+2016,Newsday Verne Gay,Veep,HBO,6
+2016,Newsday Verne Gay,Atlanta,FX,7
+2016,Newsday Verne Gay,The Night Of,HBO,8
+2016,Newsday Verne Gay,Late Night With Seth Meyers,NBC,9
+2016,Newsday Verne Gay,Gilmore Girls: A Year in the Life,Netflix,10
+2016,NPR Eric Deggans,Atlanta,FX,1
+2016,NPR Eric Deggans,O.J.: Made in America,ESPN/ABC,2
+2016,NPR Eric Deggans,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,NPR Eric Deggans,This Is Us,NBC,4
+2016,NPR Eric Deggans,Full Frontal With Samantha Bee,TBS,5
+2016,NPR Eric Deggans,Insecure,HBO,6
+2016,NPR Eric Deggans,Marvel's Luke Cage,Netflix,7
+2016,NPR Eric Deggans,The Night Of,HBO,8
+2016,NPR Eric Deggans,The Late Show With Stephen Colbert,CBS,9
+2016,NPR Eric Deggans,Game of Thrones,HBO,10
+2016,Orlando Sentinel Hal Boedeker,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Orlando Sentinel Hal Boedeker,This Is Us,NBC,2
+2016,Orlando Sentinel Hal Boedeker,Atlanta,FX,3
+2016,Orlando Sentinel Hal Boedeker,Better Things,FX,4
+2016,Orlando Sentinel Hal Boedeker,The Americans,FX,5
+2016,Orlando Sentinel Hal Boedeker,The Night Manager,AMC,6
+2016,Orlando Sentinel Hal Boedeker,Westworld,HBO,7
+2016,Orlando Sentinel Hal Boedeker,Insecure,HBO,8
+2016,Orlando Sentinel Hal Boedeker,Stranger Things,Netflix,9
+2016,Orlando Sentinel Hal Boedeker,Designated Survivor,ABC,10
+2016,Paste Staff consensus,The Americans,FX,1
+2016,Paste Staff consensus,Stranger Things,Netflix,2
+2016,Paste Staff consensus,Atlanta,FX,3
+2016,Paste Staff consensus,BoJack Horseman,Netflix,4
+2016,Paste Staff consensus,Full Frontal With Samantha Bee,TBS,5
+2016,Paste Staff consensus,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,Paste Staff consensus,Veep,HBO,7
+2016,Paste Staff consensus,Better Call Saul,AMC,8
+2016,Paste Staff consensus,Last Week Tonight With John Oliver,HBO,9
+2016,Paste Staff consensus,Halt and Catch Fire,AMC,10
+2016,People Tom Gliatto,Stranger Things,Netflix,1
+2016,People Tom Gliatto,Fleabag,Amazon,2
+2016,People Tom Gliatto,Queen Sugar,OWN,3
+2016,People Tom Gliatto,This Is Us,NBC,4
+2016,People Tom Gliatto,Atlanta,FX,5
+2016,People Tom Gliatto,The Crown,Netflix,6
+2016,People Tom Gliatto,The Night Of,HBO,7
+2016,People Tom Gliatto,Full Frontal With Samantha Bee,TBS,8
+2016,People Tom Gliatto,The Good Place,NBC,9
+2016,People Tom Gliatto,O.J.: Made in America,ESPN/ABC,10
+2016,Philadelphia Daily News Ellen Gray,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Philadelphia Daily News Ellen Gray,The Americans,FX,2
+2016,Philadelphia Daily News Ellen Gray,The Crown,Netflix,3
+2016,Pittsburgh Post-Gazette Rob Owen,This Is Us,NBC,1
+2016,Pittsburgh Post-Gazette Rob Owen,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,Pittsburgh Post-Gazette Rob Owen,Game of Thrones,HBO,3
+2016,Pittsburgh Post-Gazette Rob Owen,The Americans,FX,4
+2016,Pittsburgh Post-Gazette Rob Owen,Better Call Saul,AMC,5
+2016,Pittsburgh Post-Gazette Rob Owen,Gilmore Girls: A Year in the Life,Netflix,6
+2016,Pittsburgh Post-Gazette Rob Owen,Westworld,HBO,7
+2016,Pittsburgh Post-Gazette Rob Owen,The Good Place,NBC,8
+2016,Pittsburgh Post-Gazette Rob Owen,Full Frontal With Samantha Bee,TBS,9
+2016,Pittsburgh Post-Gazette Rob Owen,Stranger Things,Netflix,10
+2016,The Playlist Staff,Atlanta,FX,1
+2016,The Playlist Staff,The Girlfriend Experience,Starz,2
+2016,The Playlist Staff,Rectify,Sundance,3
+2016,The Playlist Staff,Transparent,Amazon,4
+2016,The Playlist Staff,The Americans,FX,5
+2016,The Playlist Staff,BoJack Horseman,Netflix,6
+2016,The Playlist Staff,Togetherness,HBO,7
+2016,The Playlist Staff,Fleabag,Amazon,8
+2016,The Playlist Staff,The People v. O.J. Simpson: American Crime Story,FX,9
+2016,The Playlist Staff,Girls,HBO,10
+2016,PopSugar Maggie Pehanick,Game of Thrones,HBO,1
+2016,PopSugar Maggie Pehanick,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,PopSugar Maggie Pehanick,This Is Us,NBC,3
+2016,PopSugar Maggie Pehanick,The Night Of,HBO,4
+2016,PopSugar Maggie Pehanick,The Walking Dead,AMC,5
+2016,PopSugar Maggie Pehanick,Insecure,HBO,6
+2016,PopSugar Maggie Pehanick,Westworld,HBO,7
+2016,PopSugar Maggie Pehanick,American Horror Story,FX,8
+2016,PopSugar Maggie Pehanick,Atlanta,FX,9
+2016,PopSugar Maggie Pehanick,Lady Dynamite,Netflix,10
+2016,Reason Glenn Garvin,The Americans,FX,1
+2016,Reason Glenn Garvin,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,Reason Glenn Garvin,Lucifer,Fox,3
+2016,Reason Glenn Garvin,Preacher,AMC,4
+2016,Reason Glenn Garvin,Better Call Saul,AMC,5
+2016,Reason Glenn Garvin,The Night Of,HBO,6
+2016,Reason Glenn Garvin,Hitchcock/Truffaut,HBO,7
+2016,Reason Glenn Garvin,The Big Bang Theory,CBS,8
+2016,Reason Glenn Garvin,Westworld,HBO,9
+2016,Reason Glenn Garvin,BrainDead,CBS,10
+2016,The Ringer Alison Herman,Atlanta,FX,1
+2016,The Ringer Alison Herman,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,The Ringer Alison Herman,BoJack Horseman,Netflix,3
+2016,The Ringer Alison Herman,Transparent,Amazon,4
+2016,The Ringer Alison Herman,High Maintenance,HBO,5
+2016,The Ringer Alison Herman,Full Frontal With Samantha Bee,TBS,6
+2016,The Ringer Alison Herman,Halt and Catch Fire,AMC,7
+2016,The Ringer Alison Herman,The Girlfriend Experience,Starz,8
+2016,The Ringer Alison Herman,Unbreakable Kimmy Schmidt,Netflix,9
+2016,The Ringer Alison Herman,Crazy Ex-Girlfriend,CW,10
+2016,RogerEbert.com Brian Tallerico,The Americans,FX,1
+2016,RogerEbert.com Brian Tallerico,Rectify,Sundance,2
+2016,RogerEbert.com Brian Tallerico,Atlanta,FX,3
+2016,RogerEbert.com Brian Tallerico,The Night Of,HBO,4
+2016,RogerEbert.com Brian Tallerico,The People v. O.J. Simpson: American Crime Story,FX,5
+2016,RogerEbert.com Brian Tallerico,Halt and Catch Fire,AMC,6
+2016,RogerEbert.com Brian Tallerico,Better Call Saul,AMC,7
+2016,RogerEbert.com Brian Tallerico,Westworld,HBO,8
+2016,RogerEbert.com Brian Tallerico,Insecure,HBO,9
+2016,RogerEbert.com Brian Tallerico,Veep,HBO,10
+2016,Rolling Stone Rob Sheffield,Atlanta,FX,1
+2016,Rolling Stone Rob Sheffield,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,Rolling Stone Rob Sheffield,Stranger Things,Netflix,3
+2016,Rolling Stone Rob Sheffield,Black Mirror,Netflix,4
+2016,Rolling Stone Rob Sheffield,Full Frontal With Samantha Bee,TBS,5
+2016,Rolling Stone Rob Sheffield,The Americans,FX,6
+2016,Rolling Stone Rob Sheffield,Game of Thrones,HBO,7
+2016,Rolling Stone Rob Sheffield,Fleabag,Amazon,8
+2016,Rolling Stone Rob Sheffield,Orange Is the New Black,Netflix,9
+2016,Rolling Stone Rob Sheffield,Last Week Tonight With John Oliver,HBO,10
+2016,Salon Melanie McFarland,Superstore,NBC,1
+2016,Salon Melanie McFarland,Fleabag,Amazon,2
+2016,Salon Melanie McFarland,Better Things,FX,3
+2016,Salon Melanie McFarland,Full Frontal With Samantha Bee,TBS,4
+2016,Salon Melanie McFarland,Last Week Tonight With John Oliver,HBO,5
+2016,Salon Melanie McFarland,The Nightly Show With Larry Wilmore,Comedy Central,6
+2016,Salon Melanie McFarland,Game of Thrones,HBO,7
+2016,Salon Melanie McFarland,BoJack Horseman,Netflix,8
+2016,Salon Melanie McFarland,Insecure,HBO,9
+2016,Salon Melanie McFarland,Orange Is the New Black,Netflix,10
+2016,The Salt Lake Tribune Scott D. Pierce,Game of Thrones,HBO,1
+2016,The Salt Lake Tribune Scott D. Pierce,Crazy Ex-Girlfriend,CW,2
+2016,The Salt Lake Tribune Scott D. Pierce,American Crime,ABC,3
+2016,The Salt Lake Tribune Scott D. Pierce,Better Call Saul,AMC,4
+2016,The Salt Lake Tribune Scott D. Pierce,The Night Of,HBO,5
+2016,The Salt Lake Tribune Scott D. Pierce,This Is Us,NBC,6
+2016,The Salt Lake Tribune Scott D. Pierce,O.J.: Made in America,ESPN/ABC,7
+2016,The Salt Lake Tribune Scott D. Pierce,The People v. O.J. Simpson: American Crime Story,FX,8
+2016,The Salt Lake Tribune Scott D. Pierce,The Flash,CW,9
+2016,The Salt Lake Tribune Scott D. Pierce,The Crown,Netflix,10
+2016,San Antonio Express-News Jeanne Jakle,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,San Antonio Express-News Jeanne Jakle,Stranger Things,Netflix,2
+2016,San Antonio Express-News Jeanne Jakle,Better Call Saul,AMC,3
+2016,San Antonio Express-News Jeanne Jakle,Atlanta,FX,4
+2016,San Antonio Express-News Jeanne Jakle,The Night Of,HBO,5
+2016,San Antonio Express-News Jeanne Jakle,The Crown,Netflix,6
+2016,San Antonio Express-News Jeanne Jakle,Crazy Ex-Girlfriend,CW,7
+2016,San Antonio Express-News Jeanne Jakle,Search Party,TBS,8
+2016,San Antonio Express-News Jeanne Jakle,Wallander,PBS,9
+2016,San Antonio Express-News Jeanne Jakle,Good Behavior,TNT,10
+2016,San Francisco Chronicle David Wiegand,Atlanta,FX,1
+2016,San Francisco Chronicle David Wiegand,The Night Of,HBO,2
+2016,San Francisco Chronicle David Wiegand,This Is Us,NBC,3
+2016,San Francisco Chronicle David Wiegand,The OA,Netflix,4
+2016,San Francisco Chronicle David Wiegand,Westworld,HBO,5
+2016,San Francisco Chronicle David Wiegand,Stranger Things,Netflix,6
+2016,San Francisco Chronicle David Wiegand,The Good Place,NBC,7
+2016,San Francisco Chronicle David Wiegand,Speechless,ABC,8
+2016,San Francisco Chronicle David Wiegand,Insecure,HBO,9
+2016,San Francisco Chronicle David Wiegand,Lady Dynamite,Netflix,10
+2016,San Jose Mercury News Chuck Barney,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,San Jose Mercury News Chuck Barney,Atlanta,FX,2
+2016,San Jose Mercury News Chuck Barney,The Americans,FX,3
+2016,San Jose Mercury News Chuck Barney,Game of Thrones,HBO,4
+2016,San Jose Mercury News Chuck Barney,Crazy Ex-Girlfriend,CW,5
+2016,San Jose Mercury News Chuck Barney,The Night Of,HBO,6
+2016,San Jose Mercury News Chuck Barney,Full Frontal With Samantha Bee,TBS,7
+2016,San Jose Mercury News Chuck Barney,Stranger Things,Netflix,8
+2016,San Jose Mercury News Chuck Barney,Westworld,HBO,9
+2016,San Jose Mercury News Chuck Barney,Insecure,HBO,10
+2016,ScreenCrush Kevin Fitzpatrick,The Night Of,HBO,1
+2016,ScreenCrush Kevin Fitzpatrick,Atlanta,FX,2
+2016,ScreenCrush Kevin Fitzpatrick,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,ScreenCrush Kevin Fitzpatrick,Orange Is the New Black,Netflix,4
+2016,ScreenCrush Kevin Fitzpatrick,The Get Down,Netflix,5
+2016,ScreenCrush Kevin Fitzpatrick,Full Frontal With Samantha Bee,TBS,6
+2016,ScreenCrush Kevin Fitzpatrick,Last Week Tonight With John Oliver,HBO,7
+2016,ScreenCrush Kevin Fitzpatrick,Stranger Things,Netflix,8
+2016,ScreenCrush Kevin Fitzpatrick,BoJack Horseman,Netflix,9
+2016,ScreenCrush Kevin Fitzpatrick,Game of Thrones,HBO,10
+2016,Sioux City Journal Bruce R. Miller,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Sioux City Journal Bruce R. Miller,This Is Us,NBC,2
+2016,Sioux City Journal Bruce R. Miller,The Night Manager,AMC,3
+2016,Sioux City Journal Bruce R. Miller,Stranger Things,Netflix,4
+2016,Sioux City Journal Bruce R. Miller,American Crime,ABC,5
+2016,Sioux City Journal Bruce R. Miller,Veep,HBO,6
+2016,Sioux City Journal Bruce R. Miller,Atlanta,FX,7
+2016,Sioux City Journal Bruce R. Miller,The Crown,Netflix,8
+2016,Sioux City Journal Bruce R. Miller,Grease: Live,Fox,9
+2016,Sioux City Journal Bruce R. Miller,Westworld,HBO,10
+2016,Slant Staff consensus,Atlanta,FX,1
+2016,Slant Staff consensus,The Americans,FX,2
+2016,Slant Staff consensus,BoJack Horseman,Netflix,3
+2016,Slant Staff consensus,The Girlfriend Experience,Starz,4
+2016,Slant Staff consensus,Silicon Valley,HBO,5
+2016,Slant Staff consensus,Crazy Ex-Girlfriend,CW,6
+2016,Slant Staff consensus,Horace and Pete,louisck.net,7
+2016,Slant Staff consensus,Better Call Saul,AMC,8
+2016,Slant Staff consensus,Transparent,Amazon,9
+2016,Slant Staff consensus,The People v. O.J. Simpson: American Crime Story,FX,10
+2016,Slate Pilot Viruet,BoJack Horseman,Netflix,1
+2016,Slate Pilot Viruet,O.J.: Made in America,ESPN/ABC,2
+2016,Slate Pilot Viruet,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,Slate Pilot Viruet,Black-ish,ABC,4
+2016,Slate Pilot Viruet,Atlanta,FX,5
+2016,Slate Pilot Viruet,Degrassi: Next Class,Netflix,6
+2016,Slate Pilot Viruet,The Carmichael Show,NBC,7
+2016,Slate Pilot Viruet,Casual,Hulu,8
+2016,Slate Pilot Viruet,Unbreakable Kimmy Schmidt,Netflix,9
+2016,Slate Pilot Viruet,Silicon Valley,HBO,10
+2016,St. Louis Post-Dispatch Gail Pennington,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,St. Louis Post-Dispatch Gail Pennington,Fargo,FX,2
+2016,St. Louis Post-Dispatch Gail Pennington,Game of Thrones,HBO,3
+2016,St. Louis Post-Dispatch Gail Pennington,The Crown,Netflix,4
+2016,St. Louis Post-Dispatch Gail Pennington,This Is Us,NBC,5
+2016,St. Louis Post-Dispatch Gail Pennington,Happy Valley,Netflix,6
+2016,St. Louis Post-Dispatch Gail Pennington,Catastrophe,Amazon,7
+2016,St. Louis Post-Dispatch Gail Pennington,Better Things,FX,8
+2016,St. Louis Post-Dispatch Gail Pennington,Insecure,HBO,9
+2016,St. Louis Post-Dispatch Gail Pennington,Gilmore Girls: A Year in the Life,Netflix,10
+2016,St. Paul Pioneer Press Jennifer Thomas,Better Call Saul,AMC,1
+2016,St. Paul Pioneer Press Jennifer Thomas,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,St. Paul Pioneer Press Jennifer Thomas,Game of Thrones,HBO,3
+2016,St. Paul Pioneer Press Jennifer Thomas,The Americans,FX,4
+2016,St. Paul Pioneer Press Jennifer Thomas,Westworld,HBO,5
+2016,St. Paul Pioneer Press Jennifer Thomas,Atlanta,FX,6
+2016,St. Paul Pioneer Press Jennifer Thomas,Stranger Things,Netflix,7
+2016,St. Paul Pioneer Press Jennifer Thomas,This Is Us,NBC,8
+2016,St. Paul Pioneer Press Jennifer Thomas,The Night Of,HBO,9
+2016,St. Paul Pioneer Press Jennifer Thomas,The Girlfriend Experience,Starz,10
+2016,The Star Ledger (NJ.com) Vicki Hyman,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,The Star Ledger (NJ.com) Vicki Hyman,Game of Thrones,HBO,2
+2016,The Star Ledger (NJ.com) Vicki Hyman,Stranger Things,Netflix,3
+2016,The Star Ledger (NJ.com) Vicki Hyman,Better Call Saul,AMC,4
+2016,The Star Ledger (NJ.com) Vicki Hyman,Better Things,FX,5
+2016,The Star Ledger (NJ.com) Vicki Hyman,Atlanta,FX,6
+2016,The Star Ledger (NJ.com) Vicki Hyman,Last Week Tonight With John Oliver,HBO,7
+2016,The Star Ledger (NJ.com) Vicki Hyman,The Crown,Netflix,8
+2016,The Star Ledger (NJ.com) Vicki Hyman,This Is Us,NBC,9
+2016,The Star Ledger (NJ.com) Vicki Hyman,The Night Of,HBO,10
+2016,Time Daniel D’Addario,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Time Daniel D’Addario,The Girlfriend Experience,Starz,2
+2016,Time Daniel D’Addario,The Americans,FX,3
+2016,Time Daniel D’Addario,Late Night With Seth Meyers,NBC,4
+2016,Time Daniel D’Addario,Atlanta,FX,5
+2016,Time Daniel D’Addario,O.J.: Made in America,ESPN/ABC,6
+2016,Time Daniel D’Addario,Better Call Saul,AMC,7
+2016,Time Daniel D’Addario,Veep,HBO,8
+2016,Time Daniel D’Addario,Speechless,ABC,9
+2016,Time Daniel D’Addario,Love,Netflix,10
+2016,TimeOut New York David Goldberg,Stranger Things,Netflix,1
+2016,TimeOut New York David Goldberg,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,TimeOut New York David Goldberg,RuPaul's Drag Race,Logo,3
+2016,TimeOut New York David Goldberg,Girls,HBO,4
+2016,TimeOut New York David Goldberg,Full Frontal With Samantha Bee,TBS,5
+2016,TimeOut New York David Goldberg,Difficult People,Hulu,6
+2016,TimeOut New York David Goldberg,BoJack Horseman,Netflix,7
+2016,TimeOut New York David Goldberg,Westworld,HBO,8
+2016,TimeOut New York David Goldberg,Crazy Ex-Girlfriend,CW,9
+2016,TimeOut New York David Goldberg,Broad City,Comedy Central,10
+2016,Tulsa World Rita Sherrow,Stranger Things,Netflix,1
+2016,Tulsa World Rita Sherrow,Game of Thrones,HBO,2
+2016,Tulsa World Rita Sherrow,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,Tulsa World Rita Sherrow,Westworld,HBO,4
+2016,Tulsa World Rita Sherrow,This Is Us,NBC,5
+2016,Tulsa World Rita Sherrow,Mr. Robot,USA,6
+2016,Tulsa World Rita Sherrow,The Crown,Netflix,7
+2016,Tulsa World Rita Sherrow,The Americans,FX,8
+2016,Tulsa World Rita Sherrow,Orange Is the New Black,Netflix,9
+2016,Tulsa World Rita Sherrow,Atlanta,FX,10
+2016,TV Guide Staff consensus,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,TV Guide Staff consensus,Stranger Things,Netflix,2
+2016,TV Guide Staff consensus,Better Call Saul,AMC,3
+2016,TV Guide Staff consensus,The Night Of,HBO,4
+2016,TV Guide Staff consensus,Atlanta,FX,5
+2016,TV Guide Staff consensus,Rectify,Sundance,6
+2016,TV Guide Staff consensus,The Good Place,NBC,7
+2016,TV Guide Staff consensus,Crazy Ex-Girlfriend,CW,8
+2016,TV Guide Staff consensus,Westworld,HBO,9
+2016,TV Guide Staff consensus,This Is Us,NBC,10
+2016,TV Insider/TV Guide Magazine Matt Roush,This Is Us,NBC,1
+2016,TV Insider/TV Guide Magazine Matt Roush,The People v. O.J. Simpson: American Crime Story,FX,2
+2016,TV Insider/TV Guide Magazine Matt Roush,Crazy Ex-Girlfriend,CW,3
+2016,TV Insider/TV Guide Magazine Matt Roush,The Americans,FX,4
+2016,TV Insider/TV Guide Magazine Matt Roush,Westworld,HBO,5
+2016,TV Insider/TV Guide Magazine Matt Roush,The Crown,Netflix,6
+2016,TV Insider/TV Guide Magazine Matt Roush,Atlanta,FX,7
+2016,TV Insider/TV Guide Magazine Matt Roush,Full Frontal With Samantha Bee,TBS,8
+2016,TV Insider/TV Guide Magazine Matt Roush,Stranger Things,Netflix,9
+2016,TV Insider/TV Guide Magazine Matt Roush,Black-ish,ABC,10
+2016,Uncle Barky Ed Bark,Game of Thrones,HBO,1
+2016,Uncle Barky Ed Bark,The Americans,FX,2
+2016,Uncle Barky Ed Bark,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,Uncle Barky Ed Bark,Veep,HBO,4
+2016,Uncle Barky Ed Bark,The Crown,Netflix,5
+2016,Uncle Barky Ed Bark,Rectify,Sundance,6
+2016,Uncle Barky Ed Bark,American Crime,ABC,7
+2016,Uncle Barky Ed Bark,Orange Is the New Black,Netflix,8
+2016,Uncle Barky Ed Bark,The Night Of,HBO,9
+2016,Uncle Barky Ed Bark,Real Time With Bill Maher,HBO,10
+2016,Uproxx Alan Sepinwall,Horace and Pete,louisck.net,1
+2016,Uproxx Alan Sepinwall,The Americans,FX,2
+2016,Uproxx Alan Sepinwall,O.J.: Made in America,ESPN/ABC,3
+2016,Uproxx Alan Sepinwall,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,Uproxx Alan Sepinwall,BoJack Horseman,Netflix,5
+2016,Uproxx Alan Sepinwall,Rectify,Sundance,6
+2016,Uproxx Alan Sepinwall,Atlanta,FX,7
+2016,Uproxx Alan Sepinwall,Veep,HBO,8
+2016,Uproxx Alan Sepinwall,Fleabag,Amazon,9
+2016,Uproxx Alan Sepinwall,Better Call Saul,AMC,10
+2016,USA Today Robert Bianco,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,USA Today Robert Bianco,Atlanta,FX,2
+2016,USA Today Robert Bianco,The Americans,FX,3
+2016,USA Today Robert Bianco,Insecure,HBO,4
+2016,USA Today Robert Bianco,Full Frontal With Samantha Bee,TBS,5
+2016,USA Today Robert Bianco,Westworld,HBO,6
+2016,USA Today Robert Bianco,Black-ish,ABC,7
+2016,USA Today Robert Bianco,The Night Of,HBO,8
+2016,USA Today Robert Bianco,The Crown,Netflix,9
+2016,USA Today Robert Bianco,Speechless,ABC,10
+2016,Variety Maureen Ryan,Jane the Virgin,CW,1
+2016,Variety Maureen Ryan,Rectify,Sundance,2
+2016,Variety Maureen Ryan,The People v. O.J. Simpson: American Crime Story,FX,3
+2016,Variety Maureen Ryan,Black-ish,ABC,4
+2016,Variety Maureen Ryan,The Americans,FX,5
+2016,Variety Maureen Ryan,One Mississippi,Amazon,6
+2016,Variety Maureen Ryan,Crazy Ex-Girlfriend,CW,7
+2016,Variety Maureen Ryan,Atlanta,FX,8
+2016,Variety Maureen Ryan,Insecure,HBO,9
+2016,Variety Maureen Ryan,Better Things,FX,10
+2016,Variety Sonia Saraiya,Atlanta,FX,1
+2016,Variety Sonia Saraiya,Silicon Valley,HBO,2
+2016,Variety Sonia Saraiya,The Girlfriend Experience,Starz,3
+2016,Variety Sonia Saraiya,Halt and Catch Fire,AMC,4
+2016,Variety Sonia Saraiya,Fleabag,Amazon,5
+2016,Variety Sonia Saraiya,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,Variety Sonia Saraiya,Better Call Saul,AMC,7
+2016,Variety Sonia Saraiya,Unbreakable Kimmy Schmidt,Netflix,8
+2016,Variety Sonia Saraiya,Insecure,HBO,9
+2016,Variety Sonia Saraiya,BoJack Horseman,Netflix,10
+2016,Village Voice Laura Beck,Full Frontal With Samantha Bee,TBS,1
+2016,Village Voice Laura Beck,Broad City,Comedy Central,2
+2016,Village Voice Laura Beck,Teachers,TV Land,3
+2016,Village Voice Laura Beck,Take My Wife,Seeso,4
+2016,Village Voice Laura Beck,Insecure,HBO,5
+2016,Village Voice Laura Beck,Search Party,TBS,6
+2016,Village Voice Laura Beck,Difficult People,Hulu,7
+2016,Village Voice Laura Beck,The Americans,FX,8
+2016,Village Voice Laura Beck,The Good Place,NBC,9
+2016,Village Voice Laura Beck,Atlanta,FX,10
+2016,Vogue Patricia Garcia,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Vogue Patricia Garcia,The Crown,Netflix,2
+2016,Vogue Patricia Garcia,Stranger Things,Netflix,3
+2016,Vogue Patricia Garcia,High Maintenance,HBO,4
+2016,Vogue Patricia Garcia,Better Things,FX,5
+2016,Vogue Patricia Garcia,BoJack Horseman,Netflix,6
+2016,Vogue Patricia Garcia,Atlanta,FX,7
+2016,Vogue Patricia Garcia,Veep,HBO,8
+2016,Vogue Patricia Garcia,Fleabag,Amazon,9
+2016,Vogue Patricia Garcia,Saturday Night Live,NBC,10
+2016,Vox Todd VanDerWerff,Halt and Catch Fire,AMC,1
+2016,Vox Todd VanDerWerff,Orange Is the New Black,Netflix,2
+2016,Vox Todd VanDerWerff,The Americans,FX,3
+2016,Vox Todd VanDerWerff,Full Frontal With Samantha Bee,TBS,4
+2016,Vox Todd VanDerWerff,Atlanta,FX,5
+2016,Vox Todd VanDerWerff,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,Vox Todd VanDerWerff,Rectify,Sundance,7
+2016,Vox Todd VanDerWerff,Fleabag,Amazon,8
+2016,Vox Todd VanDerWerff,BoJack Horseman,Netflix,9
+2016,Vox Todd VanDerWerff,The Good Place,NBC,10
+2016,Vulture Jen Chaney,The People v. O.J. Simpson: American Crime Story,FX,1
+2016,Vulture Jen Chaney,Veep,HBO,2
+2016,Vulture Jen Chaney,The Americans,FX,3
+2016,Vulture Jen Chaney,Atlanta,FX,4
+2016,Vulture Jen Chaney,BoJack Horseman,Netflix,5
+2016,Vulture Jen Chaney,Better Things,FX,6
+2016,Vulture Jen Chaney,Better Call Saul,AMC,7
+2016,Vulture Jen Chaney,The Good Place,NBC,8
+2016,Vulture Jen Chaney,Unbreakable Kimmy Schmidt,Netflix,9
+2016,Vulture Jen Chaney,Casual,Hulu,10
+2016,Vulture Matt Zoller Seitz,Atlanta,FX,1
+2016,Vulture Matt Zoller Seitz,The Girlfriend Experience,Starz,2
+2016,Vulture Matt Zoller Seitz,O.J.: Made in America,ESPN/ABC,3
+2016,Vulture Matt Zoller Seitz,The People v. O.J. Simpson: American Crime Story,FX,4
+2016,Vulture Matt Zoller Seitz,BoJack Horseman,Netflix,5
+2016,Vulture Matt Zoller Seitz,The Americans,FX,6
+2016,Vulture Matt Zoller Seitz,Crazy Ex-Girlfriend,CW,7
+2016,Vulture Matt Zoller Seitz,Stranger Things,Netflix,8
+2016,Vulture Matt Zoller Seitz,Rectify,Sundance,9
+2016,Vulture Matt Zoller Seitz,Horace and Pete,louisck.net,10
+2016,The Washington Post Hank Stuever,O.J.: Made in America,ESPN/ABC,1
+2016,The Washington Post Hank Stuever,Veep,HBO,2
+2016,The Washington Post Hank Stuever,The Americans,FX,3
+2016,The Washington Post Hank Stuever,Transparent,Amazon,4
+2016,The Washington Post Hank Stuever,The People v. O.J. Simpson: American Crime Story,FX,5
+2016,The Washington Post Hank Stuever,Atlanta,FX,6
+2016,The Washington Post Hank Stuever,Quarry,Cinemax,7
+2016,The Washington Post Hank Stuever,The Night Of,HBO,8
+2016,The Washington Post Hank Stuever,The Crown,Netflix,9
+2016,The Washington Post Hank Stuever,Billions,Showtime,10
+2016,We Got This Covered Staff,Westworld,HBO,1
+2016,We Got This Covered Staff,Atlanta,FX,2
+2016,We Got This Covered Staff,The Night Of,HBO,3
+2016,We Got This Covered Staff,Fleabag,Amazon,4
+2016,We Got This Covered Staff,Stranger Things,Netflix,5
+2016,We Got This Covered Staff,The People v. O.J. Simpson: American Crime Story,FX,6
+2016,We Got This Covered Staff,Black Mirror,Netflix,7
+2016,We Got This Covered Staff,Peaky Blinders,Netflix,8
+2016,We Got This Covered Staff,The Affair,Showtime,9
+2016,We Got This Covered Staff,High Maintenance,HBO,10
+2016,The Week Staff,The Americans,FX,1
+2016,The Week Staff,Better Call Saul,AMC,2
+2016,The Week Staff,BoJack Horseman,Netflix,3
+2016,The Week Staff,Crainn ne hÉireann,The Trees of Ireland,4
+2016,The Week Staff,Crazy Ex-Girlfriend,CW,6
+2016,The Week Staff,The Crown,Netflix,7
+2016,The Week Staff,Fleabag,Amazon,8
+2016,The Week Staff,Good Girls Revolt,Amazon,9
+2016,The Week Staff,Man Seeking Woman,FXX,10
