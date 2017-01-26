@@ -57,3 +57,7 @@ final-games/raw-series/
 final-games/raw-playoff/
 final-games/raw/
 final-games/raw-elo/
+
+
+epa/raw/*
+epa/research/raw/*

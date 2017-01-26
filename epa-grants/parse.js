@@ -9,43 +9,48 @@ var queue = require('queue-async')
 var _ = require('underscore')
 var glob = require('glob')
 
-glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
 
+var colNames = [
+  'grantNumber',
+  'region',
+  'aaShip',
+  'recipient',
+  'title',
+  'type',
+  'cumAward',
+  'start',
+  'end',
+  'specialist',
+  'officer',
+  'misc'
+]
+
+var rows = []
+
+glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
   // if (i) return
-    
+
   var html = fs.readFileSync(path, 'utf-8')
   var $ = cheerio.load(html)
-  $('form > table:nth-child(4) table:nth-child(5) tr').each(function(){
-    console.log(this.text())
-  })
 
+  $('form > table:nth-child(3) table:nth-child(5) tr').each(function(i){
+    if (!i) return //skip header row
+
+    var row = {}
+    $(this).find('td').each(function(i){
+      row[colNames[i]] = $(this).text()
+    })
+
+    rows.push(row)
+  })
 })
 
+//remove duplicate rows
+var uniqRows = d3.nest()
+  .key(d => d.grantNumber)
+  .entries(rows)
+  .map(d => d.values[0])
 
 
-//   q.defer(function(cb){
-//     var url = 'http://www.findheadshops.com/' + state + '-head-shops.html'
-  
-//     request(url, function(error, response, html){
-//       var $ = cheerio.load(html)
-//       $('tr').each(function(){
-//         var shop = {}
-//         var name = $('a', this).text()
-//         var location = $(this).text().replace(name, '')
-//         shop.state = location.slice(-2)
-//         shop.city = location.split(', ')[0]
-//         shop.name = name
-//         shop.link = $('a', this).attr('href')
-//         shops.push(shop)
-//       })
-
-//       cb()
-//     })
-//   })
-// })
-
-// q.awaitAll(function(err){
-//   console.log(shops)
-//   fs.writeFile('shops.csv', d3.csv.format(shops))
-// })
-
+fs.writeFileSync(__dirname + '/grants.csv', d3.csv.format(uniqRows))
+fs.writeFileSync(__dirname + '/../2017-02-02-epa-cuts/r/grants.csv', d3.csv.format(uniqRows))
