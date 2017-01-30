@@ -62,3 +62,10 @@ final-games/raw-elo/
 epa/raw/*
 epa/research/raw/*
 epa-grants/research/researchGrants.json
+
+
+
+player-age/nba/raw/*
+player-age/mlb/raw/*
+player-age/nfl/raw/*
+player-age/nhl/raw/*
