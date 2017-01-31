@@ -5,27 +5,24 @@ var cheerio = require('cheerio')
 var queue = require('queue-async')
 var _ = require('underscore')
 var glob = require('glob')
-
+console.log('hi')
 
 
 var players = []
 
 glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
-  // if (i > 2) return
+  if (i > 2) return
+  console.log(i)
 
   var html = fs.readFileSync(path, 'utf-8')
 
   var id = _.last(path.split('/')).replace('.html', '')
   console.log(id)
 
-<<<<<<< HEAD
-  var rows = html.split('all_advanced')[1].split('tbody')[1].split('<tr ').slice(1)
-=======
-  var miscStats = html.split('all_stats_misc_nhl')[1]
+  var miscStats = html.split('all_value_batting')[1]
   if (!miscStats) return
 
   var rows = miscStats.split('tbody')[1].split('<tr ').slice(1)
->>>>>>> parses player values
   rows.forEach(function(row){
     var rv = {id}
 
@@ -33,11 +30,7 @@ glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
     cols.forEach(function(col){
       var stat = col.split('data-stat="')[1].split('"')[0].trim()
       var val  = col.split('>')[1].split('<')[0].trim() 
-<<<<<<< HEAD
-      if (['age', 'mp', 'ws'].includes(stat)) rv[stat] = val
-=======
-      if (['age', 'mp', 'ps'].includes(stat)) rv[stat] = val
->>>>>>> parses player values
+      if (['age', 'mp', 'war'].includes(stat)) rv[stat] = val
       if (stat == 'season'){
         rv.season = col
           .replace('</a>', '')
@@ -47,10 +40,6 @@ glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
       }
     })
 
-<<<<<<< HEAD
-  
-=======
->>>>>>> parses player values
     players.push(rv)
 
   })
