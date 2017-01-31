@@ -41,30 +41,8 @@ glob.sync(__dirname + '/raw/*.html').forEach(function(path, i){
 
   })
 
-
-  // var $ = cheerio.load(html)
-  // $('#all_advanced').each(function(i){
-  // // $('#all_advanced').each(function(i){
-  //   var row = {id}
-  //   // console.log($(this).html())
-  //   console.log($(this).text())
-  //   $(this).find('th, td').each(function(i){
-  //     var str = $(this).text()
-  //     if (i == 0){
-  //       row.year = 1 + +str.split('-')[0]
-  //     }
-  //     if (i == 1){
-  //       row.age = str
-  //     }
-  //     if (i == 2){
-  //       row.ws = str
-  //     }
-  //   })
-
-  // })
 })
 
 
 
 fs.writeFileSync(__dirname + '/players.csv', d3.csv.format(players))
-// fs.writeFileSync(__dirname + '/../2017-02-02-epa-cuts/r/grants.csv', d3.csv.format(uniqRows))

@@ -9,7 +9,7 @@ var cheerio = require('cheerio')
 var q = queue(1)
 
 var players = JSON.parse(fs.readFileSync('names.json'), 'utf-8')
-players.forEach(d => q.defer(downloadPlayer, d)) 
+players.reverse().forEach(d => q.defer(downloadPlayer, d)) 
 
 function downloadPlayer(path, cb){
   var url = 'http://www.pro-football-reference.com/' + path
