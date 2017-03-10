@@ -14,7 +14,9 @@ var colNames = [
   'age',
   'mQx',
 ]
+colNames[6] = 'mEx'
 colNames[8] = 'fQx'
+colNames[14] = 'fEx'
 
 var rows = []
 
