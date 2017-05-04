@@ -1,20 +1,21 @@
 {
-  "name"         : "node-web-scrape",
-  "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
-  "dependencies" : {
-    "express"    : "latest",
-    "dsv"        : "0.0.3",
-    "request"    : "latest",
-    "d3"         : "3",
-    "underscore" : "latest",
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape le web.",
+  "main": "server.js",
+  "author": "Scotch",
+  "dependencies": {
+    "cheerio": "latest",
+    "d3": "3",
+    "dsv": "0.0.3",
+    "express": "latest",
+    "forte-f": "latest",
+    "glob": "latest",
+    "lodash": "latest",
+    "nba": "latest",
     "queue-async": "latest",
-    "cheerio"    : "latest",
-    "glob"       : "latest",
-    "forte-f"    : "latest",
-    "lodash"     : "latest",
-    "nba"        : "latest"
+    "request": "latest",
+    "scrape-stl": "^1.0.0",
+    "underscore": "latest"
   }
 }
