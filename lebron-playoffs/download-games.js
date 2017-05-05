@@ -28,7 +28,7 @@ glob
   })
 
 q.awaitAll(err => console.log(err))
-
+ 
 function downloadGame(game, cb) {
   var url = `http://stats.nba.com/stats/boxscoretraditionalv2?EndPeriod=10&EndRange=28800&GameID=${game.GAME_ID}&RangeType=0&Season=2016-17&SeasonType=Playoffs&StartPeriod=1&StartRange=0`
 
