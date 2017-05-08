@@ -252,7 +252,11 @@ players.forEach(playerId => {
 })
 q.awaitAll(err => console.log(err))
 
-function downloadYearPage(playerId, year, cb) {
+function downloadYearPage(playerId, year, queueCB) {
+  function cb(){
+    setTimeout(cb, 1000)
+  }
+
   var season = year + '-' + d3.format('02')((year % 100) + 1)
   console.log(playerId, season)
 
