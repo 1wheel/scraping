@@ -246,18 +246,17 @@ function downloadPage(year, cb) {
 // var urls = []
 // d3.selectAll('.nba-stat-table__overlay .ng-scope .player a').each(function(d){ urls.push(this.href.split('#!/')[1].split('/')[0]) })
 
-
-players.forEach(playerId => {
-  d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
-})
+players
+  .slice(45)
+  .forEach(playerId => {
+    d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
+  })
 q.awaitAll(err => console.log(err))
 
 function downloadYearPage(playerId, year, queueCB) {
-  function cb(){
-    setTimeout(cb, 1000)
-  }
+  function cb(){ setTimeout(queueCB, 500) }
 
-  var season = year + '-' + d3.format('02')((year % 100) + 1)
+  var season = year + '-' + d3.format('02')((year % 100) + 1).replace('100', '00')
   console.log(playerId, season)
 
   var url = `http://stats.nba.com/stats/playergamelogs?DateFrom=&DateTo=&GameSegment=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlayerID=${playerId}&PlusMinus=N&Rank=N&Season=${season}&SeasonSegment=&SeasonType=Playoffs&ShotClockRange=&VsConference=&VsDivision=`
