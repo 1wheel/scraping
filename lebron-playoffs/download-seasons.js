@@ -247,14 +247,15 @@ function downloadPage(year, cb) {
 // d3.selectAll('.nba-stat-table__overlay .ng-scope .player a').each(function(d){ urls.push(this.href.split('#!/')[1].split('/')[0]) })
 
 players
-  .slice(45)
+  // .slice(50)
   .forEach(playerId => {
-    d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
+    // d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
+    ;[1999].forEach(d => q.defer(downloadYearPage, playerId, d))
   })
 q.awaitAll(err => console.log(err))
 
 function downloadYearPage(playerId, year, queueCB) {
-  function cb(){ setTimeout(queueCB, 1000) }
+  function cb(){ setTimeout(queueCB, 250) }
 
   var season = year + '-' + d3.format('02')((year % 100) + 1).replace('100', '00')
   console.log(playerId, season)
