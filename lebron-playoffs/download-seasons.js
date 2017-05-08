@@ -254,7 +254,7 @@ players
 q.awaitAll(err => console.log(err))
 
 function downloadYearPage(playerId, year, queueCB) {
-  function cb(){ setTimeout(queueCB, 500) }
+  function cb(){ setTimeout(queueCB, 1000) }
 
   var season = year + '-' + d3.format('02')((year % 100) + 1).replace('100', '00')
   console.log(playerId, season)
