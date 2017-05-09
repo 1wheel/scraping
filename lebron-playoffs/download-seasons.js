@@ -246,13 +246,15 @@ function downloadPage(year, cb) {
 // var urls = []
 // d3.selectAll('.nba-stat-table__overlay .ng-scope .player a').each(function(d){ urls.push(this.href.split('#!/')[1].split('/')[0]) })
 
+
+
 players
   // .slice(50)
   .forEach(playerId => {
     // d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
-    ;[1999].forEach(d => q.defer(downloadYearPage, playerId, d))
+    // ;[1999].forEach(d => q.defer(downloadYearPage, playerId, d))
   })
-q.awaitAll(err => console.log(err))
+// q.awaitAll(err => console.log(err))
 
 function downloadYearPage(playerId, year, queueCB) {
   function cb(){ setTimeout(queueCB, 250) }
@@ -272,3 +274,34 @@ function downloadYearPage(playerId, year, queueCB) {
     cb()
   })
 }
+
+
+
+players
+  .slice(50)
+  .forEach(playerId => {
+    q.defer(downloadPlayer, playerId)
+  })
+q.awaitAll(err => console.log(err))
+
+function downloadPlayer(playerId, queueCB) {
+  function cb(){ setTimeout(queueCB, 250) }
+
+  var url = `http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=${playerId}`
+
+  request({ url, headers }, (err, res) => {
+    if (err) return console.log(err) && cb()
+    if (!res || !res.body || res.body.length < 50) return cb()
+
+    var data = JSON.parse(res.body)
+    if (!data.resultSets[0].rowSet.length) return cb()
+    io.writeDataSync(__dirname + `/raw-players/${playerId}.json`, data)
+    cb()
+  })
+}
+
+
+
+
+
+
