@@ -278,7 +278,6 @@ function downloadYearPage(playerId, year, queueCB) {
 
 
 players
-  .slice(50)
   .forEach(playerId => {
     q.defer(downloadPlayer, playerId)
   })

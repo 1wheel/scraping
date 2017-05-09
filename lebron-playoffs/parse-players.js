@@ -4,7 +4,7 @@ var { _, d3, fs, glob, io, queue, request } = require('scrape-stl')
 // parse all games
 var players = glob.sync(__dirname + '/raw-players/*')
   .map(io.readDataSync)
-  .map(d => parseResultSet(d.resultSets[0]))
+  .map(d => parseResultSet(d.resultSets[0])[0])
 
 io.writeDataSync(__dirname + '/players.json', players)
 io.writeDataSync(__dirname + '/../../2017-05-05-playoff-record/public/_assets/players.json', players)
