@@ -1,51 +1,95 @@
 var { _, d3, fs, glob, io, queue, request } = require('scrape-stl')
+var jp = require('d3-jetpack')
 
+var teams = glob.sync(__dirname + '/raw-teams/*.json').map(io.readDataSync)
 
-var games = glob.sync(__dirname + '/raw-box/*.json')
-  .map(function(fileStr,i){
-    try{
-      var res = JSON.parse(fs.readFileSync(fileStr, 'utf-8')) 
-    } catch (e){
-      console.log(fileStr)
-      return null;
-    }
-    if (res.Message) return null
-    if (!res.resultSets[5].rowSet[0]) return console.log(res)
+var games = []
+teams.forEach(team => {
+  team.forEach(year => {
+    var isFinals = year.NBA_FINALS_APPEARANCE != 'N/A'
 
-    // console.log(i)
-    var rs = res.resultSets[5].rowSet
-    var rv = {}
-    rv.date = rs[0][0].slice(0, 10)
+    if (!year.games) return
 
-    rv.hAbv = rs[0][4]
-    rv.hScore = rs[0][22]
-    rv.hW = +rs[0][7].split('-')[0]
-    rv.hL = +rs[0][7].split('-')[1]
+    year.games.forEach(d => {
+      games.push(d)
 
-    rv.vAbv = rs[1][4]
-    rv.vScore = rs[1][22]
-    rv.vW = +rs[1][7].split('-')[0]
-    rv.vL = +rs[1][7].split('-')[1]
+      d.matchup = d.MATCHUP
+        .replace(' @', '')
+        .replace(' vs.', '')
+        .split(' ')
+        .sort()
+        .join(' ')
 
-    if (rv.hScore > rv.vScore){
-      rv.hW--
-      rv.vL--
-    } else{
-      rv.hL--
-      rv.vW--
-    }
-
-    //first game of the season coded differently
-    if (rv.hL < 0 || rv.vL < 0) rv.hW = rv.hL = rv.vW = rv.vL = 0
-
-    rv.tW = rv.hW + rv.vW
-    rv.tL = rv.hL + rv.vL
-
-    rv.season = _.last(fileStr.split('/')).slice(2,5)
-    
-    return rv
+      d.isFinals = isFinals
+      d.year = year.YEAR
+    })
   })
-  .filter(d => d)
+})
+
+games = _.sortBy(games, 'year')
+var teamYears = []
+
+var byYear = jp.nestBy(games, d => d.year)
+byYear.forEach(year => {
+  var byTeam = jp.nestBy(year, d => d.Team_ID)
+
+  byTeam.forEach(team => {
+    team.year = year.key
+    team.key = +team.key
+    teamYears.push(team)
+    team.series = jp.nestBy(team, d => d.matchup)
+    // if (team.key != 1610612759) return
+  })
+})
 
 
-fs.writeFileSync(__dirname + '/games.csv', d3.csv.format(games))
+
+// console.log(teamYears[0])
+
+teamYears
+  .filter(d => d.year == '1946-47')
+  .forEach(d => console.log(d.key, d.year))
+
+console.log(teamYears.filter(d => d.year == '1946-47')[0])
+
+teamYears
+  .filter(d => d[0].isFinals)
+  .forEach(d => addrank(d, 0))
+
+function addrank(team, rank) {
+  console.log(team.key, rank)
+
+  team.series.forEach((series, i) => {
+    series.forEach(game => {
+      game.rank = rank + i
+    })
+
+    if (i) {
+      var matchingGames = games.filter(d => {
+        return (
+          d.matchup == series[0].matchup &&
+          d.year == series[0].year &&
+          d.Team_ID == series[0].Team_ID
+        )
+      })
+
+      if (!matchingGames) return
+
+      console.log(matchingGames[0].Team_ID, team.year)
+      var matchingTeam = _.where(teamYears, {
+        key: +matchingGames[0].Team_ID,
+        year: team.year
+      })
+      // console.log(matchingTeam)
+
+      // console.log(matchingTeam)
+
+      addrank(matchingTeam, rank + i)
+
+      console.log(matchingGames.length)
+    }
+  })
+}
+console.log(games[0])
+
+// games.filter(d => d.sRank === 0).forEach(d => console.log(d))
