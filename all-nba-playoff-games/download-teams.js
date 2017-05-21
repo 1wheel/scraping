@@ -3,7 +3,8 @@ var nba = require('./nba-util.js')
 
 
 var q = queue(1)
-nba.teams.forEach(d => q.defer(downloadTeam, d.TeamID))
+// nba.teams.forEach(d => q.defer(downloadTeam, d.TeamID))
+nba.prevTeams.forEach(d => q.defer(downloadTeam, d.TeamID))
 q.awaitAll(err => console.log(err, 'Team Queue Done'))
 
 function downloadTeam(team, cb){

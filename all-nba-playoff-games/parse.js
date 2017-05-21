@@ -20,6 +20,9 @@ teams.forEach(team => {
         .sort()
         .join(' ')
 
+      if (d.Game_ID == '0040300136') d.matchup = 'MIA NOH'
+      d.matchup = d.matchup.replace('PHX', 'PHO')
+
       d.isFinals = isFinals
       d.year = year.YEAR
     })
@@ -27,6 +30,7 @@ teams.forEach(team => {
 })
 
 games = _.sortBy(games, 'year')
+
 var teamYears = []
 
 var byYear = jp.nestBy(games, d => d.year)
@@ -38,58 +42,40 @@ byYear.forEach(year => {
     team.key = +team.key
     teamYears.push(team)
     team.series = jp.nestBy(team, d => d.matchup)
-    // if (team.key != 1610612759) return
   })
 })
 
+console.log('\n')
 
-
-// console.log(teamYears[0])
-
-teamYears
-  .filter(d => d.year == '1946-47')
-  .forEach(d => console.log(d.key, d.year))
-
-console.log(teamYears.filter(d => d.year == '1946-47')[0])
-
-teamYears
-  .filter(d => d[0].isFinals)
-  .forEach(d => addrank(d, 0))
+teamYears.filter(d => d[0].isFinals).forEach(d => addrank(d, 0))
 
 function addrank(team, rank) {
-  console.log(team.key, rank)
+  if (rank > 3) throw 'up'
+  console.log(team.year, team.key, rank)
 
   team.series.forEach((series, i) => {
-    series.forEach(game => {
-      game.rank = rank + i
-    })
+    series.forEach(game => (game.rank = rank + i))
 
     if (i) {
+      if (i + rank > 1 && team.year == '1953-54') return
       var matchingGames = games.filter(d => {
         return (
           d.matchup == series[0].matchup &&
           d.year == series[0].year &&
-          d.Team_ID == series[0].Team_ID
+          d.Team_ID != series[0].Team_ID
         )
       })
 
-      if (!matchingGames) return
-
-      console.log(matchingGames[0].Team_ID, team.year)
-      var matchingTeam = _.where(teamYears, {
+      var matchingTeam = _.findWhere(teamYears, {
         key: +matchingGames[0].Team_ID,
         year: team.year
       })
-      // console.log(matchingTeam)
-
-      // console.log(matchingTeam)
 
       addrank(matchingTeam, rank + i)
-
-      console.log(matchingGames.length)
     }
   })
 }
-console.log(games[0])
 
-// games.filter(d => d.sRank === 0).forEach(d => console.log(d))
+var gameID2Rank = {}
+games.forEach(d => (gameID2Rank[d.Game_ID] = d.rank))
+io.writeDataSync(__dirname + '/gameID2Rank.json', gameID2Rank)

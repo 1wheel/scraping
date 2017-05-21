@@ -1,3 +1,5 @@
+var d3 = require('d3')
+
 var headers = {
   'accept-encoding': 'Accepflate, sdch',
   'accept-language': 'he-IL,he;q=0.8,en-US;q=0.6,en;q=0.4',
@@ -16,8 +18,14 @@ function parseResultSet({ headers, rowSet }) {
   })
 }
 
+
+
 //1610610023
 //1610610036
+
+
+var prevTeams = d3.range(1610610023, 1610610036 + 1).map(TeamID => ({TeamID}))
+
 var teams = [
   { 'Team name': 'Atlanta Hawks', TeamID: '1610612737' },
   { 'Team name': 'Boston Celtics', TeamID: '1610612738' },
@@ -51,4 +59,4 @@ var teams = [
   { 'Team name': 'Washington Wizards', TeamID: '1610612764' }
 ]
 
-module.exports = {headers, parseResultSet, teams}
+module.exports = {headers, parseResultSet, teams, prevTeams}

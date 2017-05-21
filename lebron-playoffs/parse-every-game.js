@@ -10,7 +10,8 @@ var seasons = glob.sync(__dirname + '/raw-seasons-all/*')
 
 var allGames = _.flatten(seasons)
 
-// console.log(allGames[0])
+
+// var gameID2Rank = io.readDataSync(__dirname + '/../all-nba-playoff-games/gameID2Rank.json')
 
 // delete columns
 var outGames = allGames.map(d => {
@@ -26,6 +27,9 @@ var outGames = allGames.map(d => {
   rv.date = d.GAME_DATE.replace('T00:00:00','')
   rv.year = d.GAME_DATE.split('-')[0]
   rv.name = d.PLAYER_NAME
+
+  rv.rank = gameID2Rank[d.Game_ID]
+  console.log(rv.rank)
 
   return rv
 })
