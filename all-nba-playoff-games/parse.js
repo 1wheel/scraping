@@ -76,6 +76,14 @@ function addrank(team, rank) {
   })
 }
 
+teamYears
+  .filter(d => d.year == '2016-17')
+  .forEach(d => addrank(d, 4 - d.series.length))
+
+
 var gameID2Rank = {}
 games.forEach(d => (gameID2Rank[d.Game_ID] = d.rank))
+
+'0045300911-0045300912-0045300961-0045300962-0045300961-0045300962-0045300911-0045300912'.split('-').forEach(d => gameID2Rank[d] = 3)
+
 io.writeDataSync(__dirname + '/gameID2Rank.json', gameID2Rank)

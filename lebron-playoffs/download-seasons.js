@@ -217,35 +217,6 @@ var headers = {
 
 var q = queue(1)
 
-// download just lebron
-// d3.range(2004, 2017).forEach(d => q.defer(downloadPage, d))
-// q.awaitAll(err => console.log(err))
-
-
-function downloadPage(year, cb) {
-  var season = year + '-' + d3.format('02')(year - 2000 + 1)
-  console.log(season)
-
-  var url = `http://stats.nba.com/stats/playergamelogs?DateFrom=&DateTo=&GameSegment=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlayerID=2544&PlusMinus=N&Rank=N&Season=${season}&SeasonSegment=&SeasonType=Playoffs&ShotClockRange=&VsConference=&VsDivision=`
-
-  request({ url, headers }, (err, res) => {
-    if (!res || !res.body || res.body.length < 50) return
-    io.writeDataSync(__dirname + `/raw-seasons/${season}.json`, JSON.parse(res.body))
-    cb()
-  })
-}
-
-
-// download all players
-// http://stats.nba.com/leaders/alltime/#!?SeasonType=Playoffs&PerMode=Totals
-
-// var my_awesome_script = document.createElement('script');
-// my_awesome_script.setAttribute('src','https://d3js.org/d3.v4.min.js');
-// document.head.appendChild(my_awesome_script);
-
-// var urls = []
-// d3.selectAll('.nba-stat-table__overlay .ng-scope .player a').each(function(d){ urls.push(this.href.split('#!/')[1].split('/')[0]) })
-
 
 
 players
@@ -255,6 +226,8 @@ players
     // ;[1999].forEach(d => q.defer(downloadYearPage, playerId, d))
   })
 // q.awaitAll(err => console.log(err))
+
+// downloadYearPage('100263', 1988)
 
 function downloadYearPage(playerId, year, queueCB) {
   function cb(){ setTimeout(queueCB, 250) }
@@ -279,7 +252,7 @@ function downloadYearPage(playerId, year, queueCB) {
 
 players
   .forEach(playerId => {
-    q.defer(downloadPlayer, playerId)
+    // q.defer(downloadPlayer, playerId)
   })
 q.awaitAll(err => console.log(err))
 
