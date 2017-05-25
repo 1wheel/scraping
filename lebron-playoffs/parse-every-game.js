@@ -30,7 +30,11 @@ var outGames = allGames.map(d => {
   rv.name = d.PLAYER_NAME
 
   rv.rank = gameID2Rank[d.GAME_ID]
-  if (!(rv.rank + 1)) console.log(d.GAME_ID, rv)
+  if (!(rv.rank + 1)){
+    rv.rank = 1
+    console.log(d.GAME_ID, rv)
+  }
+
 
   return rv
 })
@@ -39,14 +43,14 @@ var outGames = allGames.map(d => {
 var topPlayers = _.sortBy(jp.nestBy(outGames, d => d.name), d => d3.sum(d, d => d.pts)).slice(-50)
 var name2top = {}
 topPlayers.forEach(d => name2top[d.key] = true)
-console.log(topPlayers.map(d => d.key))
+
 console.log(outGames.length)
 outGames = outGames.filter(d => name2top[d.name])
 console.log(outGames.length)
 
 
 io.writeDataSync(__dirname + '/every-game.json', outGames)
-io.writeDataSync(__dirname + '/../../2017-05-05-playoff-record/public/_assets/every-game.json', outGames)
+io.writeDataSync(__dirname + '/../../2017-05-05-playoff-record/public/_assets/every-game.tsv', outGames)
 
 
 function parseResultSet({ headers, rowSet }) {

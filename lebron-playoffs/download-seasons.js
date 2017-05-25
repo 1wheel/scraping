@@ -201,6 +201,7 @@ var players = [
   "78530"
 ]
 
+players = players.slice(0, 50)
 
 
 var { _, d3, fs, glob, io, queue, request } = require('scrape-stl')
@@ -223,7 +224,7 @@ players
   // .slice(50)
   .forEach(playerId => {
     // d3.range(1948, 2017).forEach(d => q.defer(downloadYearPage, playerId, d))
-    // ;[1999].forEach(d => q.defer(downloadYearPage, playerId, d))
+    ;[2016].forEach(d => q.defer(downloadYearPage, playerId, d))
   })
 // q.awaitAll(err => console.log(err))
 
