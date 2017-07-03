@@ -29,6 +29,8 @@ teams.forEach(team => {
   })
 })
 
+console.log(games[0])
+
 games = _.sortBy(games, 'year')
 
 var teamYears = []
@@ -51,7 +53,7 @@ teamYears.filter(d => d[0].isFinals).forEach(d => addrank(d, 0))
 
 function addrank(team, rank) {
   if (rank > 3) throw 'up'
-  console.log(team.year, team.key, rank)
+  // console.log(team.year, team.key, rank)
 
   team.series.forEach((series, i) => {
     series.forEach(game => (game.rank = rank + i))
@@ -76,6 +78,9 @@ function addrank(team, rank) {
   })
 }
 
+console.log(games[0])
+
+
 teamYears
   .filter(d => d.year == '2016-17')
   .forEach(d => addrank(d, 4 - d.series.length))
@@ -87,3 +92,20 @@ games.forEach(d => (gameID2Rank[d.Game_ID] = d.rank))
 '0045300911-0045300912-0045300961-0045300962-0045300961-0045300962-0045300911-0045300912'.split('-').forEach(d => gameID2Rank[d] = 3)
 
 io.writeDataSync(__dirname + '/gameID2Rank.json', gameID2Rank)
+
+
+var simpleGames = games.map(d => {
+  return {
+    Team_ID: d.Team_ID,
+    Game_ID: d.Game_ID,
+    GAME_DATE: d.GAME_DATE,
+    MATCHUP: d.MATCHUP,
+    WL: d.WL,
+    matchup: d.matchup,
+    isFinals: d.isFinals,
+    year: d.year,
+    rank: d.rank
+  }
+})
+
+io.writeDataSync(__dirname + '/allgames.tsv', simpleGames)
