@@ -16,7 +16,7 @@
     "nba": "latest",
     "queue-async": "latest",
     "request": "latest",
-    "scrape-stl": "^1.0.2",
+    "scrape-stl": "^1.0.3",
     "underscore": "latest"
   }
 }
