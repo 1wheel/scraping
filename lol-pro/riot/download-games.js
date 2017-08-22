@@ -24,8 +24,9 @@ matches.forEach((match, i) => {
 function downloadPage({gameId, gameHash, match}, cb){
   var {gameRealm, gameId} = match.match.games[gameId]
   var baseurl = 'https://acs.leagueoflegends.com/v1/stats/game/'
+  var gameId = gameId.trim()
   
-  console.log(gameId)
+  // console.log(gameId)
   if (isTimelineDl[gameId] && isHistoryDL[gameId]) return cb()
 
   var url = `${baseurl}${gameRealm}/${gameId}?gameHash=${gameHash}`

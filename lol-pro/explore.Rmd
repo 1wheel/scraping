@@ -1,0 +1,23 @@
+---
+title: "explore"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## load libs
+```{r cars}
+needs(tidyverse, jsonlite)
+```
+
+## load data
+```{r}
+gameId = '1001160048'
+
+history <- fromJSON("riot/raw/matchhistory/1001160048.json", simplifyVector = FALSE)
+
+participants <- history$participants
+```
