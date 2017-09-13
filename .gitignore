@@ -79,3 +79,8 @@ congress-biography/raw/*
 
 axios/raw/*
 .Rproj.user
+
+
+twitter_scraping/*.json
+twitter_scraping/*.csv
+twitter_scraping/*.zip
