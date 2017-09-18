@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<meta charset='utf-8'>
+
+<body>
+  <div class='graph'></div>
+</body>
+
+<script src='https://unpkg.com/d3-jetpack@2.0.7/build/d3v4+jetpack.js'></script>
+<script>
+
+d3.loadData(
+  'lol-pro/riot/raw/highlanderMatchDetails/04b74482-ce7a-4e9f-b234-1a2d34c8d348.json', 
+  'lol-pro/riot/raw/matchhistory/160172.json', 
+  'lol-pro/riot/raw/matchtimeline/160172.json', 
+  'lol-pro/riot/raw/leagues/na-lcs.json', 
+  (err, res) => {
+
+  match = res[0]
+  mhistory = res[1]
+  timeline = res[2]
+  league = res[3]
+
+  games = d3.values(match.match.games)
+
+  games = d3.values(league.highlanderTournaments[2].brackets['771016b1-72cb-4003-bbbe-3109d3153c13'].matches['04b74482-ce7a-4e9f-b234-1a2d34c8d348'].games).sort((a, b) => a.name > b.name)
+
+  // blue side is first
+  games.map(d => d.input[0])
+
+  // winner is first result
+  games.filter(d => d.standings).map(d => d.standings.result[0][0].roster)
+
+  tournment = league.highlanderTournaments[2]
+
+  allgames = []
+  league.highlanderTournaments.forEach(tournment => {
+    var tournmentName =  tournment.description
+    d3.values(tournment.brackets).forEach(({name, matches}) => {
+      var bracketName = name
+
+      d3.values(matches).forEach(({name, games}) => {
+        var matchName = name
+
+        d3.values(games)
+          .sort((a, b) => a.name > b.name)
+          .filter(d => d.standings)
+          .forEach(game => {
+            var gameId = game.id
+            var gameName = game.generatedName
+            var blue    = tournment.rosters[game.input[0].roster].name
+            var red     = tournment.rosters[game.input[1].roster].name
+            var winner  = tournment.rosters[game.standings.result[0][0].roster].name
+            var loser   = tournment.rosters[game.standings.result[1][0].roster].name
+            var timestamp = game.standings.timestamp
+
+            allgames.push({tournmentName, bracketName, matchName, gameName, gameId, blue, red, winner, loser, timestamp})
+          })
+
+      })
+
+    })
+  })
+
+  // copy(d3.csvFormat(allgames))
+
+})
+
+
+</script>

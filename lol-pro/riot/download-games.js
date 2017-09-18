@@ -6,7 +6,7 @@ var matches = glob.sync(__dirname + '/raw/highlanderMatchDetails/*')
   .map(io.readDataSync)
 
 var matchPaths = glob.sync(__dirname + '/raw/highlanderMatchDetails/*')
-console.log(matchPaths[1642])
+// console.log(matchPaths[1642])
 
 console.log(matches.length)
 

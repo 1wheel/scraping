@@ -72,6 +72,7 @@ player-age/nhl/raw/*
 
 lol-pro/wiki/raw/*
 lol-pro/riot/raw/*
+lol-pro/riot/raw/leagues/*.json
 
 
 
